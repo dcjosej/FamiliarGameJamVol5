@@ -6,10 +6,29 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: LAMPARA_GEO001
+    100004: LAMPARA_GEO002
+    100006: Mesa_02
+    100008: Pasillo_01_GEO
     400000: //RootNode
+    400002: LAMPARA_GEO001
+    400004: LAMPARA_GEO002
+    400006: Mesa_02
+    400008: Pasillo_01_GEO
     2300000: //RootNode
+    2300002: LAMPARA_GEO001
+    2300004: LAMPARA_GEO002
+    2300006: Mesa_02
+    2300008: Pasillo_01_GEO
     3300000: //RootNode
+    3300002: LAMPARA_GEO001
+    3300004: LAMPARA_GEO002
+    3300006: Mesa_02
+    3300008: Pasillo_01_GEO
     4300000: Pasillo_01_GEO
+    4300002: Mesa_02
+    4300004: LAMPARA_GEO001
+    4300006: LAMPARA_GEO002
   materials:
     importMaterials: 1
     materialName: 1

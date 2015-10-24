@@ -6,10 +6,24 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Cajonera_002
+    100004: Hall_GEO
+    100006: LAMPARA_GEO004
     400000: //RootNode
+    400002: Cajonera_002
+    400004: Hall_GEO
+    400006: LAMPARA_GEO004
     2300000: //RootNode
+    2300002: Cajonera_002
+    2300004: Hall_GEO
+    2300006: LAMPARA_GEO004
     3300000: //RootNode
+    3300002: Cajonera_002
+    3300004: Hall_GEO
+    3300006: LAMPARA_GEO004
     4300000: Hall_GEO
+    4300002: Cajonera_002
+    4300004: LAMPARA_GEO004
   materials:
     importMaterials: 1
     materialName: 1

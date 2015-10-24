@@ -6,10 +6,19 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Aseo_GEO
+    100004: LAMPARA_GEO005
     400000: //RootNode
+    400002: Aseo_GEO
+    400004: LAMPARA_GEO005
     2300000: //RootNode
+    2300002: Aseo_GEO
+    2300004: LAMPARA_GEO005
     3300000: //RootNode
+    3300002: Aseo_GEO
+    3300004: LAMPARA_GEO005
     4300000: Aseo_GEO
+    4300002: LAMPARA_GEO005
   materials:
     importMaterials: 1
     materialName: 1

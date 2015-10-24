@@ -1,68 +1,36 @@
 fileFormatVersion: 2
-guid: 8e4b0c1a76b86964594e9a8f34e25de3
-timeCreated: 1445629926
+guid: c1afa30cc109ef54891745201a7bdb1d
+timeCreated: 1445711441
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Salon_GEO
-    100004: SOFA_GEO
-    100006: LAMPARA_GEO
-    100008: BOMBILLA_GEO
-    100010: Cajonera_01
-    100012: Old_TV
-    100014: Alfombra_GEO
-    100016: Cajonera_04_GEO
-    100018: Estanteria_01
-    100020: Mesa_002
-    400000: //RootNode
-    400002: Salon_GEO
-    400004: SOFA_GEO
-    400006: LAMPARA_GEO
-    400008: BOMBILLA_GEO
-    400010: Cajonera_01
-    400012: Old_TV
-    400014: Alfombra_GEO
-    400016: Cajonera_04_GEO
-    400018: Estanteria_01
-    400020: Mesa_002
-    2300000: //RootNode
-    2300002: Salon_GEO
-    2300004: SOFA_GEO
-    2300006: LAMPARA_GEO
-    2300008: BOMBILLA_GEO
-    2300010: Cajonera_01
-    2300012: Old_TV
-    2300014: Alfombra_GEO
-    2300016: Cajonera_04_GEO
-    2300018: Estanteria_01
-    2300020: Mesa_002
-    3300000: //RootNode
-    3300002: Salon_GEO
-    3300004: SOFA_GEO
-    3300006: LAMPARA_GEO
-    3300008: BOMBILLA_GEO
-    3300010: Cajonera_01
-    3300012: Old_TV
-    3300014: Alfombra_GEO
-    3300016: Cajonera_04_GEO
-    3300018: Estanteria_01
-    3300020: Mesa_002
-    4300000: Salon_GEO
-    4300002: SOFA_GEO
-    4300004: LAMPARA_GEO
-    4300006: BOMBILLA_GEO
-    4300008: Old_TV
-    4300010: Cajonera_01
-    4300012: Alfombra_GEO
-    4300014: Cajonera_04_GEO
-    4300016: Mesa_002
-    4300018: Estanteria_01
+    100000: Cylinder001
+    100002: //RootNode
+    100004: Object001
+    100006: spawn11SKULL
+    100008: Box002
+    400000: Cylinder001
+    400002: //RootNode
+    400004: Object001
+    400006: spawn11SKULL
+    400008: Box002
+    2300000: Cylinder001
+    2300002: Object001
+    2300004: spawn11SKULL
+    2300006: Box002
+    3300000: Cylinder001
+    3300002: Object001
+    3300004: spawn11SKULL
+    3300006: Box002
+    4300000: Cylinder001
+    4300002: Object001
+    4300004: spawn11SKULL
+    4300006: Box002
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 2
+    materialName: 0
+    materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
