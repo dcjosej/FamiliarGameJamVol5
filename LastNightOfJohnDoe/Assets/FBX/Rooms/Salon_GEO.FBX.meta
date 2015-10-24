@@ -10,25 +10,40 @@ ModelImporter:
     100004: SOFA_GEO
     100006: LAMPARA_GEO
     100008: BOMBILLA_GEO
+    100010: Cajonera_01
+    100012: Old_TV
+    100014: Alfombra_GEO
     400000: //RootNode
     400002: Salon_GEO
     400004: SOFA_GEO
     400006: LAMPARA_GEO
     400008: BOMBILLA_GEO
+    400010: Cajonera_01
+    400012: Old_TV
+    400014: Alfombra_GEO
     2300000: //RootNode
     2300002: Salon_GEO
     2300004: SOFA_GEO
     2300006: LAMPARA_GEO
     2300008: BOMBILLA_GEO
+    2300010: Cajonera_01
+    2300012: Old_TV
+    2300014: Alfombra_GEO
     3300000: //RootNode
     3300002: Salon_GEO
     3300004: SOFA_GEO
     3300006: LAMPARA_GEO
     3300008: BOMBILLA_GEO
+    3300010: Cajonera_01
+    3300012: Old_TV
+    3300014: Alfombra_GEO
     4300000: Salon_GEO
     4300002: SOFA_GEO
     4300004: LAMPARA_GEO
     4300006: BOMBILLA_GEO
+    4300008: Old_TV
+    4300010: Cajonera_01
+    4300012: Alfombra_GEO
   materials:
     importMaterials: 1
     materialName: 1
