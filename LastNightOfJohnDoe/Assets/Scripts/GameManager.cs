@@ -30,8 +30,15 @@ public class GameManager : MonoBehaviour {
 	public GameObject albumCanvas;
 	public Sprite[] photos;
 	public Image[] imagesHolder;
+	public Image zoomedPhoto;
+	public Animator photoAnimator;
+	public int photoSelected { get; set; }
 
-	public Transform
+	/* Variables para pausar el juego mientras se esta interactuando */
+	public bool interacting = false;
+
+	public Room previousRoom { get; set; }
+	public Room nextRoom { get; set; }
 
 	/* Animators Controllers  y GUI */
 	public Animator pillGUIAnimator;
@@ -40,7 +47,8 @@ public class GameManager : MonoBehaviour {
 	{
 		DontDestroyOnLoad(this);
 		previousRoom = Room.SALON;
-		currentRoom = Room.SALON;
+
+
 	}
 
 	void Start ()
@@ -52,10 +60,13 @@ public class GameManager : MonoBehaviour {
 
 	void Update ()
 	{
-		if (!delayingDeath)
+		if (!interacting)
 		{
-			UpdateLifeTime();
-			acumTime += Time.deltaTime;
+			if (!delayingDeath)
+			{
+				UpdateLifeTime();
+				acumTime += Time.deltaTime;
+			}
 		}
 
 		CheckKeyboard();
@@ -65,6 +76,7 @@ public class GameManager : MonoBehaviour {
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
+			interacting = false;
 			albumCanvas.SetActive(false);
 		}
 	}
@@ -109,9 +121,14 @@ public class GameManager : MonoBehaviour {
 
 	public void PutImage(int photoIndex)
 	{
+
+		photoSelected = photoIndex;
+
 		imagesHolder[photoIndex].sprite = photos[photoIndex];
 		albumCanvas.gameObject.SetActive(true);
-	}
+		zoomedPhoto.sprite = photos[photoIndex];
+		//photoAnimator.SetTrigger("Photo" + photoIndex);
+    }
 
 	public void ClickPhoto(int index)
 	{

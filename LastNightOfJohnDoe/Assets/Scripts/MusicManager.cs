@@ -20,6 +20,8 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip audio2;
 	public AudioClip audio3;
 
+	private AudioSource currentAudioSource;
+
 	// Use this for initialization
 	void Start () {
 		Invoke("MusicTransition", 5);
@@ -32,15 +34,21 @@ public class MusicManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if(currentAudioSource.isPlaying && GameManager.instance.interacting)
+		{
+			print("DEBERIA PAUSAR LA MUSICA!");
+			currentAudioSource.Pause();
+		}else if (!GameManager.instance.interacting)
+		{
+			print("Esto deberia dejar de salir mientras estoy viendo la foto");
+			currentAudioSource.UnPause();
+		}
 	}
 
 	public void CrossFade(AudioClip newTrack, float fadeTime = 1.0f)
 	{
 		AudioSource newAudioSource = instance.gameObject.AddComponent<AudioSource>();
-
-		
-
+		currentAudioSource = newAudioSource;
 		newAudioSource.volume = 0.0f;
 		newAudioSource.clip = newTrack;
 		newAudioSource.Play();
