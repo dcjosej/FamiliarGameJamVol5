@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class GameManager : MonoBehaviour {
 
@@ -17,14 +18,27 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 
-	public float LifeTime = 10f;
+	public float LifeTime = 60f;
 	public Slider lifeBar;
 	public float RESTART_DEATH_TIME = 4f;
 	private float acumTime = 0;
-	private bool delayingDeath = false;
+	public bool delayingDeath { get; set; }
+
+	/* Referencias a elementos de la GUI */
+	public GameObject CanvasPillGUI;
+	public Canvas grayCanvas;
+	public GameObject albumCanvas;
+	public Sprite[] photos;
+	public Image[] imagesHolder;
+
+
+	/* Animators Controllers  y GUI */
+	public Animator pillGUIAnimator;
+	
 
 	void Start ()
 	{
+		delayingDeath = false;
 		lifeBar.maxValue = LifeTime;
 	}
 
@@ -35,6 +49,16 @@ public class GameManager : MonoBehaviour {
 		{
 			UpdateLifeTime();
 			acumTime += Time.deltaTime;
+		}
+
+		CheckKeyboard();
+	}
+
+	private void CheckKeyboard()
+	{
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			albumCanvas.SetActive(false);
 		}
 	}
 
@@ -53,5 +77,38 @@ public class GameManager : MonoBehaviour {
 	private void UpdateLifeTime()
 	{
 		lifeBar.value = LifeTime - acumTime;
+	}
+
+	/* FUNCIONES PARA BOTONES */
+	public void TakePill()
+	{
+		CanvasPillGUI.gameObject.SetActive(false);
+		grayCanvas.gameObject.SetActive(false);
+		print("He tomado la pastilla!");
+	}
+
+	public void RefusePill()
+	{
+		grayCanvas.gameObject.SetActive(false);
+		CanvasPillGUI.SetActive(false);
+		print("No quiero la pastilla...");
+	}
+
+	public void ShowGUIPill()
+	{
+		CanvasPillGUI.SetActive(true);
+		grayCanvas.gameObject.SetActive(true);
+	}
+
+	public void PutImage(int photoIndex)
+	{
+		imagesHolder[photoIndex].sprite = photos[photoIndex];
+		albumCanvas.gameObject.SetActive(true);
+	}
+
+	public void ClickPhoto(int index)
+	{
+		print("Pinchando en una foto: " + index);
+		//imagesHolder[index].transform.localScale
 	}
 }

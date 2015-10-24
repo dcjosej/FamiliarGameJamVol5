@@ -13,8 +13,11 @@ public class DeathMovement : MonoBehaviour {
 	
 	void Update ()
 	{
-		velocity = Vector3.Distance(transform.position, player.transform.position) / GameManager.instance.lifeBar.value;
-		Move();
+		if (!GameManager.instance.delayingDeath)
+		{
+			velocity = Vector3.Distance(transform.position, player.transform.position) / GameManager.instance.lifeBar.value;
+			Move();
+		}
 	}
 
 	private void Move()
