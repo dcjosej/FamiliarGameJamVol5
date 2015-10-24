@@ -10,25 +10,30 @@ ModelImporter:
     100004: LAMPARA_GEO002
     100006: Mesa_02
     100008: Pasillo_01_GEO
+    100010: Mesa_02_TRG
     400000: //RootNode
     400002: LAMPARA_GEO001
     400004: LAMPARA_GEO002
     400006: Mesa_02
     400008: Pasillo_01_GEO
+    400010: Mesa_02_TRG
     2300000: //RootNode
     2300002: LAMPARA_GEO001
     2300004: LAMPARA_GEO002
     2300006: Mesa_02
     2300008: Pasillo_01_GEO
+    2300010: Mesa_02_TRG
     3300000: //RootNode
     3300002: LAMPARA_GEO001
     3300004: LAMPARA_GEO002
     3300006: Mesa_02
     3300008: Pasillo_01_GEO
+    3300010: Mesa_02_TRG
     4300000: Pasillo_01_GEO
     4300002: Mesa_02
     4300004: LAMPARA_GEO001
     4300006: LAMPARA_GEO002
+    4300008: Mesa_02_TRG
   materials:
     importMaterials: 1
     materialName: 1

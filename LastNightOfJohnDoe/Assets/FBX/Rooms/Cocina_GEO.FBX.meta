@@ -11,29 +11,34 @@ ModelImporter:
     100006: Cocina-Comedor_GEO
     100008: LAMPARA_GEO006
     100010: LAMPARA_GEO007
+    100012: Cajonera_03_TRG
     400000: //RootNode
     400002: ARC_GEO
     400004: Cajonera_003
     400006: Cocina-Comedor_GEO
     400008: LAMPARA_GEO006
     400010: LAMPARA_GEO007
+    400012: Cajonera_03_TRG
     2300000: //RootNode
     2300002: ARC_GEO
     2300004: Cajonera_003
     2300006: Cocina-Comedor_GEO
     2300008: LAMPARA_GEO006
     2300010: LAMPARA_GEO007
+    2300012: Cajonera_03_TRG
     3300000: //RootNode
     3300002: ARC_GEO
     3300004: Cajonera_003
     3300006: Cocina-Comedor_GEO
     3300008: LAMPARA_GEO006
     3300010: LAMPARA_GEO007
+    3300012: Cajonera_03_TRG
     4300000: Cocina-Comedor_GEO
     4300002: Cajonera_003
     4300004: LAMPARA_GEO006
     4300006: LAMPARA_GEO007
     4300008: ARC_GEO
+    4300010: Cajonera_03_TRG
   materials:
     importMaterials: 1
     materialName: 1

@@ -13,6 +13,8 @@ ModelImporter:
     100010: Mesa_01
     100012: MNOCHE_01_GEO
     100014: MNOCHE_02_GEO
+    100016: MNOCHE_01_TRG
+    100018: MNOCHE_02_TRG
     400000: //RootNode
     400002: BED_GEO
     400004: Dormitorio_GEO
@@ -21,6 +23,8 @@ ModelImporter:
     400010: Mesa_01
     400012: MNOCHE_01_GEO
     400014: MNOCHE_02_GEO
+    400016: MNOCHE_01_TRG
+    400018: MNOCHE_02_TRG
     2300000: //RootNode
     2300002: BED_GEO
     2300004: Dormitorio_GEO
@@ -29,6 +33,8 @@ ModelImporter:
     2300010: Mesa_01
     2300012: MNOCHE_01_GEO
     2300014: MNOCHE_02_GEO
+    2300016: MNOCHE_01_TRG
+    2300018: MNOCHE_02_TRG
     3300000: //RootNode
     3300002: BED_GEO
     3300004: Dormitorio_GEO
@@ -37,6 +43,8 @@ ModelImporter:
     3300010: Mesa_01
     3300012: MNOCHE_01_GEO
     3300014: MNOCHE_02_GEO
+    3300016: MNOCHE_01_TRG
+    3300018: MNOCHE_02_TRG
     4300000: Dormitorio_GEO
     4300002: BED_GEO
     4300004: MNOCHE_01_GEO
@@ -44,6 +52,8 @@ ModelImporter:
     4300008: Mesa_01
     4300010: Estanteria_002
     4300012: LAMPARA_GEO003
+    4300014: MNOCHE_02_TRG
+    4300016: MNOCHE_01_TRG
   materials:
     importMaterials: 1
     materialName: 1
