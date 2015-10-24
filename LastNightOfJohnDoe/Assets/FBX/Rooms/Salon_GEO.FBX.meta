@@ -6,10 +6,29 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Salon_GEO
+    100004: SOFA_GEO
+    100006: LAMPARA_GEO
+    100008: BOMBILLA_GEO
     400000: //RootNode
+    400002: Salon_GEO
+    400004: SOFA_GEO
+    400006: LAMPARA_GEO
+    400008: BOMBILLA_GEO
     2300000: //RootNode
+    2300002: Salon_GEO
+    2300004: SOFA_GEO
+    2300006: LAMPARA_GEO
+    2300008: BOMBILLA_GEO
     3300000: //RootNode
+    3300002: Salon_GEO
+    3300004: SOFA_GEO
+    3300006: LAMPARA_GEO
+    3300008: BOMBILLA_GEO
     4300000: Salon_GEO
+    4300002: SOFA_GEO
+    4300004: LAMPARA_GEO
+    4300006: BOMBILLA_GEO
   materials:
     importMaterials: 1
     materialName: 1
