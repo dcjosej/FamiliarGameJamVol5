@@ -8,6 +8,7 @@ public class FurnitureInteractuable : MonoBehaviour, IInteractuable {
 
 	public void Interact()
 	{
+		GameManager.instance.interacting = true;
 		//GameObject go = Instantiate(objectInside);
 		GameManager.instance.ShowGUIPill();
 		print("Rebuscando en el mueble!");

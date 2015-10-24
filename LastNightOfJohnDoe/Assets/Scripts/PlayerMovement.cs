@@ -11,17 +11,33 @@ public class PlayerMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
+		Door [] doors = FindObjectsOfType<Door>();
+		foreach(Door door in doors)
+		{
+			if(door.nextDoor == GameManager.instance.previousRoom)
+			{
+				transform.position = new Vector3(door.transform.position.x,
+					door.transform.position.y,
+					door.transform.position.z - 0.8f);
+			}
+		}
+	}
 
+	void Update()
+	{
+		CheckKeyboard();
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		float horizontal = Input.GetAxisRaw("Horizontal");
-		float vertical = Input.GetAxisRaw("Vertical");
+		if (!GameManager.instance.interacting)
+		{
+			float horizontal = Input.GetAxisRaw("Horizontal");
+			float vertical = Input.GetAxisRaw("Vertical");
 
-		Rotate(horizontal);
-		Move(vertical);
-		CheckKeyboard();
+			Rotate(horizontal);
+			Move(vertical);
+		}
 	}
 
 	private void Rotate(float rotation)
@@ -71,12 +87,18 @@ public class PlayerMovement : MonoBehaviour {
 
 	private void CheckKeyboard()
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyUp(KeyCode.Space))
 		{
-			if(interactuableObject != null)
+			if (interactuableObject != null && !GameManager.instance.interacting)
 			{
 				interactuableObject.Interact();
 			}
+			else if(GameManager.instance.zoomedPhoto.IsActive() && GameManager.instance.interacting)
+			{
+				print("AQUI NO DEBERIA ESTAR ENTRANDO!");
+				GameManager.instance.photoAnimator.SetTrigger("Photo" + GameManager.instance.photoSelected);
+			}
+
 		}
     }
 }
