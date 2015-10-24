@@ -9,7 +9,10 @@ public class PlayerMovement : MonoBehaviour {
 	public IInteractuable interactuableObject { get; set; }
 
 	// Use this for initialization
-	void Start () {}
+	void Start ()
+	{
+
+	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {

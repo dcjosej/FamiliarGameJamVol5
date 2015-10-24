@@ -31,10 +31,17 @@ public class GameManager : MonoBehaviour {
 	public Sprite[] photos;
 	public Image[] imagesHolder;
 
+	public Transform
 
 	/* Animators Controllers  y GUI */
 	public Animator pillGUIAnimator;
 	
+	void Awake()
+	{
+		DontDestroyOnLoad(this);
+		previousRoom = Room.SALON;
+		currentRoom = Room.SALON;
+	}
 
 	void Start ()
 	{

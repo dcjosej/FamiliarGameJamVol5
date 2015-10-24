@@ -3,21 +3,40 @@ using System.Collections;
 using System;
 
 
-public enum NextDoor { ASEO, COCINA, DORMITORIO, HALL, SALON }
+public enum Room { SALON, ASEO, COCINA, DORMITORIO, HALL, PASILLO }
 
 public class Door : MonoBehaviour, IInteractuable{
 
 	public bool closed;
-	public NextDoor nextDoor; 
+	public Room nextDoor; 
 
 	public void Interact()
 	{
-		switch (nextDoor)
+		if (!closed)
 		{
-			case NextDoor.ASEO:
-				print("Entrando en el aso");
-				Application.LoadLevel("Aseo");
-				break;
+			switch (nextDoor)
+			{
+				case Room.ASEO:
+					print("Entrando en el aso");
+					Application.LoadLevel("Aseo");
+					break;
+				case Room.COCINA:
+					print("Entrando en el aso");
+					Application.LoadLevel("Cocina");
+					break;
+				case Room.DORMITORIO:
+					Application.LoadLevel("Dormitorio");
+					break;
+				case Room.HALL:
+					Application.LoadLevel("Hall");
+					break;
+				case Room.SALON:
+					Application.LoadLevel("Salon");
+					break;
+				case Room.PASILLO:
+					Application.LoadLevel("Pasillo");
+					break;
+			}
 		}
 	}
 
