@@ -6,17 +6,7 @@ using System;
 public class GameManager : MonoBehaviour {
 
 	private static GameManager _instance;
-	public static GameManager instance
-	{
-		get
-		{
-			if (_instance == null)
-			{
-				_instance = GameObject.FindObjectOfType<GameManager>();
-			}
-			return _instance;
-		}
-	}
+	public static GameManager instance;
 
 	public float LifeTime = 60f;
 	public Slider lifeBar;
@@ -48,7 +38,15 @@ public class GameManager : MonoBehaviour {
 	
 	void Awake()
 	{
-		DontDestroyOnLoad(this);
+		DontDestroyOnLoad(this.gameObject);
+		if (instance == null)
+		{
+			instance = this;
+		}
+		else
+		{
+			Destroy(gameObject);
+		}
 		previousRoom = Room.SALON;
 	}
 

@@ -16,8 +16,11 @@ public class SFXManager : MonoBehaviour {
 		}
 	}
 
+
 	private AudioSource audioSource;
 	public AudioClip photoSound;
+
+
 
 	public void Awake()
 	{
