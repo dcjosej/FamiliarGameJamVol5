@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: f1c511dbdbaa7454db59b3ef862001e4
+timeCreated: 1445751550
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Base Human001
+    100002: Base Human001Head
+    100004: Base Human001LCalf
+    100006: Base Human001LCollarbone
+    100008: Base Human001LFoot
+    100010: Base Human001LForearm
+    100012: Base Human001LPalm
+    100014: Base Human001LPlatform
+    100016: Base Human001LThigh
+    100018: Base Human001LUpperarm
+    100020: Base Human001Neck1
+    100022: Base Human001Neck2
+    100024: Base Human001Pelvis
+    100026: Base Human001RCalf
+    100028: Base Human001RCollarbone
+    100030: Base Human001RFoot
+    100032: Base Human001RForearm
+    100034: Base Human001Ribcage
+    100036: Base Human001RPalm
+    100038: Base Human001RPlatform
+    100040: Base Human001RThigh
+    100042: Base Human001RUpperarm
+    100044: Base Human001Spine1
+    100046: Base Human001Spine2
+    100048: Base Human001Spine3
+    100050: Base Human001Spine4
+    100052: Dummy001
+    100054: JOHN_DOE
+    100056: //RootNode
+    100058: JohnDoe_
+    100060: JohnDoe_Head
+    100062: JohnDoe_LArmCollarbone
+    100064: JohnDoe_LArmForearm
+    100066: JohnDoe_LArmPalm
+    100068: JohnDoe_LArmUpperarm
+    100070: JohnDoe_LCalf
+    100072: JohnDoe_LFoot
+    100074: JohnDoe_LPlatform
+    100076: JohnDoe_LThigh
+    100078: JohnDoe_Neck
+    100080: JohnDoe_PalmBone001
+    100082: JohnDoe_Pelvis
+    100084: JohnDoe_RCollarbone
+    100086: JohnDoe_RForearm
+    100088: JohnDoe_Ribcage
+    100090: JohnDoe_RIKTarget
+    100092: JohnDoe_RLegCalf
+    100094: JohnDoe_RLegFoot
+    100096: JohnDoe_RLegPlatform
+    100098: JohnDoe_RLegThigh
+    100100: JohnDoe_RPalm
+    100102: JohnDoe_RUpperarm
+    100104: JohnDoe_Spine1
+    100106: JohnDoe_Spine2
+    100108: JohnDoe_Spine3
+    100110: kk
+    400000: Base Human001
+    400002: Base Human001Head
+    400004: Base Human001LCalf
+    400006: Base Human001LCollarbone
+    400008: Base Human001LFoot
+    400010: Base Human001LForearm
+    400012: Base Human001LPalm
+    400014: Base Human001LPlatform
+    400016: Base Human001LThigh
+    400018: Base Human001LUpperarm
+    400020: Base Human001Neck1
+    400022: Base Human001Neck2
+    400024: Base Human001Pelvis
+    400026: Base Human001RCalf
+    400028: Base Human001RCollarbone
+    400030: Base Human001RFoot
+    400032: Base Human001RForearm
+    400034: Base Human001Ribcage
+    400036: Base Human001RPalm
+    400038: Base Human001RPlatform
+    400040: Base Human001RThigh
+    400042: Base Human001RUpperarm
+    400044: Base Human001Spine1
+    400046: Base Human001Spine2
+    400048: Base Human001Spine3
+    400050: Base Human001Spine4
+    400052: Dummy001
+    400054: JOHN_DOE
+    400056: //RootNode
+    400058: JohnDoe_
+    400060: JohnDoe_Head
+    400062: JohnDoe_LArmCollarbone
+    400064: JohnDoe_LArmForearm
+    400066: JohnDoe_LArmPalm
+    400068: JohnDoe_LArmUpperarm
+    400070: JohnDoe_LCalf
+    400072: JohnDoe_LFoot
+    400074: JohnDoe_LPlatform
+    400076: JohnDoe_LThigh
+    400078: JohnDoe_Neck
+    400080: JohnDoe_PalmBone001
+    400082: JohnDoe_Pelvis
+    400084: JohnDoe_RCollarbone
+    400086: JohnDoe_RForearm
+    400088: JohnDoe_Ribcage
+    400090: JohnDoe_RIKTarget
+    400092: JohnDoe_RLegCalf
+    400094: JohnDoe_RLegFoot
+    400096: JohnDoe_RLegPlatform
+    400098: JohnDoe_RLegThigh
+    400100: JohnDoe_RPalm
+    400102: JohnDoe_RUpperarm
+    400104: JohnDoe_Spine1
+    400106: JohnDoe_Spine2
+    400108: JohnDoe_Spine3
+    400110: kk
+    4300000: JOHN_DOE
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: JOHN_DOE
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
