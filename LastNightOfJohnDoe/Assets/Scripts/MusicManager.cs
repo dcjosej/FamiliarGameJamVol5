@@ -4,23 +4,27 @@ using System.Collections;
 public class MusicManager : MonoBehaviour {
 
 	private static MusicManager _instance;
-	public static MusicManager instance
-	{
-		get
-		{
-			if (_instance == null)
-			{
-				_instance = GameObject.FindObjectOfType<MusicManager>();
-			}
-			return _instance;
-		}
-	}
+	public static MusicManager instance;
+
 
 	public AudioClip[] audioClips;
 	public int currentIndexAudioClip { get; set; }
 
 	private AudioSource currentAudioSource;
 	private AudioSource previousAudioSource;
+
+	void Awake()
+	{
+		if (!instance)
+		{
+			instance = this;
+			DontDestroyOnLoad(gameObject);
+		}
+		else
+		{
+			DestroyImmediate(gameObject);
+		}
+	}
 
 	// Use this for initialization
 	void Start () {

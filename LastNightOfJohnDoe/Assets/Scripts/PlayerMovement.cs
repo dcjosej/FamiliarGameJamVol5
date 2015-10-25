@@ -16,9 +16,19 @@ public class PlayerMovement : MonoBehaviour {
 		{
 			if(door.nextDoor == GameManager.instance.previousRoom)
 			{
+				foreach(Transform t  in door.transform)
+				{
+					if(t.tag == "SpawnPlayer")
+					{
+						transform.position = t.transform.position;
+					}
+				}
+
+				/*
 				transform.position = new Vector3(door.transform.position.x,
 					door.transform.position.y,
 					door.transform.position.z - 0.8f);
+					*/
 			}
 		}
 	}
