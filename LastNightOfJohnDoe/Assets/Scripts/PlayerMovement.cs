@@ -96,9 +96,16 @@ public class PlayerMovement : MonoBehaviour {
 			else if(GameManager.instance.zoomedPhoto.IsActive() && GameManager.instance.interacting)
 			{
 				print("Activando trigger!!: Photo" + GameManager.instance.photoSelected);
-				GameManager.instance.photoAnimator.SetTrigger("Photo" + GameManager.instance.photoSelected);
+				GameManager.instance.zoomedPhoto.gameObject.SetActive(false);
+				//GameManager.instance.photoAnimator.SetTrigger("Photo" + GameManager.instance.photoSelected);
+				//Invoke("DisablePanelZommedPhoto", 2f);
 			}
-
 		}
     }
+
+	private void DisablePanelZommedPhoto()
+	{
+		GameManager.instance.zoomedPhoto.gameObject.SetActive(false);
+	}
+
 }

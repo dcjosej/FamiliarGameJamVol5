@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour {
 
 	/* Referencias a elementos de la GUI */
 	public GameObject CanvasPillGUI;
-	public Canvas grayCanvas;
+	//public Canvas grayCanvas;
 	public GameObject albumCanvas;
 	public Sprite[] photos;
 	public Image[] imagesHolder;
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour {
 	public Room nextRoom { get; set; }
 
 	/* Animators Controllers  y GUI */
-	public Animator pillGUIAnimator;
+	//public Animator pillGUIAnimator;
 	
 	void Awake()
 	{
@@ -94,6 +94,9 @@ public class GameManager : MonoBehaviour {
 			interacting = false;
 			albumCanvas.SetActive(false);
 			labelText.transform.parent.gameObject.SetActive(false);
+
+
+			GameManager.instance.zoomedPhoto.gameObject.SetActive(true);
 		}
 	}
 
@@ -117,8 +120,9 @@ public class GameManager : MonoBehaviour {
 	/* FUNCIONES PARA BOTONES */
 	public void TakePill()
 	{
+		print("Pulsando boton!");
 		CanvasPillGUI.gameObject.SetActive(false);
-		grayCanvas.gameObject.SetActive(false);
+		//grayCanvas.gameObject.SetActive(false);
 		interacting = false;
 		DelayDeath();
 
@@ -127,7 +131,7 @@ public class GameManager : MonoBehaviour {
 
 	public void RefusePill()
 	{
-		grayCanvas.gameObject.SetActive(false);
+		//grayCanvas.gameObject.SetActive(false);
 		CanvasPillGUI.SetActive(false);
 		interacting = false;
 		print("No quiero la pastilla...");
@@ -136,7 +140,7 @@ public class GameManager : MonoBehaviour {
 	public void ShowGUIPill()
 	{
 		CanvasPillGUI.SetActive(true);
-		grayCanvas.gameObject.SetActive(true);
+		//grayCanvas.gameObject.SetActive(true);
 	}
 
 	public void PutImage(int photoIndex)
