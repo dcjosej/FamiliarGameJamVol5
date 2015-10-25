@@ -109,8 +109,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180572}
-  m_LocalRotation: {x: 7.06288432e-08, y: .707106888, z: .707106709, w: 2.235174e-08}
-  m_LocalPosition: {x: 1.88, y: 0, z: -10.7299995}
+  m_LocalRotation: {x: 3.09086232e-08, y: -.707106829, z: -.707106829, w: -3.09086232e-08}
+  m_LocalPosition: {x: -4.73937178, y: -2.89407349, z: -4.29327679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 402132}
@@ -161,8 +161,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130992}
-  m_LocalRotation: {x: 3.54083944e-08, y: 9.84130555e-09, z: -.187859535, w: .982195914}
-  m_LocalPosition: {x: -.555396318, y: -.0673083887, z: 5.15070587e-06}
+  m_LocalRotation: {x: -6.71963996e-09, y: -1.24740298e-08, z: -.00186476856, w: .999998271}
+  m_LocalPosition: {x: -.55541414, y: -.0673084855, z: 6.4080732e-06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 481308}
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closed: 0
-  nextDoor: 0
+  nextDoor: 4
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
