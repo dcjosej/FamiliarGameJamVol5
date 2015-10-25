@@ -19,3 +19,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Salon.unity
   - enabled: 1
     path: Assets/Scenes/scene1.unity
+  - enabled: 1
+    path: Assets/Scenes/FinalBueno.unity
+  - enabled: 1
+    path: Assets/Scenes/FinalMalo.unity

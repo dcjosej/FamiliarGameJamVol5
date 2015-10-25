@@ -11,6 +11,5 @@ public class Photo : MonoBehaviour, IInteractuable {
 		SFXManager.instance.PlayPhotoSound();
 		GameManager.instance.interacting = true;
 		GameManager.instance.PutImage(photoIndex);
-		print("Interactuando con una foto");
 	}
 }

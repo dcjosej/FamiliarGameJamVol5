@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour {
 	public Room previousRoom { get; set; }
 	public Room nextRoom { get; set; }
 
+	public int unlockedPhotos = 0;
+
 	/* Animators Controllers  y GUI */
 	//public Animator pillGUIAnimator;
 	
@@ -77,6 +79,12 @@ public class GameManager : MonoBehaviour {
 		}
 
 		CheckKeyboard();
+
+		if(lifeBar.value <= 0)
+		{
+			Application.LoadLevel("FinalMalo");
+		}
+
 	}
 
 	public void ShowNothing()

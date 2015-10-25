@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Persistente : MonoBehaviour {
+public class Persistente : MonoBehaviour
+{
 
 	private static Persistente _instance;
 	public static Persistente instance;

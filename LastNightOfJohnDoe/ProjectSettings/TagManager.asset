@@ -10,6 +10,7 @@ TagManager:
   - Door
   - CameraTrigger
   - SpawnPlayer
+  - DeathAttack
   layers:
   - Default
   - TransparentFX

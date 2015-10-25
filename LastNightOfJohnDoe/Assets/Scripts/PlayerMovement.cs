@@ -5,12 +5,16 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float rotationVelocity = 1f;
 	public float movementVelocity = 4f;
+	private Animator playerAnimator;
 
 	public IInteractuable interactuableObject { get; set; }
 
 	// Use this for initialization
 	void Start ()
 	{
+
+		playerAnimator = GetComponent<Animator>();
+
 		Door [] doors = FindObjectsOfType<Door>();
 		foreach(Door door in doors)
 		{
@@ -57,6 +61,8 @@ public class PlayerMovement : MonoBehaviour {
 
 	private void Move(float movement)
 	{
+		playerAnimator.SetFloat("velocity", Mathf.Abs(movement));
+
 		Vector3 movementVector = transform.forward * movement * movementVelocity * Time.deltaTime;
 		Vector3 newPosition = transform.position + movementVector;
 		transform.position = newPosition;
@@ -109,6 +115,14 @@ public class PlayerMovement : MonoBehaviour {
 				GameManager.instance.zoomedPhoto.gameObject.SetActive(false);
 				//GameManager.instance.photoAnimator.SetTrigger("Photo" + GameManager.instance.photoSelected);
 				//Invoke("DisablePanelZommedPhoto", 2f);
+				int count = 0;
+				for(int i = 0; i < GameManager.instance.imagesHolder.Length; i++){
+
+					if (GameManager.instance.imagesHolder[i].sprite != null)
+					{
+						count++;
+					}
+				}
 			}
 		}
     }
@@ -117,5 +131,4 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		GameManager.instance.zoomedPhoto.gameObject.SetActive(false);
 	}
-
 }
