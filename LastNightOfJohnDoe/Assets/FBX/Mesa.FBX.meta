@@ -1,63 +1,19 @@
 fileFormatVersion: 2
-guid: e868b885c95f30542bceb6a0f4d088c0
-timeCreated: 1445629926
+guid: d5d9baa6cd896ba47aeced45635a0807
+timeCreated: 1445790208
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Cajonera_002
-    100004: Hall_GEO
-    100006: LAMPARA_GEO004
-    100008: Cajonera_002_01_TRG
-    100010: Cajonera_002_02_TRG
-    100012: Door_002
-    100014: Object003
-    100016: VENTANA_GEO007
-    100018: Mesa_005
     400000: //RootNode
-    400002: Cajonera_002
-    400004: Hall_GEO
-    400006: LAMPARA_GEO004
-    400008: Cajonera_002_01_TRG
-    400010: Cajonera_002_02_TRG
-    400012: Door_002
-    400014: Object003
-    400016: VENTANA_GEO007
-    400018: Mesa_005
     2300000: //RootNode
-    2300002: Cajonera_002
-    2300004: Hall_GEO
-    2300006: LAMPARA_GEO004
-    2300008: Cajonera_002_01_TRG
-    2300010: Cajonera_002_02_TRG
-    2300012: Door_002
-    2300014: Object003
-    2300016: VENTANA_GEO007
-    2300018: Mesa_005
     3300000: //RootNode
-    3300002: Cajonera_002
-    3300004: Hall_GEO
-    3300006: LAMPARA_GEO004
-    3300008: Cajonera_002_01_TRG
-    3300010: Cajonera_002_02_TRG
-    3300012: Door_002
-    3300014: Object003
-    3300016: VENTANA_GEO007
-    3300018: Mesa_005
-    4300000: Hall_GEO
-    4300002: Cajonera_002
-    4300004: LAMPARA_GEO004
-    4300006: Cajonera_002_01_TRG
-    4300008: Cajonera_002_02_TRG
-    4300010: Door_002
-    4300012: Object003
-    4300014: VENTANA_GEO007
-    4300016: Mesa_005
+    4300000: Mesa_005
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 2
+    materialName: 0
+    materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
