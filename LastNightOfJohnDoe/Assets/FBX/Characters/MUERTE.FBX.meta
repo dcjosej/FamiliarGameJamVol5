@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: de8566def0d4dba4a93a403ea705107e
+timeCreated: 1445742186
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Muerte_GEO
+    100004: Muerte_Rig_
+    100006: Muerte_Rig_Head
+    100008: Muerte_Rig_LArm1
+    100010: Muerte_Rig_LArm2
+    100012: Muerte_Rig_LArmCollarbone
+    100014: Muerte_Rig_LArmDigit11
+    100016: Muerte_Rig_LArmDigit12
+    100018: Muerte_Rig_LArmDigit13
+    100020: Muerte_Rig_LArmDigit21
+    100022: Muerte_Rig_LArmDigit22
+    100024: Muerte_Rig_LArmDigit23
+    100026: Muerte_Rig_LArmDigit31
+    100028: Muerte_Rig_LArmDigit32
+    100030: Muerte_Rig_LArmDigit33
+    100032: Muerte_Rig_LArmDigit41
+    100034: Muerte_Rig_LArmDigit42
+    100036: Muerte_Rig_LArmDigit43
+    100038: Muerte_Rig_LArmDigit51
+    100040: Muerte_Rig_LArmDigit52
+    100042: Muerte_Rig_LArmDigit53
+    100044: Muerte_Rig_LArmIKTarget
+    100046: Muerte_Rig_LArmPalm
+    100048: Muerte_Rig_Neck
+    100050: Muerte_Rig_PalmBone001
+    100052: Muerte_Rig_Pelvis
+    100054: Muerte_Rig_RArm1
+    100056: Muerte_Rig_RArm2
+    100058: Muerte_Rig_RArmCollarbone
+    100060: Muerte_Rig_RArmDigit11
+    100062: Muerte_Rig_RArmDigit12
+    100064: Muerte_Rig_RArmDigit13
+    100066: Muerte_Rig_RArmDigit21
+    100068: Muerte_Rig_RArmDigit22
+    100070: Muerte_Rig_RArmDigit23
+    100072: Muerte_Rig_RArmDigit31
+    100074: Muerte_Rig_RArmDigit32
+    100076: Muerte_Rig_RArmDigit33
+    100078: Muerte_Rig_RArmDigit41
+    100080: Muerte_Rig_RArmDigit42
+    100082: Muerte_Rig_RArmDigit43
+    100084: Muerte_Rig_RArmDigit51
+    100086: Muerte_Rig_RArmDigit52
+    100088: Muerte_Rig_RArmDigit53
+    100090: Muerte_Rig_RArmIKTarget
+    100092: Muerte_Rig_RArmPalm
+    100094: Muerte_Rig_Ribcage
+    100096: Muerte_Rig_Spine1
+    100098: Muerte_Rig_Spine2
+    400000: //RootNode
+    400002: Muerte_GEO
+    400004: Muerte_Rig_
+    400006: Muerte_Rig_Head
+    400008: Muerte_Rig_LArm1
+    400010: Muerte_Rig_LArm2
+    400012: Muerte_Rig_LArmCollarbone
+    400014: Muerte_Rig_LArmDigit11
+    400016: Muerte_Rig_LArmDigit12
+    400018: Muerte_Rig_LArmDigit13
+    400020: Muerte_Rig_LArmDigit21
+    400022: Muerte_Rig_LArmDigit22
+    400024: Muerte_Rig_LArmDigit23
+    400026: Muerte_Rig_LArmDigit31
+    400028: Muerte_Rig_LArmDigit32
+    400030: Muerte_Rig_LArmDigit33
+    400032: Muerte_Rig_LArmDigit41
+    400034: Muerte_Rig_LArmDigit42
+    400036: Muerte_Rig_LArmDigit43
+    400038: Muerte_Rig_LArmDigit51
+    400040: Muerte_Rig_LArmDigit52
+    400042: Muerte_Rig_LArmDigit53
+    400044: Muerte_Rig_LArmIKTarget
+    400046: Muerte_Rig_LArmPalm
+    400048: Muerte_Rig_Neck
+    400050: Muerte_Rig_PalmBone001
+    400052: Muerte_Rig_Pelvis
+    400054: Muerte_Rig_RArm1
+    400056: Muerte_Rig_RArm2
+    400058: Muerte_Rig_RArmCollarbone
+    400060: Muerte_Rig_RArmDigit11
+    400062: Muerte_Rig_RArmDigit12
+    400064: Muerte_Rig_RArmDigit13
+    400066: Muerte_Rig_RArmDigit21
+    400068: Muerte_Rig_RArmDigit22
+    400070: Muerte_Rig_RArmDigit23
+    400072: Muerte_Rig_RArmDigit31
+    400074: Muerte_Rig_RArmDigit32
+    400076: Muerte_Rig_RArmDigit33
+    400078: Muerte_Rig_RArmDigit41
+    400080: Muerte_Rig_RArmDigit42
+    400082: Muerte_Rig_RArmDigit43
+    400084: Muerte_Rig_RArmDigit51
+    400086: Muerte_Rig_RArmDigit52
+    400088: Muerte_Rig_RArmDigit53
+    400090: Muerte_Rig_RArmIKTarget
+    400092: Muerte_Rig_RArmPalm
+    400094: Muerte_Rig_Ribcage
+    400096: Muerte_Rig_Spine1
+    400098: Muerte_Rig_Spine2
+    4300000: Muerte_GEO
+    7400000: Idle_01
+    7400002: Idle_02
+    7400004: Walk
+    7400006: Attack
+    9500000: //RootNode
+    13700000: Muerte_GEO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: Muerte_Rig_Pelvis
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Muerte_GEO
+        weight: 1
+      - path: Muerte_Rig_
+        weight: 1
+      - path: Muerte_Rig_Pelvis
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12/Muerte_Rig_LArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22/Muerte_Rig_LArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32/Muerte_Rig_LArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42/Muerte_Rig_LArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52/Muerte_Rig_LArmDigit53
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck/Muerte_Rig_Head
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001/Muerte_Rig_LArmIKTarget
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12/Muerte_Rig_RArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22/Muerte_Rig_RArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32/Muerte_Rig_RArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42/Muerte_Rig_RArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52/Muerte_Rig_RArmDigit53
+        weight: 1
+      - path: Muerte_Rig_RArmIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_02
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Muerte_GEO
+        weight: 1
+      - path: Muerte_Rig_
+        weight: 1
+      - path: Muerte_Rig_Pelvis
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12/Muerte_Rig_LArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22/Muerte_Rig_LArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32/Muerte_Rig_LArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42/Muerte_Rig_LArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52/Muerte_Rig_LArmDigit53
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck/Muerte_Rig_Head
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001/Muerte_Rig_LArmIKTarget
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12/Muerte_Rig_RArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22/Muerte_Rig_RArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32/Muerte_Rig_RArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42/Muerte_Rig_RArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52/Muerte_Rig_RArmDigit53
+        weight: 1
+      - path: Muerte_Rig_RArmIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Muerte_GEO
+        weight: 1
+      - path: Muerte_Rig_
+        weight: 1
+      - path: Muerte_Rig_Pelvis
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12/Muerte_Rig_LArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22/Muerte_Rig_LArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32/Muerte_Rig_LArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42/Muerte_Rig_LArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52/Muerte_Rig_LArmDigit53
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck/Muerte_Rig_Head
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001/Muerte_Rig_LArmIKTarget
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12/Muerte_Rig_RArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22/Muerte_Rig_RArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32/Muerte_Rig_RArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42/Muerte_Rig_RArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52/Muerte_Rig_RArmDigit53
+        weight: 1
+      - path: Muerte_Rig_RArmIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Muerte_GEO
+        weight: 1
+      - path: Muerte_Rig_
+        weight: 1
+      - path: Muerte_Rig_Pelvis
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit11/Muerte_Rig_LArmDigit12/Muerte_Rig_LArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit21/Muerte_Rig_LArmDigit22/Muerte_Rig_LArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit31/Muerte_Rig_LArmDigit32/Muerte_Rig_LArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit41/Muerte_Rig_LArmDigit42/Muerte_Rig_LArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_LArmCollarbone/Muerte_Rig_LArm1/Muerte_Rig_LArm2/Muerte_Rig_LArmPalm/Muerte_Rig_LArmDigit51/Muerte_Rig_LArmDigit52/Muerte_Rig_LArmDigit53
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_Neck/Muerte_Rig_Head
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_PalmBone001/Muerte_Rig_LArmIKTarget
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit11/Muerte_Rig_RArmDigit12/Muerte_Rig_RArmDigit13
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit21/Muerte_Rig_RArmDigit22/Muerte_Rig_RArmDigit23
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit31/Muerte_Rig_RArmDigit32/Muerte_Rig_RArmDigit33
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit41/Muerte_Rig_RArmDigit42/Muerte_Rig_RArmDigit43
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52
+        weight: 1
+      - path: Muerte_Rig_Pelvis/Muerte_Rig_Spine1/Muerte_Rig_Spine2/Muerte_Rig_Ribcage/Muerte_Rig_RArmCollarbone/Muerte_Rig_RArm1/Muerte_Rig_RArm2/Muerte_Rig_RArmPalm/Muerte_Rig_RArmDigit51/Muerte_Rig_RArmDigit52/Muerte_Rig_RArmDigit53
+        weight: 1
+      - path: Muerte_Rig_RArmIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
