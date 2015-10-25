@@ -32,7 +32,10 @@ public class GameManager : MonoBehaviour {
 	public Image[] imagesHolder;
 	public Image zoomedPhoto;
 	public Animator photoAnimator;
+	public Text labelText; //Texto para mostrar cuando no hay nada en los cajones
 	public int photoSelected { get; set; }
+
+	public GameObject currentObject;
 
 	/* Variables para pausar el juego mientras se esta interactuando */
 	public bool interacting = false;
@@ -47,8 +50,6 @@ public class GameManager : MonoBehaviour {
 	{
 		DontDestroyOnLoad(this);
 		previousRoom = Room.SALON;
-
-
 	}
 
 	void Start ()
@@ -69,8 +70,22 @@ public class GameManager : MonoBehaviour {
 			}
 		}
 
+		if(lifeBar.value <= 30 && MusicManager.instance.currentIndexAudioClip == 0)
+		{
+			MusicManager.instance.NextMusic();
+		}else if(lifeBar.value <= 15 && MusicManager.instance.currentIndexAudioClip == 1)
+		{
+			MusicManager.instance.NextMusic();
+		}
+
 		CheckKeyboard();
 	}
+
+	public void ShowNothing()
+	{
+		labelText.text = "Nothing...";
+		labelText.transform.parent.gameObject.SetActive(true);
+    }
 
 	private void CheckKeyboard()
 	{
@@ -78,6 +93,7 @@ public class GameManager : MonoBehaviour {
 		{
 			interacting = false;
 			albumCanvas.SetActive(false);
+			labelText.transform.parent.gameObject.SetActive(false);
 		}
 	}
 
@@ -103,13 +119,17 @@ public class GameManager : MonoBehaviour {
 	{
 		CanvasPillGUI.gameObject.SetActive(false);
 		grayCanvas.gameObject.SetActive(false);
-		print("He tomado la pastilla!");
-	}
+		interacting = false;
+		DelayDeath();
+
+		currentObject.GetComponent<FurnitureInteractuable>().collected = true;
+    }
 
 	public void RefusePill()
 	{
 		grayCanvas.gameObject.SetActive(false);
 		CanvasPillGUI.SetActive(false);
+		interacting = false;
 		print("No quiero la pastilla...");
 	}
 
@@ -121,11 +141,12 @@ public class GameManager : MonoBehaviour {
 
 	public void PutImage(int photoIndex)
 	{
-
 		photoSelected = photoIndex;
 
 		imagesHolder[photoIndex].sprite = photos[photoIndex];
+
 		albumCanvas.gameObject.SetActive(true);
+
 		zoomedPhoto.sprite = photos[photoIndex];
 		//photoAnimator.SetTrigger("Photo" + photoIndex);
     }
