@@ -15,6 +15,11 @@ ModelImporter:
     100014: MNOCHE_02_GEO
     100016: MNOCHE_01_TRG
     100018: MNOCHE_02_TRG
+    100020: Cajonera_04_GEO001
+    100022: Cajonera_04_GEO002
+    100024: Cajonera_04_TRG001
+    100026: Cajonera_04_TRG002
+    100028: VENTANA_GEO005
     400000: //RootNode
     400002: BED_GEO
     400004: Dormitorio_GEO
@@ -25,6 +30,11 @@ ModelImporter:
     400014: MNOCHE_02_GEO
     400016: MNOCHE_01_TRG
     400018: MNOCHE_02_TRG
+    400020: Cajonera_04_GEO001
+    400022: Cajonera_04_GEO002
+    400024: Cajonera_04_TRG001
+    400026: Cajonera_04_TRG002
+    400028: VENTANA_GEO005
     2300000: //RootNode
     2300002: BED_GEO
     2300004: Dormitorio_GEO
@@ -35,6 +45,11 @@ ModelImporter:
     2300014: MNOCHE_02_GEO
     2300016: MNOCHE_01_TRG
     2300018: MNOCHE_02_TRG
+    2300020: Cajonera_04_GEO001
+    2300022: Cajonera_04_GEO002
+    2300024: Cajonera_04_TRG001
+    2300026: Cajonera_04_TRG002
+    2300028: VENTANA_GEO005
     3300000: //RootNode
     3300002: BED_GEO
     3300004: Dormitorio_GEO
@@ -45,6 +60,11 @@ ModelImporter:
     3300014: MNOCHE_02_GEO
     3300016: MNOCHE_01_TRG
     3300018: MNOCHE_02_TRG
+    3300020: Cajonera_04_GEO001
+    3300022: Cajonera_04_GEO002
+    3300024: Cajonera_04_TRG001
+    3300026: Cajonera_04_TRG002
+    3300028: VENTANA_GEO005
     4300000: Dormitorio_GEO
     4300002: BED_GEO
     4300004: MNOCHE_01_GEO
@@ -54,6 +74,11 @@ ModelImporter:
     4300012: LAMPARA_GEO003
     4300014: MNOCHE_02_TRG
     4300016: MNOCHE_01_TRG
+    4300018: VENTANA_GEO005
+    4300020: Cajonera_04_GEO001
+    4300022: Cajonera_04_TRG001
+    4300024: Cajonera_04_GEO002
+    4300026: Cajonera_04_TRG002
   materials:
     importMaterials: 1
     materialName: 1
