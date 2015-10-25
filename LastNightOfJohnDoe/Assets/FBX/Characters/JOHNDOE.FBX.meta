@@ -61,6 +61,9 @@ ModelImporter:
     100106: JohnDoe_Spine2
     100108: JohnDoe_Spine3
     100110: kk
+    100112: JohnDoe_LUpVectorNode
+    100114: JohnDoe_RLegUpVectorNode
+    100116: JohnDoe_Root
     400000: Base Human001
     400002: Base Human001Head
     400004: Base Human001LCalf
@@ -117,8 +120,12 @@ ModelImporter:
     400106: JohnDoe_Spine2
     400108: JohnDoe_Spine3
     400110: kk
+    400112: JohnDoe_LUpVectorNode
+    400114: JohnDoe_RLegUpVectorNode
+    400116: JohnDoe_Root
     4300000: JOHN_DOE
-    7400000: Take 001
+    7400000: IDLE
+    7400002: WALK
     9500000: //RootNode
     13700000: JOHN_DOE
   materials:
@@ -134,20 +141,296 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationCompression: 0
+    animationRotationError: 1
+    animationPositionError: 1
+    animationScaleError: 1
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IDLE
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human001Pelvis
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001LThigh
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001LThigh/Base Human001LCalf
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001LThigh/Base Human001LCalf/Base Human001LFoot
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001RThigh
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001RThigh/Base Human001RCalf
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001RThigh/Base Human001RCalf/Base Human001RFoot
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm/Base Human001LPalm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001Neck1
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001Neck1/Base Human001Neck2
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001Neck1/Base Human001Neck2/Base
+          Human001Head
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm/Base Human001RPalm
+        weight: 1
+      - path: JOHN_DOE
+        weight: 1
+      - path: JohnDoe_Root
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_LThigh
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_LThigh/JohnDoe_LCalf
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_LThigh/JohnDoe_LCalf/JohnDoe_LFoot
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_RLegThigh
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_RLegThigh/JohnDoe_RLegCalf
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_RLegThigh/JohnDoe_RLegCalf/JohnDoe_RLegFoot
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone/JohnDoe_LArmUpperarm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone/JohnDoe_LArmUpperarm/JohnDoe_LArmForearm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone/JohnDoe_LArmUpperarm/JohnDoe_LArmForearm/JohnDoe_LArmPalm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_Neck
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_Neck/JohnDoe_Head
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm/JohnDoe_RForearm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm/JohnDoe_RForearm/JohnDoe_RPalm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm/JohnDoe_RForearm/JohnDoe_RPalm/JohnDoe_PalmBone001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WALK
+      takeName: Take 001
+      firstFrame: 71
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human001Pelvis
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001LThigh
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001LThigh/Base Human001LCalf
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001LThigh/Base Human001LCalf/Base Human001LFoot
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001RThigh
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001RThigh/Base Human001RCalf
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001RThigh/Base Human001RCalf/Base Human001RFoot
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001LCollarbone/Base Human001LUpperarm/Base
+          Human001LForearm/Base Human001LPalm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001Neck1
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001Neck1/Base Human001Neck2
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001Neck1/Base Human001Neck2/Base
+          Human001Head
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm
+        weight: 1
+      - path: Base Human001Pelvis/Base Human001Spine1/Base Human001Spine2/Base Human001Spine3/Base
+          Human001Spine4/Base Human001Ribcage/Base Human001RCollarbone/Base Human001RUpperarm/Base
+          Human001RForearm/Base Human001RPalm
+        weight: 1
+      - path: JOHN_DOE
+        weight: 1
+      - path: JohnDoe_Root
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_LThigh
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_LThigh/JohnDoe_LCalf
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_LThigh/JohnDoe_LCalf/JohnDoe_LFoot
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_RLegThigh
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_RLegThigh/JohnDoe_RLegCalf
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_RLegThigh/JohnDoe_RLegCalf/JohnDoe_RLegFoot
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone/JohnDoe_LArmUpperarm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone/JohnDoe_LArmUpperarm/JohnDoe_LArmForearm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_LArmCollarbone/JohnDoe_LArmUpperarm/JohnDoe_LArmForearm/JohnDoe_LArmPalm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_Neck
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_Neck/JohnDoe_Head
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm/JohnDoe_RForearm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm/JohnDoe_RForearm/JohnDoe_RPalm
+        weight: 1
+      - path: JohnDoe_Root/JohnDoe_Spine1/JohnDoe_Spine2/JohnDoe_Spine3/JohnDoe_Ribcage/JohnDoe_RCollarbone/JohnDoe_RUpperarm/JohnDoe_RForearm/JohnDoe_RPalm/JohnDoe_PalmBone001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 1
+    importBlendShapes: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -176,7 +459,7 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: JohnDoe_Root
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   additionalBone: 0
