@@ -18,6 +18,10 @@ ModelImporter:
     100020: Mesa_002
     100022: Cajonera_01_TRG
     100024: Cajonera_04_TRG
+    100026: Mesa_003
+    100028: Object001
+    100030: VENTANA_GEO001
+    100032: VENTANA_GEO002
     400000: //RootNode
     400002: Salon_GEO
     400004: SOFA_GEO
@@ -31,6 +35,10 @@ ModelImporter:
     400020: Mesa_002
     400022: Cajonera_01_TRG
     400024: Cajonera_04_TRG
+    400026: Mesa_003
+    400028: Object001
+    400030: VENTANA_GEO001
+    400032: VENTANA_GEO002
     2300000: //RootNode
     2300002: Salon_GEO
     2300004: SOFA_GEO
@@ -44,6 +52,10 @@ ModelImporter:
     2300020: Mesa_002
     2300022: Cajonera_01_TRG
     2300024: Cajonera_04_TRG
+    2300026: Mesa_003
+    2300028: Object001
+    2300030: VENTANA_GEO001
+    2300032: VENTANA_GEO002
     3300000: //RootNode
     3300002: Salon_GEO
     3300004: SOFA_GEO
@@ -57,6 +69,10 @@ ModelImporter:
     3300020: Mesa_002
     3300022: Cajonera_01_TRG
     3300024: Cajonera_04_TRG
+    3300026: Mesa_003
+    3300028: Object001
+    3300030: VENTANA_GEO001
+    3300032: VENTANA_GEO002
     4300000: Salon_GEO
     4300002: SOFA_GEO
     4300004: LAMPARA_GEO
@@ -69,6 +85,10 @@ ModelImporter:
     4300018: Estanteria_01
     4300020: Cajonera_01_TRG
     4300022: Cajonera_04_TRG
+    4300024: Object001
+    4300026: VENTANA_GEO001
+    4300028: VENTANA_GEO002
+    4300030: Mesa_003
   materials:
     importMaterials: 1
     materialName: 1
