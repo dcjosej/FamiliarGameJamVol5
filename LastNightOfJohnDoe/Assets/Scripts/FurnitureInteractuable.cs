@@ -2,19 +2,28 @@
 using System.Collections;
 using System;
 
-public class FurnitureInteractuable : MonoBehaviour, IInteractuable {
-
+public class FurnitureInteractuable : MonoBehaviour, IInteractuable
+{
+	
 	public GameObject objectInside;
+	public bool collected;
 
 	public void Interact()
 	{
+		if (!collected)
+		{
+			//GameObject go = Instantiate(objectInside);
+			GameManager.instance.ShowGUIPill();
+		}
+		else
+		{
+			GameManager.instance.ShowNothing();
+		}
+
+		GameManager.instance.currentObject = gameObject;
 		GameManager.instance.interacting = true;
-		//GameObject go = Instantiate(objectInside);
-		GameManager.instance.ShowGUIPill();
-		print("Rebuscando en el mueble!");
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	}
+	public void Start()
+	{}
 }

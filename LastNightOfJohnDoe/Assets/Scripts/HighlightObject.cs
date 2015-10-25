@@ -11,12 +11,17 @@ public class HighlightObject : MonoBehaviour
 
 	public void OnTriggerEnter(Collider other)
 	{
-		print("El tag del objeto con el que colisiono: " + other.tag);
-
 		if(other.tag == "Player")
 		{
-			print("RESALTANDO FOTO!!");
-			parentAnimator.enabled = true;
+			parentAnimator.SetBool("Highlight", true);
+        }
+	}
+
+	public void OnTriggerExit(Collider other)
+	{
+		if (other.tag == "Player")
+		{
+			parentAnimator.SetBool("Highlight", false);
 		}
 	}
 }

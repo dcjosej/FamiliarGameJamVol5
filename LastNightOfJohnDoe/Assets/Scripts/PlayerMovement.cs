@@ -95,7 +95,7 @@ public class PlayerMovement : MonoBehaviour {
 			}
 			else if(GameManager.instance.zoomedPhoto.IsActive() && GameManager.instance.interacting)
 			{
-				print("AQUI NO DEBERIA ESTAR ENTRANDO!");
+				print("Activando trigger!!: Photo" + GameManager.instance.photoSelected);
 				GameManager.instance.photoAnimator.SetTrigger("Photo" + GameManager.instance.photoSelected);
 			}
 
