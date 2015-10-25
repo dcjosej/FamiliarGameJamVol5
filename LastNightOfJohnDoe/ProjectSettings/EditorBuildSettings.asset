@@ -6,20 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Aseo.unity
+    path: Assets/Scenes/Menu.unity
+  - enabled: 1
+    path: Assets/Scenes/Controles.unity
+  - enabled: 1
+    path: Assets/Scenes/Hall.unity
   - enabled: 1
     path: Assets/Scenes/Cocina.unity
   - enabled: 1
     path: Assets/Scenes/Dormitorio.unity
   - enabled: 1
-    path: Assets/Scenes/Hall.unity
-  - enabled: 1
     path: Assets/Scenes/Pasillo.unity
   - enabled: 1
     path: Assets/Scenes/Salon.unity
-  - enabled: 1
-    path: Assets/Scenes/scene1.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FinalBueno.unity
   - enabled: 1
     path: Assets/Scenes/FinalMalo.unity

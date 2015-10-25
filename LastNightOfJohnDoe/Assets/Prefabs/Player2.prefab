@@ -300,7 +300,7 @@ GameObject:
   - 114: {fileID: 11471662}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,7 +320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &146714
 GameObject:
   m_ObjectHideFlags: 1
@@ -1253,8 +1253,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142600}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: 7.30999994, y: .207000002, z: -4.50500011}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.30999994, y: .00800000038, z: -.898000002}
+  m_LocalScale: {x: 1.18242645, y: 1.18242645, z: 1.18242645}
   m_Children:
   - {fileID: 422300}
   - {fileID: 482566}
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationVelocity: 1
-  movementVelocity: 4
+  movementVelocity: .5
 --- !u!114 &11471662
 MonoBehaviour:
   m_ObjectHideFlags: 1
