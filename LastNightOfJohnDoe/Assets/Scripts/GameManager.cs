@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour {
 		{
 			Destroy(gameObject);
 		}
-		previousRoom = Room.SALON;
+		previousRoom = Room.HALL;
 	}
 
 	void Start ()

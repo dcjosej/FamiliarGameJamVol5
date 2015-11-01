@@ -10,20 +10,31 @@ public class PlayerMovement : MonoBehaviour {
 	public IInteractuable interactuableObject { get; set; }
 
 	// Use this for initialization
-	void Start ()
+	void OnLevelWasLoaded ()
 	{
+		InitPlayer();
+		
+	}
 
+	void Start()
+	{
+		InitPlayer();
+	}
+
+	private void InitPlayer()
+	{
 		playerAnimator = GetComponent<Animator>();
 
-		Door [] doors = FindObjectsOfType<Door>();
-		foreach(Door door in doors)
+		Door[] doors = FindObjectsOfType<Door>();
+		foreach (Door door in doors)
 		{
-			if(door.nextDoor == GameManager.instance.previousRoom)
+			if (door.nextDoor == GameManager.instance.previousRoom)
 			{
-				foreach(Transform t  in door.transform)
+				foreach (Transform t in door.transform)
 				{
-					if(t.tag == "SpawnPlayer")
+					if (t.tag == "SpawnPlayer")
 					{
+						print("SPAWN PLAYER ENCONTRADO");
 						transform.position = t.transform.position;
 					}
 				}
@@ -35,8 +46,8 @@ public class PlayerMovement : MonoBehaviour {
 					*/
 			}
 		}
-	}
 
+	}
 	void Update()
 	{
 		CheckKeyboard();

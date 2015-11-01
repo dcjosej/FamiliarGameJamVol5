@@ -69,6 +69,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &141004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 485534}
+  m_Layer: 0
+  m_Name: DoorSpawnPlayer
+  m_TagString: SpawnPlayer
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &168652
 GameObject:
   m_ObjectHideFlags: 1
@@ -109,12 +124,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180572}
-  m_LocalRotation: {x: 7.06288432e-08, y: .707106888, z: .707106709, w: 2.235174e-08}
-  m_LocalPosition: {x: 7.46000004, y: 0, z: -.451999992}
+  m_LocalRotation: {x: -.707106888, y: 0, z: 0, w: .707106709}
+  m_LocalPosition: {x: 1.51999998, y: .0199999996, z: -10.1070004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 402132}
   - {fileID: 443540}
+  - {fileID: 485534}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &402132
@@ -161,8 +177,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130992}
-  m_LocalRotation: {x: 1.35940148e-08, y: 4.4403027e-08, z: -.0127867982, w: .999918282}
-  m_LocalPosition: {x: -.555404663, y: -.0673084259, z: 5.77047467e-06}
+  m_LocalRotation: {x: 3.22743503e-08, y: 4.77763562e-09, z: -.00317454292, w: .999994993}
+  m_LocalPosition: {x: -.55540508, y: -.0673084259, z: 5.77061746e-06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 481308}
@@ -180,6 +196,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 464162}
   m_RootOrder: 0
+--- !u!4 &485534
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -.236000001, z: .222000003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 401152}
+  m_RootOrder: 2
 --- !u!23 &2302444
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -364,7 +392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closed: 0
-  nextDoor: 5
+  nextDoor: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

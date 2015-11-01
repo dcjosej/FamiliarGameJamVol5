@@ -62,6 +62,9 @@ public class Door : MonoBehaviour, IInteractuable{
 			case "Cocina":
 				GameManager.instance.previousRoom = Room.COCINA;
 				break;
+			case "Dormitorio":
+				GameManager.instance.previousRoom = Room.DORMITORIO;
+				break;
 		}
 	}
 

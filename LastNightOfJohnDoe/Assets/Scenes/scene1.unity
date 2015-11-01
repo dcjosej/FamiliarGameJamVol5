@@ -203,7 +203,7 @@ Transform:
   m_LocalScale: {x: 5.19999981, y: 1, z: 3.23000002}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &225381107
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +289,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79d8c5d313f12b489783391926c4b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoints: []
+  state: 0
+  selectedIndex: 0
+  attacking: 0
 --- !u!1001 &309975792
 Prefab:
   m_ObjectHideFlags: 0
@@ -498,6 +502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectInside: {fileID: 0}
+  collected: 0
 --- !u!1 &765422397
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,11 +717,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22489766, guid: 3f6c23313579d974dafa17ae88199986, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22489766, guid: 3f6c23313579d974dafa17ae88199986, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f6c23313579d974dafa17ae88199986, type: 2}
