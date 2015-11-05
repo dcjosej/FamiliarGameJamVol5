@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1c3405f64d9ec1e4c9def7f5f2264e3e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shader: {fileID: 4800000, guid: 86afbc4f5b5cd48468ee587dc4c9fdc8, type: 3}
+  - ditherText: {fileID: 2800000, guid: a49d06bdc197f7244a8a62e7b2576f45, type: 3}
+  - converted3DLut: {instanceID: 0}
+  - lutTexture2D: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

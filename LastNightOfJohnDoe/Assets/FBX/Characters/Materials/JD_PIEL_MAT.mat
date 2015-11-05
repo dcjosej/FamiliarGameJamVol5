@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: JD_PIEL_MAT
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 6782973e3ca8b2543beddb0a3dc3175e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -78,6 +78,27 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BoobMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ToonShade
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -91,6 +112,10 @@ Material:
         first:
           name: _Cutoff
         second: .5
+      data:
+        first:
+          name: _Shininess
+        second: .100000001
       data:
         first:
           name: _Parallax
@@ -127,6 +152,50 @@ Material:
         first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: _RampThreshold
+        second: .340000004
+      data:
+        first:
+          name: _RampSmooth
+        second: .920000017
+      data:
+        first:
+          name: _SpecPow
+        second: 1
+      data:
+        first:
+          name: _GlossPow
+        second: 1
+      data:
+        first:
+          name: _Blend1
+        second: 1
+      data:
+        first:
+          name: _SpecSmooth
+        second: .0500000007
+      data:
+        first:
+          name: _Outline
+        second: -2.95000005
+      data:
+        first:
+          name: _TexLod
+        second: 1.03999996
+      data:
+        first:
+          name: _ZSmooth
+        second: -2.21000004
+      data:
+        first:
+          name: _Offset1
+        second: 0
+      data:
+        first:
+          name: _Offset2
+        second: 0
     m_Colors:
       data:
         first:
@@ -135,4 +204,28 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .670588255, g: .517647088, b: .435294151, a: 1}
+        second: {r: .845588207, g: .623310447, b: .503622413, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .385380656, g: .389327079, b: .397058845, a: .5}
+      data:
+        first:
+          name: _HColor
+        second: {r: .527747989, g: .593675911, b: .597000003, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: .338235319, g: .254173905, b: .296000004, a: 1}
+      data:
+        first:
+          name: _Color2
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Color3
+        second: {r: .522058845, g: .228778183, b: .203449413, a: 0}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}

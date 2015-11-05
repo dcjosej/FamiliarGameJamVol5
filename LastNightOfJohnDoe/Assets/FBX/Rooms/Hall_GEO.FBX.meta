@@ -15,6 +15,12 @@ ModelImporter:
     100014: Object003
     100016: VENTANA_GEO007
     100018: Mesa_005
+    100020: RODAPIE_GEO
+    100022: Pasillo_01_GEO
+    100024: Vigas_Hall
+    100026: Aseo_GEO
+    100028: Box001
+    100030: Box002
     400000: //RootNode
     400002: Cajonera_002
     400004: Hall_GEO
@@ -25,6 +31,12 @@ ModelImporter:
     400014: Object003
     400016: VENTANA_GEO007
     400018: Mesa_005
+    400020: RODAPIE_GEO
+    400022: Pasillo_01_GEO
+    400024: Vigas_Hall
+    400026: Aseo_GEO
+    400028: Box001
+    400030: Box002
     2300000: //RootNode
     2300002: Cajonera_002
     2300004: Hall_GEO
@@ -35,6 +47,12 @@ ModelImporter:
     2300014: Object003
     2300016: VENTANA_GEO007
     2300018: Mesa_005
+    2300020: RODAPIE_GEO
+    2300022: Pasillo_01_GEO
+    2300024: Vigas_Hall
+    2300026: Aseo_GEO
+    2300028: Box001
+    2300030: Box002
     3300000: //RootNode
     3300002: Cajonera_002
     3300004: Hall_GEO
@@ -45,6 +63,12 @@ ModelImporter:
     3300014: Object003
     3300016: VENTANA_GEO007
     3300018: Mesa_005
+    3300020: RODAPIE_GEO
+    3300022: Pasillo_01_GEO
+    3300024: Vigas_Hall
+    3300026: Aseo_GEO
+    3300028: Box001
+    3300030: Box002
     4300000: Hall_GEO
     4300002: Cajonera_002
     4300004: LAMPARA_GEO004
@@ -54,6 +78,12 @@ ModelImporter:
     4300012: Object003
     4300014: VENTANA_GEO007
     4300016: Mesa_005
+    4300018: RODAPIE_GEO
+    4300020: Pasillo_01_GEO
+    4300022: Vigas_Hall
+    4300024: Aseo_GEO
+    4300026: Box001
+    4300028: Box002
   materials:
     importMaterials: 1
     materialName: 1

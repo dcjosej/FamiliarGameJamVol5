@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: JD_NARIZ_MAT
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 6782973e3ca8b2543beddb0a3dc3175e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -78,6 +78,13 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -127,6 +134,14 @@ Material:
         first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: _RampThreshold
+        second: .268999994
+      data:
+        first:
+          name: _RampSmooth
+        second: .407000005
     m_Colors:
       data:
         first:
@@ -136,3 +151,11 @@ Material:
         first:
           name: _Color
         second: {r: .58431375, g: .290196091, b: .290196091, a: 1}
+      data:
+        first:
+          name: _HColor
+        second: {r: .600000024, g: .600000024, b: .600000024, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: .45588237, g: .1843642, b: .1843642, a: 1}
