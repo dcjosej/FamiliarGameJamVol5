@@ -21,6 +21,11 @@ ModelImporter:
     100026: Aseo_GEO
     100028: Box001
     100030: Box002
+    100032: Door_Hall
+    100034: Lampara_mesa_GEO
+    100036: Cuadros_GEO
+    100038: Cuadros_Hall_GEO
+    100040: Mesa_005_GEO
     400000: //RootNode
     400002: Cajonera_002
     400004: Hall_GEO
@@ -37,6 +42,11 @@ ModelImporter:
     400026: Aseo_GEO
     400028: Box001
     400030: Box002
+    400032: Door_Hall
+    400034: Lampara_mesa_GEO
+    400036: Cuadros_GEO
+    400038: Cuadros_Hall_GEO
+    400040: Mesa_005_GEO
     2300000: //RootNode
     2300002: Cajonera_002
     2300004: Hall_GEO
@@ -53,6 +63,11 @@ ModelImporter:
     2300026: Aseo_GEO
     2300028: Box001
     2300030: Box002
+    2300032: Door_Hall
+    2300034: Lampara_mesa_GEO
+    2300036: Cuadros_GEO
+    2300038: Cuadros_Hall_GEO
+    2300040: Mesa_005_GEO
     3300000: //RootNode
     3300002: Cajonera_002
     3300004: Hall_GEO
@@ -69,6 +84,11 @@ ModelImporter:
     3300026: Aseo_GEO
     3300028: Box001
     3300030: Box002
+    3300032: Door_Hall
+    3300034: Lampara_mesa_GEO
+    3300036: Cuadros_GEO
+    3300038: Cuadros_Hall_GEO
+    3300040: Mesa_005_GEO
     4300000: Hall_GEO
     4300002: Cajonera_002
     4300004: LAMPARA_GEO004
@@ -84,6 +104,11 @@ ModelImporter:
     4300024: Aseo_GEO
     4300026: Box001
     4300028: Box002
+    4300030: Door_Hall
+    4300032: Lampara_mesa_GEO
+    4300034: Cuadros_GEO
+    4300036: Mesa_005_GEO
+    4300038: Cuadros_Hall_GEO
   materials:
     importMaterials: 1
     materialName: 1
