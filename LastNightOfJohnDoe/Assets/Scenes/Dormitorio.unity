@@ -85,6 +85,232 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &17162665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 118472, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 17162666}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17162666
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 452466, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 17162665}
+  m_LocalRotation: {x: -4.47011992e-08, y: -3.51471954e-08, z: .114407465, w: .993433952}
+  m_LocalPosition: {x: -.050110396, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000203, y: .999999821, z: .999998152}
+  m_Children:
+  - {fileID: 855033778}
+  m_Father: {fileID: 1569485353}
+  m_RootOrder: 0
+--- !u!1 &64841251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 108298, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 64841252}
+  m_Layer: 0
+  m_Name: Muerte_Rig_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &64841252
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 419104, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 64841251}
+  m_LocalRotation: {x: .00129555783, y: .00614323001, z: .0934343562, w: .995605648}
+  m_LocalPosition: {x: -.259229571, y: 0, z: 5.96046434e-10}
+  m_LocalScale: {x: .999999762, y: .999999583, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 1211465460}
+  m_RootOrder: 0
+--- !u!1 &152106823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 175960, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 152106824}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152106824
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 443714, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 152106823}
+  m_LocalRotation: {x: -.000108778899, y: -9.40959726e-05, z: -.649083912, w: .760716796}
+  m_LocalPosition: {x: -.428746939, y: 7.62939436e-08, z: 0}
+  m_LocalScale: {x: .999998987, y: .999999404, z: .999997675}
+  m_Children:
+  - {fileID: 399427204}
+  m_Father: {fileID: 761397450}
+  m_RootOrder: 0
+--- !u!1 &158355010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 110596, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 158355011}
+  m_Layer: 0
+  m_Name: Muerte_Rig_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &158355011
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457338, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 158355010}
+  m_LocalRotation: {x: .49999997, y: -.50000006, z: -.49999997, w: .50000006}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2105367430}
+  m_RootOrder: 1
+--- !u!1 &175598531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 157454, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 175598532}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &175598532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457326, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 175598531}
+  m_LocalRotation: {x: 2.7291172e-08, y: 1.25399708e-08, z: .301591903, w: .95343709}
+  m_LocalPosition: {x: -.0370394886, y: 3.81469718e-08, z: 1.90734859e-08}
+  m_LocalScale: {x: 1.00000346, y: .999998391, z: .999998152}
+  m_Children:
+  - {fileID: 439203884}
+  m_Father: {fileID: 752783174}
+  m_RootOrder: 0
+--- !u!1 &360709444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 177730, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 360709445}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &360709445
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 429200, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 360709444}
+  m_LocalRotation: {x: 1.26918271e-08, y: 7.80768161e-09, z: .523967266, w: .851738393}
+  m_LocalPosition: {x: -.0404518135, y: 9.53674295e-09, z: 0}
+  m_LocalScale: {x: .99999243, y: 1.00000501, z: 1.00000155}
+  m_Children: []
+  m_Father: {fileID: 1354746537}
+  m_RootOrder: 0
+--- !u!1 &372449689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 133302, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 372449690}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &372449690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 423902, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 372449689}
+  m_LocalRotation: {x: -.00190717145, y: .101863667, z: .00292994315, w: .994792223}
+  m_LocalPosition: {x: -.0828400403, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000226, y: .999997854, z: .999999464}
+  m_Children:
+  - {fileID: 1118686707}
+  m_Father: {fileID: 536094904}
+  m_RootOrder: 0
+--- !u!1 &399427203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 170546, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 399427204}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &399427204
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 463304, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 399427203}
+  m_LocalRotation: {x: .787205577, y: -.181544125, z: -.100832358, w: .580673695}
+  m_LocalPosition: {x: -.439816505, y: 0, z: -7.62939436e-08}
+  m_LocalScale: {x: .999995112, y: .999998271, z: .999997973}
+  m_Children:
+  - {fileID: 1084378761}
+  - {fileID: 682670293}
+  - {fileID: 1160301775}
+  - {fileID: 673629378}
+  - {fileID: 1368149135}
+  - {fileID: 1100319022}
+  m_Father: {fileID: 152106824}
+  m_RootOrder: 0
 --- !u!1 &407854933
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +320,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 407854934}
   m_Layer: 0
-  m_Name: SpawnPoint_Muerte_02_Dormitorio
+  m_Name: SpawnPoint_Muerte_1_Dormitorio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,11 +333,65 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407854933}
   m_LocalRotation: {x: 0, y: -.855713308, z: 0, w: .517450213}
-  m_LocalPosition: {x: 16.4799995, y: -0, z: -4.46000004}
+  m_LocalPosition: {x: 18.9521675, y: -1.28314209, z: 3.90627193}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 672783561}
+  m_RootOrder: 1
+--- !u!1 &413714625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 118274, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 413714626}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413714626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445248, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 413714625}
+  m_LocalRotation: {x: .000897801365, y: .459084064, z: .000245221629, w: .888392329}
+  m_LocalPosition: {x: -.054022368, y: 0, z: 0}
+  m_LocalScale: {x: .999991, y: .999999285, z: 1.00000858}
+  m_Children: []
+  m_Father: {fileID: 1170751125}
+  m_RootOrder: 0
+--- !u!1 &439203883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 198328, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 439203884}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439203884
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 447118, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 439203883}
+  m_LocalRotation: {x: 6.62618049e-08, y: 3.75656306e-08, z: .30159229, w: .953436971}
+  m_LocalPosition: {x: -.0404518135, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000441, y: .999997914, z: .999998152}
+  m_Children: []
+  m_Father: {fileID: 175598532}
+  m_RootOrder: 0
 --- !u!1001 &467219651
 Prefab:
   m_ObjectHideFlags: 0
@@ -178,6 +458,526 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e6f8d77c7c50f654b9123ae424e03178, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &536094903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 103010, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 536094904}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &536094904
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 428428, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 536094903}
+  m_LocalRotation: {x: .223468542, y: .189747304, z: .124507032, w: .947921813}
+  m_LocalPosition: {x: -.0243130494, y: 7.62939436e-08, z: .0386541747}
+  m_LocalScale: {x: 1.0000025, y: .999998271, z: .999998748}
+  m_Children:
+  - {fileID: 372449690}
+  m_Father: {fileID: 1549880213}
+  m_RootOrder: 0
+--- !u!1 &615713455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137478, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 615713456}
+  m_Layer: 0
+  m_Name: Muerte_Rig_Ribcage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615713456
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 450616, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 615713455}
+  m_LocalRotation: {x: .000254667568, y: -.00127858005, z: .00446866592, w: .999989152}
+  m_LocalPosition: {x: -.328364551, y: 3.81469718e-08, z: 0}
+  m_LocalScale: {x: 1, y: .99999994, z: 1.00000012}
+  m_Children:
+  - {fileID: 821274219}
+  - {fileID: 1211465460}
+  - {fileID: 1605153300}
+  m_Father: {fileID: 2109107702}
+  m_RootOrder: 0
+--- !u!1 &660007848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 197246, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 660007849}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmIKTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660007849
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 472528, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 660007848}
+  m_LocalRotation: {x: -.476005405, y: -.401943564, z: -.543820262, w: .562245309}
+  m_LocalPosition: {x: .473880261, y: 1.28806424, z: .445141912}
+  m_LocalScale: {x: .999996901, y: .999999762, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 2105367430}
+  m_RootOrder: 3
+--- !u!1 &672783560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 672783561}
+  m_Layer: 0
+  m_Name: SpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &672783561
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672783560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.47216797, y: 1.28314209, z: -8.36627197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2103706461}
+  - {fileID: 407854934}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+--- !u!1 &673629377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 183998, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 673629378}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &673629378
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 479444, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 673629377}
+  m_LocalRotation: {x: 1.83635933e-08, y: -5.67361482e-08, z: .535903931, w: .844278991}
+  m_LocalPosition: {x: -.16614522, y: .0227131639, z: -.0174429324}
+  m_LocalScale: {x: .99999553, y: 1.00000215, z: 1.00000155}
+  m_Children:
+  - {fileID: 1428624961}
+  m_Father: {fileID: 399427204}
+  m_RootOrder: 3
+--- !u!1 &677787860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 167838, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 677787861}
+  - 114: {fileID: 677787862}
+  m_Layer: 0
+  m_Name: MuertePrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &677787861
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787860}
+  m_LocalRotation: {x: 0, y: .70710659, z: 0, w: -.707106948}
+  m_LocalPosition: {x: 20.4899998, y: 0, z: -5.36999989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2105367430}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+--- !u!114 &677787862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11429208, guid: e1dde4d13cc4ed64daae03a5cdabf8fa,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79d8c5d313f12b489783391926c4b35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neck: {fileID: 1211465460}
+  spawnPoints:
+  - {fileID: 2103706461}
+  - {fileID: 407854934}
+--- !u!1 &682670292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 138506, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 682670293}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &682670293
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 487736, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 682670292}
+  m_LocalRotation: {x: -.0327694751, y: -.246610612, z: .342851877, w: .905848742}
+  m_LocalPosition: {x: -.0243128389, y: -1.14440915e-07, z: -.0386538692}
+  m_LocalScale: {x: .999996006, y: 1.00000083, z: 1.00000262}
+  m_Children:
+  - {fileID: 1170751125}
+  m_Father: {fileID: 399427204}
+  m_RootOrder: 1
+--- !u!1 &714566577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184266, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 714566578}
+  m_Layer: 0
+  m_Name: Muerte_Rig_Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &714566578
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 422142, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 714566577}
+  m_LocalRotation: {x: -.000150905442, y: -.000729051302, z: -.0465625003, w: .998915136}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2109107702}
+  m_Father: {fileID: 768964702}
+  m_RootOrder: 0
+--- !u!1 &752783173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 166478, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 752783174}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &752783174
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 480954, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 752783173}
+  m_LocalRotation: {x: 6.37874464e-08, y: -6.57813501e-08, z: .301591426, w: .953437269}
+  m_LocalPosition: {x: -.164135888, y: .0101380153, z: -.0530803874}
+  m_LocalScale: {x: 1.00000298, y: .999999046, z: .999998152}
+  m_Children:
+  - {fileID: 175598532}
+  m_Father: {fileID: 1549880213}
+  m_RootOrder: 4
+--- !u!1 &761397449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 168032, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 761397450}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &761397450
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 435904, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761397449}
+  m_LocalRotation: {x: -.00413840683, y: -.612695754, z: .122881189, w: .780696511}
+  m_LocalPosition: {x: -.156297252, y: -3.81469718e-08, z: 0}
+  m_LocalScale: {x: 1.00000238, y: 1.00000274, z: 1.00000393}
+  m_Children:
+  - {fileID: 152106824}
+  m_Father: {fileID: 1605153300}
+  m_RootOrder: 0
+--- !u!1 &768964701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 155804, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 768964702}
+  m_Layer: 0
+  m_Name: Muerte_Rig_Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &768964702
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 464228, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768964701}
+  m_LocalRotation: {x: .50000006, y: -.49999994, z: -.49999994, w: .50000006}
+  m_LocalPosition: {x: 4.12140618e-14, y: 1.29923356, z: -2.11672003e-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 714566578}
+  m_Father: {fileID: 2105367430}
+  m_RootOrder: 2
+--- !u!1 &821274218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 151368, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 821274219}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &821274219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 423200, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 821274218}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: -1.52587887e-07, y: 7.62939436e-08, z: .116762929}
+  m_LocalScale: {x: 1, y: 1.00000024, z: 1.00000036}
+  m_Children:
+  - {fileID: 1963687568}
+  m_Father: {fileID: 615713456}
+  m_RootOrder: 0
+--- !u!1 &855033777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 153192, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 855033778}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &855033778
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467870, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 855033777}
+  m_LocalRotation: {x: 8.52401816e-10, y: -7.40164285e-09, z: .114407681, w: .993433893}
+  m_LocalPosition: {x: -.0446528606, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000215, y: .999999762, z: .999998093}
+  m_Children: []
+  m_Father: {fileID: 17162666}
+  m_RootOrder: 0
+--- !u!1 &884745354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 198684, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 884745355}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &884745355
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 451018, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884745354}
+  m_LocalRotation: {x: 2.14139728e-08, y: -1.28820892e-08, z: .535903394, w: .844279289}
+  m_LocalPosition: {x: -.0541657247, y: -9.53674295e-09, z: 1.52587887e-07}
+  m_LocalScale: {x: .999992847, y: 1.00000465, z: 1.00000155}
+  m_Children: []
+  m_Father: {fileID: 1428624961}
+  m_RootOrder: 0
+--- !u!1 &965832772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 121444, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 965832773}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &965832773
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 410030, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 965832772}
+  m_LocalRotation: {x: 3.10938226e-08, y: 2.08524114e-08, z: .471570641, w: .881828308}
+  m_LocalPosition: {x: -.0501105115, y: 7.62939436e-08, z: 0}
+  m_LocalScale: {x: .999994457, y: 1.00000286, z: 1.00000155}
+  m_Children:
+  - {fileID: 2063595959}
+  m_Father: {fileID: 1160301775}
+  m_RootOrder: 0
+--- !u!1 &1084378760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 115862, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1084378761}
+  m_Layer: 0
+  m_Name: Muerte_Rig_PalmBone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1084378761
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 430158, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1084378760}
+  m_LocalRotation: {x: -.0734746829, y: -.699885309, z: -.0741779208, w: .706583142}
+  m_LocalPosition: {x: -.126166478, y: -.0254671089, z: .00120178214}
+  m_LocalScale: {x: .999998629, y: .999999821, z: 1.00000083}
+  m_Children:
+  - {fileID: 2074604877}
+  m_Father: {fileID: 399427204}
+  m_RootOrder: 0
+--- !u!1 &1100319021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 133358, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1100319022}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1100319022
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 481996, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1100319021}
+  m_LocalRotation: {x: 2.58611088e-08, y: -5.6258127e-08, z: .523967922, w: .851737976}
+  m_LocalPosition: {x: -.164134994, y: .0101379771, z: .0530802906}
+  m_LocalScale: {x: .999995351, y: 1.00000203, z: 1.00000167}
+  m_Children:
+  - {fileID: 1354746537}
+  m_Father: {fileID: 399427204}
+  m_RootOrder: 5
+--- !u!1 &1118686706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145654, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1118686707}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1118686707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 493738, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1118686706}
+  m_LocalRotation: {x: -.00162540656, y: .0495891087, z: .00116577989, w: .998767734}
+  m_LocalPosition: {x: -.0540224463, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000191, y: 1.00000024, z: .999997616}
+  m_Children: []
+  m_Father: {fileID: 372449690}
+  m_RootOrder: 0
 --- !u!1001 &1156892126
 Prefab:
   m_ObjectHideFlags: 0
@@ -329,6 +1129,247 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1160301774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 132534, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1160301775}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1160301775
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 423894, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160301774}
+  m_LocalRotation: {x: 3.16214397e-08, y: -5.91314375e-08, z: .471571028, w: .88182807}
+  m_LocalPosition: {x: -.164135039, y: .00955387112, z: -.0547117591}
+  m_LocalScale: {x: .999995649, y: 1.00000179, z: 1.00000167}
+  m_Children:
+  - {fileID: 965832773}
+  m_Father: {fileID: 399427204}
+  m_RootOrder: 2
+--- !u!1 &1170751124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 164568, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1170751125}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1170751125
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 434806, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1170751124}
+  m_LocalRotation: {x: -2.84891958e-05, y: .514305472, z: .00154271245, w: .857605696}
+  m_LocalPosition: {x: -.0828400403, y: 0, z: -7.62939436e-08}
+  m_LocalScale: {x: .999991775, y: 1.00000167, z: 1.0000056}
+  m_Children:
+  - {fileID: 413714626}
+  m_Father: {fileID: 682670293}
+  m_RootOrder: 0
+--- !u!1 &1211465459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 178790, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1211465460}
+  - 54: {fileID: 1211465461}
+  m_Layer: 0
+  m_Name: Muerte_Rig_Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1211465460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 487474, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1211465459}
+  m_LocalRotation: {x: .055612959, y: -.00130916969, z: -.107941248, w: .992599726}
+  m_LocalPosition: {x: 1.05738224e-10, y: 1.88207405e-08, z: -2.44569414e-08}
+  m_LocalScale: {x: .999999762, y: .999999344, z: .999999762}
+  m_Children:
+  - {fileID: 64841252}
+  m_Father: {fileID: 615713456}
+  m_RootOrder: 1
+--- !u!54 &1211465461
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5499576, guid: e1dde4d13cc4ed64daae03a5cdabf8fa,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1211465459}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 96
+  m_CollisionDetection: 0
+--- !u!1 &1343256347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143280, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1343256348}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343256348
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 466478, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1343256347}
+  m_LocalRotation: {x: 7.76100393e-08, y: -4.50086795e-08, z: .313254178, w: .949669302}
+  m_LocalPosition: {x: -.164135814, y: .0191992559, z: -.0157233234}
+  m_LocalScale: {x: 1.00000298, y: .999998868, z: .999998033}
+  m_Children:
+  - {fileID: 1347332727}
+  m_Father: {fileID: 1549880213}
+  m_RootOrder: 3
+--- !u!1 &1347332726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 174032, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1347332727}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1347332727
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 465850, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1347332726}
+  m_LocalRotation: {x: 4.74167905e-09, y: 9.40949541e-09, z: .313254714, w: .949669182}
+  m_LocalPosition: {x: -.0551463291, y: -3.81469718e-08, z: -1.90734859e-08}
+  m_LocalScale: {x: 1.00000358, y: .999998093, z: .999997795}
+  m_Children:
+  - {fileID: 1804976113}
+  m_Father: {fileID: 1343256348}
+  m_RootOrder: 0
+--- !u!1 &1354746536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136890, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1354746537}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1354746537
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 495156, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1354746536}
+  m_LocalRotation: {x: -5.61499558e-09, y: -1.22017552e-08, z: .523967624, w: .851738214}
+  m_LocalPosition: {x: -.0370396227, y: 3.81469718e-08, z: 0}
+  m_LocalScale: {x: .99999398, y: 1.00000358, z: 1.00000167}
+  m_Children:
+  - {fileID: 360709445}
+  m_Father: {fileID: 1100319022}
+  m_RootOrder: 0
+--- !u!1 &1368149134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 177208, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1368149135}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1368149135
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 480422, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368149134}
+  m_LocalRotation: {x: 3.8497685e-08, y: -5.60369848e-08, z: .566251755, w: .824232399}
+  m_LocalPosition: {x: -.164135009, y: .0191992186, z: .0157234184}
+  m_LocalScale: {x: .999995232, y: 1.00000226, z: 1.00000167}
+  m_Children:
+  - {fileID: 1627147818}
+  m_Father: {fileID: 399427204}
+  m_RootOrder: 4
+--- !u!1 &1395101951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 165192, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1395101952}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395101952
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 476094, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395101951}
+  m_LocalRotation: {x: -1.60624083e-08, y: 4.42206449e-09, z: .193763122, w: .981048346}
+  m_LocalPosition: {x: -.0561799593, y: 5.72204577e-08, z: 0}
+  m_LocalScale: {x: 1.00000262, y: .999999642, z: .999998093}
+  m_Children:
+  - {fileID: 1487853559}
+  m_Father: {fileID: 1813259050}
+  m_RootOrder: 0
 --- !u!1 &1395431249
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +1397,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1886830649}
   m_RootOrder: 2
+--- !u!1 &1428624960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 121010, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1428624961}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1428624961
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 499618, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1428624960}
+  m_LocalRotation: {x: 4.657538e-08, y: 3.08906967e-09, z: .535903633, w: .84427917}
+  m_LocalPosition: {x: -.0561799817, y: 0, z: 0}
+  m_LocalScale: {x: .99999392, y: 1.0000031, z: 1.00000155}
+  m_Children:
+  - {fileID: 884745355}
+  m_Father: {fileID: 673629378}
+  m_RootOrder: 0
 --- !u!1001 &1438822239
 Prefab:
   m_ObjectHideFlags: 0
@@ -446,6 +1515,33 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e20a34c8a1893a14a90a33682148d91a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1447024612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 191022, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1447024613}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1447024613
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 411240, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447024612}
+  m_LocalRotation: {x: 7.4066584e-08, y: 2.37655691e-08, z: .56625098, w: .824232876}
+  m_LocalPosition: {x: -.0529785901, y: -1.90734859e-08, z: 0}
+  m_LocalScale: {x: .999992311, y: 1.0000056, z: 1.00000167}
+  m_Children: []
+  m_Father: {fileID: 1627147818}
+  m_RootOrder: 0
 --- !u!1001 &1467725962
 Prefab:
   m_ObjectHideFlags: 0
@@ -532,6 +1628,33 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e20a34c8a1893a14a90a33682148d91a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1487853558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 173194, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1487853559}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487853559
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401054, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1487853558}
+  m_LocalRotation: {x: 3.05900301e-08, y: -3.95252044e-08, z: .19376336, w: .981048286}
+  m_LocalPosition: {x: -.0541657247, y: -3.81469718e-08, z: 0}
+  m_LocalScale: {x: 1.00000274, y: .999999166, z: .999998093}
+  m_Children: []
+  m_Father: {fileID: 1395101952}
+  m_RootOrder: 0
 --- !u!1001 &1549304169
 Prefab:
   m_ObjectHideFlags: 0
@@ -574,6 +1697,205 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8aa761e8b0b3014aa5bd63f0dabfa54, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1549880212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 196332, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1549880213}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549880213
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 465128, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1549880212}
+  m_LocalRotation: {x: -.455722719, y: .00595078617, z: .145958468, w: .878053248}
+  m_LocalPosition: {x: -.439816594, y: 0, z: 3.81469718e-08}
+  m_LocalScale: {x: 1.00000155, y: .999999285, z: .999998331}
+  m_Children:
+  - {fileID: 536094904}
+  - {fileID: 1569485353}
+  - {fileID: 1813259050}
+  - {fileID: 1343256348}
+  - {fileID: 752783174}
+  m_Father: {fileID: 1803106345}
+  m_RootOrder: 0
+--- !u!1 &1569485352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 164502, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1569485353}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1569485353
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 469092, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1569485352}
+  m_LocalRotation: {x: 7.82057867e-08, y: -3.59924321e-08, z: .114407003, w: .993434012}
+  m_LocalPosition: {x: -.164135888, y: .00955387112, z: .0547118746}
+  m_LocalScale: {x: 1.00000203, y: .999999821, z: .999998033}
+  m_Children:
+  - {fileID: 17162666}
+  m_Father: {fileID: 1549880213}
+  m_RootOrder: 1
+--- !u!1 &1605153299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 186414, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1605153300}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605153300
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442840, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1605153299}
+  m_LocalRotation: {x: -0, y: -.707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 4.57763662e-07, y: 7.62939436e-08, z: -.116762899}
+  m_LocalScale: {x: .999999881, y: .999999881, z: 1}
+  m_Children:
+  - {fileID: 761397450}
+  m_Father: {fileID: 615713456}
+  m_RootOrder: 2
+--- !u!1 &1627147817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 144854, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1627147818}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1627147818
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 406982, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1627147817}
+  m_LocalRotation: {x: 7.73623887e-10, y: 1.86104305e-08, z: .566251516, w: .824232519}
+  m_LocalPosition: {x: -.0551463105, y: 0, z: 0}
+  m_LocalScale: {x: .999993682, y: 1.0000037, z: 1.00000155}
+  m_Children:
+  - {fileID: 1447024613}
+  m_Father: {fileID: 1368149135}
+  m_RootOrder: 0
+--- !u!1 &1803106344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 132034, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1803106345}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1803106345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 479212, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1803106344}
+  m_LocalRotation: {x: 4.2764583e-08, y: -1.44734514e-07, z: -.325481445, w: .945548475}
+  m_LocalPosition: {x: -.428747088, y: 9.53674295e-09, z: 0}
+  m_LocalScale: {x: 1.00000143, y: .999999464, z: 1.0000006}
+  m_Children:
+  - {fileID: 1549880213}
+  m_Father: {fileID: 1963687568}
+  m_RootOrder: 0
+--- !u!1 &1804976112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 121106, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1804976113}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1804976113
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 422204, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804976112}
+  m_LocalRotation: {x: 5.39898748e-09, y: 3.1201207e-08, z: .31325537, w: .949668944}
+  m_LocalPosition: {x: -.0529785156, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000441, y: .999997675, z: .999998033}
+  m_Children: []
+  m_Father: {fileID: 1347332727}
+  m_RootOrder: 0
+--- !u!1 &1813259049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114190, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1813259050}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmDigit31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1813259050
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 441444, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813259049}
+  m_LocalRotation: {x: 1.01089078e-07, y: -4.07902512e-08, z: .193762794, w: .981048405}
+  m_LocalPosition: {x: -.16614601, y: .0227130502, z: .0174430087}
+  m_LocalScale: {x: 1.00000226, y: .999999642, z: .999998212}
+  m_Children:
+  - {fileID: 1395101952}
+  m_Father: {fileID: 1549880213}
+  m_RootOrder: 2
 --- !u!1001 &1886830648
 Prefab:
   m_ObjectHideFlags: 0
@@ -624,6 +1946,88 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 401152, guid: 4e5f785ba19a0144eae99b20a108458b, type: 2}
   m_PrefabInternal: {fileID: 1886830648}
+--- !u!1 &1963687567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 132860, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1963687568}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1963687568
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490734, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963687567}
+  m_LocalRotation: {x: -.117201656, y: .680415571, z: .0524236448, w: .721491635}
+  m_LocalPosition: {x: -.156297266, y: 0, z: 0}
+  m_LocalScale: {x: .999999821, y: 1.00000024, z: 1.00000036}
+  m_Children:
+  - {fileID: 1803106345}
+  m_Father: {fileID: 821274219}
+  m_RootOrder: 0
+--- !u!1 &2063595958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184264, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2063595959}
+  m_Layer: 0
+  m_Name: Muerte_Rig_RArmDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2063595959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 477722, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2063595958}
+  m_LocalRotation: {x: 1.7726542e-08, y: -1.58676894e-08, z: .471570343, w: .881828487}
+  m_LocalPosition: {x: -.0446528234, y: 3.81469718e-08, z: 1.52587887e-07}
+  m_LocalScale: {x: .999993384, y: 1.00000429, z: 1.00000167}
+  m_Children: []
+  m_Father: {fileID: 965832773}
+  m_RootOrder: 0
+--- !u!1 &2074604876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 124798, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2074604877}
+  m_Layer: 0
+  m_Name: Muerte_Rig_LArmIKTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2074604877
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 494554, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2074604876}
+  m_LocalRotation: {x: .701148748, y: -.550088167, z: .391234815, w: .22962743}
+  m_LocalPosition: {x: -.570366204, y: .206365928, z: -.715359032}
+  m_LocalScale: {x: 1.00000346, y: 1.00000024, z: .999997854}
+  m_Children: []
+  m_Father: {fileID: 1084378761}
+  m_RootOrder: 0
 --- !u!1 &2103706460
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +2037,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2103706461}
   m_Layer: 0
-  m_Name: SpawnPoint_Muerte_01_Dormitorio
+  m_Name: SpawnPoint_Muerte_0_Dormitorio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -646,8 +2050,199 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2103706460}
   m_LocalRotation: {x: 0, y: -.935370684, z: 0, w: .353668958}
-  m_LocalPosition: {x: 19.2900009, y: -.819999993, z: -2.31999993}
+  m_LocalPosition: {x: 21.7621689, y: -2.10314202, z: 6.04627228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 672783561}
   m_RootOrder: 0
+--- !u!1 &2105367429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 157998, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2105367430}
+  - 95: {fileID: 2105367431}
+  m_Layer: 0
+  m_Name: MUERTE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2105367430
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 446580, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2105367429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2142678534}
+  - {fileID: 158355011}
+  - {fileID: 768964702}
+  - {fileID: 660007849}
+  m_Father: {fileID: 677787861}
+  m_RootOrder: 0
+--- !u!95 &2105367431
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9586164, guid: e1dde4d13cc4ed64daae03a5cdabf8fa,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2105367429}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: de8566def0d4dba4a93a403ea705107e, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &2109107701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 160742, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2109107702}
+  m_Layer: 0
+  m_Name: Muerte_Rig_Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109107702
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405472, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2109107701}
+  m_LocalRotation: {x: -.000523620634, y: -.00443722354, z: -.0924145803, w: .995710611}
+  m_LocalPosition: {x: -.328364551, y: 0, z: 1.49011609e-10}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 615713456}
+  m_Father: {fileID: 714566578}
+  m_RootOrder: 0
+--- !u!1 &2142678533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 130176, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2142678534}
+  - 137: {fileID: 2142678535}
+  m_Layer: 0
+  m_Name: Muerte_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2142678534
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 465216, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2142678533}
+  m_LocalRotation: {x: -.696364284, y: -.122787803, z: -.122787803, w: .696364284}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2105367430}
+  m_RootOrder: 0
+--- !u!137 &2142678535
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13732058, guid: e1dde4d13cc4ed64daae03a5cdabf8fa,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2142678533}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 242c2b4a3727439448134d29b3d52485, type: 2}
+  - {fileID: 2100000, guid: 3bad9b13951a4aa4bb367ace27dd40f1, type: 2}
+  - {fileID: 2100000, guid: 26c1596e57a534d438a6297e257207e1, type: 2}
+  - {fileID: 2100000, guid: 88516c794573b6741be2956034ad0331, type: 2}
+  - {fileID: 2100000, guid: 5c874de5cb2410c48976f3e6c40dabdb, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: de8566def0d4dba4a93a403ea705107e, type: 3}
+  m_Bones:
+  - {fileID: 439203884}
+  - {fileID: 768964702}
+  - {fileID: 360709445}
+  - {fileID: 1447024613}
+  - {fileID: 884745355}
+  - {fileID: 1487853559}
+  - {fileID: 1804976113}
+  - {fileID: 2063595959}
+  - {fileID: 855033778}
+  - {fileID: 714566578}
+  - {fileID: 1963687568}
+  - {fileID: 2109107702}
+  - {fileID: 615713456}
+  - {fileID: 761397450}
+  - {fileID: 821274219}
+  - {fileID: 1605153300}
+  - {fileID: 64841252}
+  - {fileID: 1211465460}
+  - {fileID: 1803106345}
+  - {fileID: 1549880213}
+  - {fileID: 536094904}
+  - {fileID: 1569485353}
+  - {fileID: 1813259050}
+  - {fileID: 752783174}
+  - {fileID: 1343256348}
+  - {fileID: 372449690}
+  - {fileID: 1118686707}
+  - {fileID: 17162666}
+  - {fileID: 1395101952}
+  - {fileID: 1347332727}
+  - {fileID: 175598532}
+  - {fileID: 152106824}
+  - {fileID: 399427204}
+  - {fileID: 682670293}
+  - {fileID: 1160301775}
+  - {fileID: 673629378}
+  - {fileID: 1100319022}
+  - {fileID: 1368149135}
+  - {fileID: 1170751125}
+  - {fileID: 413714626}
+  - {fileID: 965832773}
+  - {fileID: 1428624961}
+  - {fileID: 1627147818}
+  - {fileID: 1354746537}
+  - {fileID: 1084378761}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 768964702}
+  m_AABB:
+    m_Center: {x: -.0433204174, y: .557824969, z: -.189671904}
+    m_Extent: {x: 1.53828239, y: 1.08694816, z: .6545192}
+  m_DirtyAABB: 0

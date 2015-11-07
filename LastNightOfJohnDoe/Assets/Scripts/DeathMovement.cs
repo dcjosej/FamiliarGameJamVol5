@@ -1,68 +1,64 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DeathMovement : MonoBehaviour {
-
-	private float velocity;
-	private PlayerMovement player;
-	private Animator deathAnimator;
-
-
+public class DeathMovement : MonoBehaviour
+{
+	public Transform neck;
 	public Transform[] spawnPoints;
 
-	public int state = 0;
-	public int selectedIndex = 0;
-	public bool attacking = false;
+	private Transform targetPlayer;
 
-	void Start ()
+	void Start()
 	{
-		player = FindObjectOfType<PlayerMovement>();
-
-		selectedIndex = Mathf.Clamp(state, 0, spawnPoints.Length - 1);
-		transform.position = spawnPoints[selectedIndex].position;
+		targetPlayer = GameObject.FindGameObjectWithTag("TargetPlayer").transform;
+        transform.position = spawnPoints[0].position;
 	}
+
+	void Update()
+	{
+
+		Rotate();
+
+		if(GameManager.instance.lifeBar.value <= 30)
+		{
+			transform.position = spawnPoints[1].position;
+		}
+	}
+
+	private void Rotate()
+	{
+		
+		Vector3 toPlayer = (targetPlayer.position - neck.position).normalized;
+		toPlayer.y = 0;
+
+		Vector3 dir = neck.transform.up.normalized;
+		dir.y = 0;
+
+
+		float angle = Vector3.Angle(dir, toPlayer);
+		print("Angle: " + angle);
+
+		Vector3 crossProduct = Vector3.Cross(dir, toPlayer);
+
+
+		float nextXAngle = angle + neck.localEulerAngles.x;
+
+		if (crossProduct.y > 0)
+		{
+			nextXAngle = neck.localEulerAngles.x - angle;
+		}
+
+		Quaternion destQuaternion = Quaternion.Euler(nextXAngle, neck.localEulerAngles.y, neck.localEulerAngles.z);
+
+
 	
-	void Update ()
-	{
-		if (!GameManager.instance.delayingDeath)
-		{
-			velocity = Vector3.Distance(transform.position, player.transform.position) / GameManager.instance.lifeBar.value;
-			Move();
-		}
 
-		/*CAMBIAR AQUI*/
-		if(GameManager.instance.lifeBar.value < 30 && GameManager.instance.lifeBar.value >= 15 && state == 0)
-		{
-			state++;
-			selectedIndex = Mathf.Clamp(state, 0, spawnPoints.Length - 1);
-			transform.position = spawnPoints[selectedIndex].position;
-		}else if (GameManager.instance.lifeBar.value < 15 && state == 1)
-		{
-			state++;
-        }
 
-	}
+		neck.localRotation = Quaternion.Slerp(neck.localRotation, destQuaternion, 8 * Time.deltaTime);
 
-	private void Move()
-	{
-		if (state == 2)
-		{
-			print("MOVIENDO LA MUERTE!");
-			Vector3 dir = (player.transform.position - transform.position).normalized;
-			transform.position = dir * velocity * Time.deltaTime + transform.position;
+		
 
-			print("Transform position muerte: " + transform.position);
-		}
-	}
-
-	public void OnTriggerEnter(Collider other)
-	{
-		print("On trigger enter!: " + other.tag);
-
-		if(other.tag == "DeathAttack")
-		{
-			deathAnimator.SetTrigger("Attack");
-			velocity = 0f;
-		}
+		Debug.DrawRay(neck.position, toPlayer * 10, Color.red);
+		Debug.DrawRay(neck.position, dir * 2, Color.blue);
 	}
 }

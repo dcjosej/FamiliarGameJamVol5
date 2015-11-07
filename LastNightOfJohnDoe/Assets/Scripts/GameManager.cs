@@ -82,7 +82,7 @@ public class GameManager : MonoBehaviour {
 
 		if(lifeBar.value <= 0)
 		{
-			Application.LoadLevel("FinalMalo");
+			//Application.LoadLevel("FinalMalo");
 		}
 
 	}

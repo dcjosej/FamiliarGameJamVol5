@@ -85,6 +85,35 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &456052698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 456052699}
+  m_Layer: 0
+  m_Name: SpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456052699
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 456052698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.1455078, y: 6.14111328, z: -6.82763672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 505454467}
+  - {fileID: 1845798662}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!1 &505454466
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +123,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 505454467}
   m_Layer: 0
-  m_Name: SpawnPoint_Muerte_01_Cocina
+  m_Name: SpawnPoint_Muerte_0_Cocina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,11 +136,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 505454466}
   m_LocalRotation: {x: 0, y: .113429829, z: 0, w: .993546009}
-  m_LocalPosition: {x: 11.0694561, y: -.340000033, z: -19.701992}
+  m_LocalPosition: {x: -3.07605171, y: -6.48111343, z: -12.8743553}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 456052699}
+  m_RootOrder: 0
 --- !u!1001 &516866359
 Prefab:
   m_ObjectHideFlags: 0
@@ -350,6 +379,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8aa761e8b0b3014aa5bd63f0dabfa54, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1536625527
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 11429208, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: spawnPoints.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.08000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.03399992
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -13.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .113429829
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .993546009
+      objectReference: {fileID: 0}
+    - target: {fileID: 491268, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11429208, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: spawnPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 505454467}
+    - target: {fileID: 11429208, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+      propertyPath: spawnPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 1845798662}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e1dde4d13cc4ed64daae03a5cdabf8fa, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1845798661
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +442,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1845798662}
   m_Layer: 0
-  m_Name: SpawnPoint_Muerte_02_Cocina
+  m_Name: SpawnPoint_Muerte_1_Cocina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,8 +455,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1845798661}
   m_LocalRotation: {x: 0, y: -.564840436, z: 0, w: .8252002}
-  m_LocalPosition: {x: 17.1599998, y: 0, z: -17.0699997}
+  m_LocalPosition: {x: 3.01449203, y: -6.14111328, z: -10.242363}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 456052699}
+  m_RootOrder: 1

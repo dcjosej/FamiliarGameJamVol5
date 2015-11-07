@@ -11,6 +11,7 @@ TagManager:
   - CameraTrigger
   - SpawnPlayer
   - DeathAttack
+  - TargetPlayer
   layers:
   - Default
   - TransparentFX
