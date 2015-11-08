@@ -37,9 +37,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
---- !u!127 &3
-LevelGameManager:
-  m_ObjectHideFlags: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -68,6 +65,7 @@ LightmapSettings:
     m_TextureCompression: 1
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
   m_LightmapSnapshot: {fileID: 0}
   m_RuntimeCPUUsage: 25
 --- !u!196 &5
@@ -180,11 +178,12 @@ Texture2D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
+  serializedVersion: 2
   m_Width: 64
   m_Height: 8
   m_CompleteImageSize: 2048
   m_TextureFormat: 5
-  m_MipMap: 0
+  m_MipCount: 1
   m_IsReadable: 1
   m_ReadAllowed: 1
   m_AlphaIsTransparency: 0
@@ -284,6 +283,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2363722, guid: 3c0be7fa944802c49a6c5c2f90f4ccee, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf326bc39609f9e46b3cff4426ef04fc, type: 2}
+    - target: {fileID: 2363722, guid: 3c0be7fa944802c49a6c5c2f90f4ccee, type: 2}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 615a062a29e6bd44b8f4841767687d86, type: 2}
+    - target: {fileID: 2363722, guid: 3c0be7fa944802c49a6c5c2f90f4ccee, type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 835af4e0ed8218949a6d4112d85f554b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c0be7fa944802c49a6c5c2f90f4ccee, type: 2}
   m_IsPrefabParent: 0
@@ -296,11 +307,12 @@ Texture3D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
+  serializedVersion: 2
   m_Width: 8
   m_Height: 8
   m_Depth: 8
   m_Format: 5
-  m_MipMap: 0
+  m_MipCount: 1
   m_DataSize: 2048
   m_TextureSettings:
     m_FilterMode: 0
@@ -318,11 +330,12 @@ Texture3D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
+  serializedVersion: 2
   m_Width: 8
   m_Height: 8
   m_Depth: 8
   m_Format: 5
-  m_MipMap: 0
+  m_MipCount: 1
   m_DataSize: 2048
   m_TextureSettings:
     m_FilterMode: 0
@@ -391,6 +404,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
+--- !u!1001 &878548326
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.05094719
+      objectReference: {fileID: 0}
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.912990153
+      objectReference: {fileID: 0}
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.699322045
+      objectReference: {fileID: 0}
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.104635894
+      objectReference: {fileID: 0}
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.104635894
+      objectReference: {fileID: 0}
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .699322045
+      objectReference: {fileID: 0}
+    - target: {fileID: 405552, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1122296011 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 105788, guid: 7b2e4d27273a83f41be02889a2413d3a, type: 2}
+  m_PrefabInternal: {fileID: 878548326}
+--- !u!64 &1122296013
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122296011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300040, guid: e868b885c95f30542bceb6a0f4d088c0, type: 3}
+--- !u!54 &1122296016
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122296011}
+  serializedVersion: 2
+  m_Mass: 3
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1293527156
 Prefab:
   m_ObjectHideFlags: 0
@@ -451,11 +537,12 @@ Texture3D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
+  serializedVersion: 2
   m_Width: 8
   m_Height: 8
   m_Depth: 8
   m_Format: 5
-  m_MipMap: 0
+  m_MipCount: 1
   m_DataSize: 2048
   m_TextureSettings:
     m_FilterMode: 0
@@ -473,11 +560,12 @@ Texture2D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
+  serializedVersion: 2
   m_Width: 64
   m_Height: 8
   m_CompleteImageSize: 2048
   m_TextureFormat: 5
-  m_MipMap: 0
+  m_MipCount: 1
   m_IsReadable: 1
   m_ReadAllowed: 1
   m_AlphaIsTransparency: 0
@@ -883,11 +971,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22414536, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22414536, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 464810, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: m_LocalPosition.z
@@ -905,11 +993,12 @@ Texture2D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
+  serializedVersion: 2
   m_Width: 64
   m_Height: 8
   m_CompleteImageSize: 2048
   m_TextureFormat: 5
-  m_MipMap: 0
+  m_MipCount: 1
   m_IsReadable: 1
   m_ReadAllowed: 1
   m_AlphaIsTransparency: 0

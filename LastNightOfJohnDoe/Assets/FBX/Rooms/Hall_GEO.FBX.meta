@@ -26,6 +26,11 @@ ModelImporter:
     100036: Cuadros_GEO
     100038: Cuadros_Hall_GEO
     100040: Mesa_005_GEO
+    100042: Abrigo_GEO
+    100044: Hat_GEO
+    100046: Perchero_GEO
+    100048: Perchero_Collision_GEO
+    100050: Hat_Colider_GEO
     400000: //RootNode
     400002: Cajonera_002
     400004: Hall_GEO
@@ -47,6 +52,11 @@ ModelImporter:
     400036: Cuadros_GEO
     400038: Cuadros_Hall_GEO
     400040: Mesa_005_GEO
+    400042: Abrigo_GEO
+    400044: Hat_GEO
+    400046: Perchero_GEO
+    400048: Perchero_Collision_GEO
+    400050: Hat_Colider_GEO
     2300000: //RootNode
     2300002: Cajonera_002
     2300004: Hall_GEO
@@ -68,6 +78,11 @@ ModelImporter:
     2300036: Cuadros_GEO
     2300038: Cuadros_Hall_GEO
     2300040: Mesa_005_GEO
+    2300042: Abrigo_GEO
+    2300044: Hat_GEO
+    2300046: Perchero_GEO
+    2300048: Perchero_Collision_GEO
+    2300050: Hat_Colider_GEO
     3300000: //RootNode
     3300002: Cajonera_002
     3300004: Hall_GEO
@@ -89,6 +104,11 @@ ModelImporter:
     3300036: Cuadros_GEO
     3300038: Cuadros_Hall_GEO
     3300040: Mesa_005_GEO
+    3300042: Abrigo_GEO
+    3300044: Hat_GEO
+    3300046: Perchero_GEO
+    3300048: Perchero_Collision_GEO
+    3300050: Hat_Colider_GEO
     4300000: Hall_GEO
     4300002: Cajonera_002
     4300004: LAMPARA_GEO004
@@ -109,6 +129,11 @@ ModelImporter:
     4300034: Cuadros_GEO
     4300036: Mesa_005_GEO
     4300038: Cuadros_Hall_GEO
+    4300040: Perchero_GEO
+    4300042: Abrigo_GEO
+    4300044: Hat_GEO
+    4300046: Perchero_Collision_GEO
+    4300048: Hat_Colider_GEO
   materials:
     importMaterials: 1
     materialName: 1
@@ -165,8 +190,10 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
