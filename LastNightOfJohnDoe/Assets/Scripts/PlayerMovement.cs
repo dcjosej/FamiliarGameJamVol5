@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour {
 
 	public IInteractuable interactuableObject { get; set; }
 
+	public Transform head;
+
 	// Use this for initialization
 	void OnLevelWasLoaded ()
 	{
@@ -19,6 +21,12 @@ public class PlayerMovement : MonoBehaviour {
 	void Start()
 	{
 		InitPlayer();
+	}
+
+	void LateUpdate()
+	{
+		print("LATE UPDATE!");
+		//RotateNeck();
 	}
 
 	private void InitPlayer()
@@ -34,7 +42,7 @@ public class PlayerMovement : MonoBehaviour {
 				{
 					if (t.tag == "SpawnPlayer")
 					{
-						print("SPAWN PLAYER ENCONTRADO");
+						print("SPAWN PLAYER ENCONTRADO"); 
 						transform.position = t.transform.position;
 					}
 				}
@@ -51,6 +59,7 @@ public class PlayerMovement : MonoBehaviour {
 	void Update()
 	{
 		CheckKeyboard();
+		//RotateNeck();
 	}
 	
 	// Update is called once per frame
@@ -65,6 +74,44 @@ public class PlayerMovement : MonoBehaviour {
 		}
 	}
 
+	private void RotateNeck()
+	{
+		//Vector3 toPlayer = (targetPlayer.position - neck.position).normalized;
+		//toPlayer.y = 0;
+
+		//Vector3 dir = neck.transform.up.normalized;
+		//dir.y = 0;
+
+
+		//float angle = Vector3.Angle(dir, toPlayer);
+		//print("Angle: " + angle);
+
+		//Vector3 crossProduct = Vector3.Cross(dir, toPlayer);
+
+
+		float nextXAngle = 10f + head.localEulerAngles.x;
+
+		/*
+		if (crossProduct.y > 0)
+		{
+			nextXAngle = neck.localEulerAngles.x - angle;
+		}
+		*/	
+
+		Quaternion destQuaternion = Quaternion.Euler(nextXAngle, head.localEulerAngles.y, head.localEulerAngles.z);
+
+
+
+
+
+		head.localRotation = Quaternion.Slerp(head.localRotation, destQuaternion, 2 * Time.deltaTime);
+
+		//head.rotation = transform.rotation * head.rotation;
+
+		//Debug.DrawRay(neck.position, toPlayer * 10, Color.red);
+		//Debug.DrawRay(neck.position, dir * 2, Color.blue);
+	}
+
 	private void Rotate(float rotation)
 	{
 		transform.Rotate(0, rotation * rotationVelocity, 0);
@@ -73,10 +120,12 @@ public class PlayerMovement : MonoBehaviour {
 	private void Move(float movement)
 	{
 		playerAnimator.SetFloat("velocity", Mathf.Abs(movement));
+		
+
 
 		Vector3 movementVector = transform.forward * movement * movementVelocity * Time.deltaTime;
 		Vector3 newPosition = transform.position + movementVector;
-		transform.position = newPosition;
+		//transform.position = newPosition;
 	}
 
 	private void OnTriggerEnter(Collider other)
