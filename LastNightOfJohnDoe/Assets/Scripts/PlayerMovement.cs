@@ -23,11 +23,6 @@ public class PlayerMovement : MonoBehaviour {
 		InitPlayer();
 	}
 
-	void LateUpdate()
-	{
-		print("LATE UPDATE!");
-		//RotateNeck();
-	}
 
 	private void InitPlayer()
 	{
@@ -59,7 +54,7 @@ public class PlayerMovement : MonoBehaviour {
 	void Update()
 	{
 		CheckKeyboard();
-		//RotateNeck();
+		RotateNeck();
 	}
 	
 	// Update is called once per frame
@@ -89,7 +84,7 @@ public class PlayerMovement : MonoBehaviour {
 		//Vector3 crossProduct = Vector3.Cross(dir, toPlayer);
 
 
-		float nextXAngle = 10f + head.localEulerAngles.x;
+		float nextXAngle = 1f + head.localEulerAngles.x;
 
 		/*
 		if (crossProduct.y > 0)
@@ -123,6 +118,8 @@ public class PlayerMovement : MonoBehaviour {
 
 		Vector3 movementVector = transform.forward * movement * movementVelocity * Time.deltaTime;
 		Vector3 newPosition = transform.position + movementVector;
+
+		transform.position = newPosition;
 	}
 
 	private void OnTriggerEnter(Collider other)

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class RootMotion : MonoBehaviour {
 
+	public Transform playerHead;
 
 	void OnAnimatorMove()
 	{
@@ -13,7 +14,7 @@ public class RootMotion : MonoBehaviour {
 		if (animator)
 		{
 			Vector3 newPosition = transform.position;
-			newPosition.z += animator.GetFloat("Runspeed") * Time.deltaTime * 10;
+			newPosition.z += animator.GetFloat("Runspeed") * Time.deltaTime;
 			transform.position = newPosition;
 		}
 	}
