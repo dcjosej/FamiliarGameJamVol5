@@ -12,6 +12,8 @@ TagManager:
   - SpawnPlayer
   - DeathAttack
   - TargetPlayer
+  - Character 1
+  - Character 2
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - 
   - 
   - lightoff
-  - 
+  - Ground
   - 
   - 
   - 
