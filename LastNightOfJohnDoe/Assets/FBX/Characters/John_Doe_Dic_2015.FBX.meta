@@ -62,6 +62,7 @@ ModelImporter:
     100108: JohnDoe_Spine1
     100110: JohnDoe_Spine2
     100112: JohnDoe_Spine3
+    100114: JOHN_DOE_ok
     400000: Base Human001
     400002: Base Human001Head
     400004: Base Human001LCalf
@@ -119,17 +120,20 @@ ModelImporter:
     400108: JohnDoe_Spine1
     400110: JohnDoe_Spine2
     400112: JohnDoe_Spine3
+    400114: JOHN_DOE_ok
     2300000: JohnDoe_PalmBone001
     3300000: JohnDoe_PalmBone001
     4300000: JohnDoe_PalmBone001
     4300002: JOHN_DOE
+    4300004: JOHN_DOE_ok
     7400000: Take 001
     9500000: //RootNode
     13700000: JOHN_DOE
+    13700002: JOHN_DOE_ok
   materials:
     importMaterials: 1
-    materialName: 0
-    materialSearch: 1
+    materialName: 1
+    materialSearch: 2
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -137,7 +141,15 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nInbetween bone default rotation found in this file
+      is different from the one found in the source avatar:\n\t'JohnDoe_Spine3' :
+      rotation error = 7.797549 deg\n\t'JohnDoe_Ribcage' : rotation error = 1.391023
+      deg\n\t'JohnDoe_RPalm' : rotation error = 16.198122 deg\n\nClip 'Take 001' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'JohnDoe_Spine3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'JohnDoe_Ribcage'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'JohnDoe_RPalm'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
