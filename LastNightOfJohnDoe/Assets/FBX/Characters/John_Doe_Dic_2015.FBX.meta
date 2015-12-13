@@ -1,0 +1,630 @@
+fileFormatVersion: 2
+guid: 873fa9366fb41be42ba00cdd73d0d6d6
+timeCreated: 1450009557
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base Human001
+    100002: Base Human001Head
+    100004: Base Human001LCalf
+    100006: Base Human001LCollarbone
+    100008: Base Human001LFoot
+    100010: Base Human001LForearm
+    100012: Base Human001LPalm
+    100014: Base Human001LPlatform
+    100016: Base Human001LThigh
+    100018: Base Human001LUpperarm
+    100020: Base Human001Neck1
+    100022: Base Human001Neck2
+    100024: Base Human001Pelvis
+    100026: Base Human001RCalf
+    100028: Base Human001RCollarbone
+    100030: Base Human001RFoot
+    100032: Base Human001RForearm
+    100034: Base Human001Ribcage
+    100036: Base Human001RPalm
+    100038: Base Human001RPlatform
+    100040: Base Human001RThigh
+    100042: Base Human001RUpperarm
+    100044: Base Human001Spine1
+    100046: Base Human001Spine2
+    100048: Base Human001Spine3
+    100050: Base Human001Spine4
+    100052: Dummy001
+    100054: JOHN_DOE
+    100056: //RootNode
+    100058: JohnDoe_
+    100060: JohnDoe_Head
+    100062: JohnDoe_LArmCollarbone
+    100064: JohnDoe_LArmForearm
+    100066: JohnDoe_LArmPalm
+    100068: JohnDoe_LArmUpperarm
+    100070: JohnDoe_LCalf
+    100072: JohnDoe_LFoot
+    100074: JohnDoe_LPlatform
+    100076: JohnDoe_LThigh
+    100078: JohnDoe_LUpVectorNode
+    100080: JohnDoe_Neck
+    100082: JohnDoe_PalmBone001
+    100084: JohnDoe_RCollarbone
+    100086: JohnDoe_RForearm
+    100088: JohnDoe_Ribcage
+    100090: JohnDoe_RIKTarget
+    100092: JohnDoe_RLegCalf
+    100094: JohnDoe_RLegFoot
+    100096: JohnDoe_RLegPlatform
+    100098: JohnDoe_RLegThigh
+    100100: JohnDoe_RLegUpVectorNode
+    100102: JohnDoe_Root
+    100104: JohnDoe_RPalm
+    100106: JohnDoe_RUpperarm
+    100108: JohnDoe_Spine1
+    100110: JohnDoe_Spine2
+    100112: JohnDoe_Spine3
+    400000: Base Human001
+    400002: Base Human001Head
+    400004: Base Human001LCalf
+    400006: Base Human001LCollarbone
+    400008: Base Human001LFoot
+    400010: Base Human001LForearm
+    400012: Base Human001LPalm
+    400014: Base Human001LPlatform
+    400016: Base Human001LThigh
+    400018: Base Human001LUpperarm
+    400020: Base Human001Neck1
+    400022: Base Human001Neck2
+    400024: Base Human001Pelvis
+    400026: Base Human001RCalf
+    400028: Base Human001RCollarbone
+    400030: Base Human001RFoot
+    400032: Base Human001RForearm
+    400034: Base Human001Ribcage
+    400036: Base Human001RPalm
+    400038: Base Human001RPlatform
+    400040: Base Human001RThigh
+    400042: Base Human001RUpperarm
+    400044: Base Human001Spine1
+    400046: Base Human001Spine2
+    400048: Base Human001Spine3
+    400050: Base Human001Spine4
+    400052: Dummy001
+    400054: JOHN_DOE
+    400056: //RootNode
+    400058: JohnDoe_
+    400060: JohnDoe_Head
+    400062: JohnDoe_LArmCollarbone
+    400064: JohnDoe_LArmForearm
+    400066: JohnDoe_LArmPalm
+    400068: JohnDoe_LArmUpperarm
+    400070: JohnDoe_LCalf
+    400072: JohnDoe_LFoot
+    400074: JohnDoe_LPlatform
+    400076: JohnDoe_LThigh
+    400078: JohnDoe_LUpVectorNode
+    400080: JohnDoe_Neck
+    400082: JohnDoe_PalmBone001
+    400084: JohnDoe_RCollarbone
+    400086: JohnDoe_RForearm
+    400088: JohnDoe_Ribcage
+    400090: JohnDoe_RIKTarget
+    400092: JohnDoe_RLegCalf
+    400094: JohnDoe_RLegFoot
+    400096: JohnDoe_RLegPlatform
+    400098: JohnDoe_RLegThigh
+    400100: JohnDoe_RLegUpVectorNode
+    400102: JohnDoe_Root
+    400104: JohnDoe_RPalm
+    400106: JohnDoe_RUpperarm
+    400108: JohnDoe_Spine1
+    400110: JohnDoe_Spine2
+    400112: JohnDoe_Spine3
+    2300000: JohnDoe_PalmBone001
+    3300000: JohnDoe_PalmBone001
+    4300000: JohnDoe_PalmBone001
+    4300002: JOHN_DOE
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: JOHN_DOE
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: JohnDoe_Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_LThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_RLegThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_LCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_RLegCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_LFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_RLegFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_LArmCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_RCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_LArmUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_RUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_LArmForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_RForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_LArmPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JohnDoe_PalmBone001
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: John_Doe_Dic_2015(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Base Human001
+      position: {x: 0.09996368, y: 0, z: 0.05337387}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Base Human001LPlatform
+      position: {x: 0.09996351, y: -2.8024182e-15, z: 0.0533739}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Base Human001Pelvis
+      position: {x: 0.09996368, y: 0.00000123237, z: 0.053373773}
+      rotation: {x: 0.49912703, y: -0.50087154, z: -0.49912694, w: 0.5008715}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Base Human001LThigh
+      position: {x: -0.000000023003667, y: 0.00000006198883, z: 0.000000114440915}
+      rotation: {x: -0.06500183, y: 0.99759024, z: -0.0077475696, w: 0.022989007}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: Base Human001LCalf
+      position: {x: -0.0000006073713, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.0002032476, y: 0.0014186696, z: 0.17363384, w: 0.9848092}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+      transformModified: 1
+    - name: Base Human001LFoot
+      position: {x: -0.00000062465665, y: 0, z: 0}
+      rotation: {x: -0.017116219, y: 0.015247744, z: -0.70316404, w: 0.71065813}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Base Human001Spine1
+      position: {x: -0.000000061057506, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0, y: -0.000000059604645, z: -0.14816669, w: 0.9889624}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1}
+      transformModified: 1
+    - name: Base Human001Spine2
+      position: {x: -0.00000017762184, y: 0, z: 0}
+      rotation: {x: 0.000000005100279, y: -0.00000004210543, z: 0.17052747, w: 0.98535293}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+      transformModified: 1
+    - name: Base Human001Spine3
+      position: {x: -0.00000014990567, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0.000000004462167, y: 0.00000007044518, z: 0.084818356, w: 0.9963964}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Base Human001Spine4
+      position: {x: -0.00000015974044, y: 0, z: 0}
+      rotation: {x: 0.000000044703484, y: -0.000000029802322, z: -0.087216094, w: 0.9961895}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Base Human001Ribcage
+      position: {x: -0.0000002169609, y: 0, z: 0}
+      rotation: {x: -6.5174033e-10, y: 0.000000013295104, z: -0.021986695, w: 0.9997583}
+      scale: {x: 0.999999, y: 0.999999, z: 0.9999999}
+      transformModified: 1
+    - name: Base Human001Neck1
+      position: {x: -0.0000000010612712, y: -0.0000000047683715, z: 0}
+      rotation: {x: 7.10543e-15, y: 2.5571745e-14, z: 7.1054274e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Base Human001Neck2
+      position: {x: -0.00000009309995, y: 0, z: 0}
+      rotation: {x: 0, y: 1.2300171e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Base Human001Head
+      position: {x: -0.00000009309995, y: 0, z: 0}
+      rotation: {x: 0.000000014901161, y: 0.000000044703484, z: -0.000000059604645,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Base Human001LCollarbone
+      position: {x: 0.000000023197208, y: 0.0000001335144, z: 0.000000038146972}
+      rotation: {x: 0.102099515, y: 0.6730958, z: 0.20324817, w: 0.70371014}
+      scale: {x: 1, y: 0.99999976, z: 0.9999998}
+      transformModified: 1
+    - name: Base Human001LUpperarm
+      position: {x: -0.00000017166137, y: 5.9604643e-10, z: 4.0978193e-10}
+      rotation: {x: 0.27024248, y: 0.5971797, z: 0.009283206, w: 0.7551551}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: Base Human001LForearm
+      position: {x: -0.00000043153761, y: -0.0000000047683715, z: 0.000000009536743}
+      rotation: {x: 0.06928129, y: 0.018061785, z: -0.32736322, w: 0.9421821}
+      scale: {x: 1.0000005, y: 0.99999976, z: 1.0000002}
+      transformModified: 1
+    - name: Base Human001LPalm
+      position: {x: -0.0000003695488, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.38952008, y: 0.085460745, z: 0.054209992, w: 0.9154408}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000005}
+      transformModified: 1
+    - name: Base Human001RCollarbone
+      position: {x: 0.000000023197208, y: 0.0000001335144, z: -0.000000038146972}
+      rotation: {x: 0.10209957, y: 0.6730959, z: -0.20324823, w: -0.7037101}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Base Human001RUpperarm
+      position: {x: -0.00000017166137, y: -0.000000009536743, z: -0.0000000011920929}
+      rotation: {x: -0.27024242, y: -0.5971798, z: 0.0092831245, w: 0.7551551}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1.0000001}
+      transformModified: 1
+    - name: Base Human001RForearm
+      position: {x: -0.00000043213367, y: 0, z: -0.000000019073486}
+      rotation: {x: -0.06928298, y: -0.018061727, z: -0.32736352, w: 0.942182}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1.0000001}
+      transformModified: 1
+    - name: Base Human001RPalm
+      position: {x: -0.0000003695488, y: 0.000000007152557, z: -0.000000009536743}
+      rotation: {x: 0.3895201, y: -0.085460745, z: 0.054210015, w: 0.9154408}
+      scale: {x: 0.99999994, y: 0.9999996, z: 1.0000002}
+      transformModified: 1
+    - name: Base Human001RThigh
+      position: {x: -0.000000023003667, y: 0.00000006198883, z: -0.000000114440915}
+      rotation: {x: -0.06500232, y: 0.9975933, z: 0.0077324957, w: -0.022862092}
+      scale: {x: 0.9999997, y: 1, z: 0.9999996}
+      transformModified: 1
+    - name: Base Human001RCalf
+      position: {x: -0.00000060677525, y: 0, z: 0}
+      rotation: {x: -0.00022640821, y: -0.0012906789, z: 0.17364654, w: 0.98480713}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000005}
+      transformModified: 1
+    - name: Base Human001RFoot
+      position: {x: -0.0000006252527, y: 0, z: 0}
+      rotation: {x: 0.01711265, y: -0.015243301, z: -0.70315284, w: 0.71066934}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Base Human001RPlatform
+      position: {x: 0.09996385, y: -2.8024276e-15, z: 0.0533739}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Dummy001
+      position: {x: 0.27791402, y: 0, z: 0.20629536}
+      rotation: {x: -0.02080045, y: 0.00022832901, z: 0.008591964, w: 0.99974674}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: JohnDoe_RIKTarget
+      position: {x: -0.013692379, y: 0.8475635, z: 0.06304094}
+      rotation: {x: 0.14739457, y: -0.66500896, z: -0.24991998, w: 0.68817}
+      scale: {x: 1.0000008, y: 0.9999974, z: 1.0000029}
+      transformModified: 1
+    - name: JOHN_DOE
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: JohnDoe_
+      position: {x: 0, y: 0, z: -0.011196441}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: JohnDoe_LPlatform
+      position: {x: -0.15839961, y: 0.014067337, z: 0.008581519}
+      rotation: {x: 0.534584, y: -0.53458387, z: -0.462839, w: 0.46283916}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: JohnDoe_RLegPlatform
+      position: {x: 0.15852822, y: 0.01577407, z: 0.01903574}
+      rotation: {x: 0.45244953, y: -0.4524494, z: -0.5434054, w: 0.5434056}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: JohnDoe_Root
+      position: {x: 0.000000009313226, y: 0.85790795, z: -0.08563724}
+      rotation: {x: 0.49912703, y: -0.5008716, z: -0.4991269, w: 0.5008715}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: JohnDoe_LUpVectorNode
+      position: {x: 0.42692748, y: 0.4363345, z: 0.15408288}
+      rotation: {x: 0.000000002619345, y: 9.313227e-10, z: -2.4394553e-18, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: JohnDoe_RLegUpVectorNode
+      position: {x: 0.4203515, y: 0.40101394, z: -0.15008794}
+      rotation: {x: 0.000000002619345, y: 9.313227e-10, z: -2.4394553e-18, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: JohnDoe_Spine1
+      position: {x: -0.048903883, y: 0.014094576, z: -0.000000009536743}
+      rotation: {x: -0.000000059604645, y: -0.000000029802322, z: -0.10786861, w: 0.9941652}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+      transformModified: 1
+    - name: JohnDoe_Spine2
+      position: {x: -0.20326263, y: -0.000000019073486, z: -0.0000000023841857}
+      rotation: {x: 0.00000013411045, y: 0.000000029802322, z: -0.054684505, w: 0.99850374}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+      transformModified: 1
+    - name: JohnDoe_Spine3
+      position: {x: -0.17387237, y: 0, z: 0}
+      rotation: {x: 0.00000049173826, y: 0.000000059604638, z: 0.02720612, w: -0.99962986}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
+      transformModified: 1
+    - name: JohnDoe_Ribcage
+      position: {x: -0.18661751, y: -0.000000076293944, z: -0.0000000023841857}
+      rotation: {x: -0.00000032782555, y: 0, z: 0.058037475, w: -0.99831444}
+      scale: {x: 0.99999964, y: 0.9999991, z: 0.9999995}
+      transformModified: 1
+    - name: JohnDoe_LArmCollarbone
+      position: {x: 0.013618697, y: 0.029634017, z: 0.03226242}
+      rotation: {x: -0.038956914, y: 0.7454909, z: 0.061503395, w: 0.6625276}
+      scale: {x: 1.0000006, y: 0.9999995, z: 0.9999995}
+      transformModified: 1
+    - name: JohnDoe_LArmUpperarm
+      position: {x: -0.13061799, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.156676, y: -0.043926593, z: -0.02958727, w: 0.986229}
+      scale: {x: 1.0000013, y: 1.0000035, z: 0.99999595}
+      transformModified: 1
+    - name: JohnDoe_LArmForearm
+      position: {x: -0.34695792, y: 0, z: 0}
+      rotation: {x: 0.069229364, y: -0.007898425, z: -0.022608634, w: 0.99731326}
+      scale: {x: 1.0000079, y: 0.9999908, z: 0.9999997}
+      transformModified: 1
+    - name: JohnDoe_LArmPalm
+      position: {x: -0.2957174, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.41805175, y: 0.08182779, z: 0.009985022, w: 0.9046753}
+      scale: {x: 1.0000288, y: 0.9999975, z: 0.99997413}
+      transformModified: 1
+    - name: JohnDoe_RCollarbone
+      position: {x: 0.01361885, y: 0.029634017, z: -0.0322624}
+      rotation: {x: -0.038957145, y: 0.7454912, z: -0.06150329, w: -0.6625275}
+      scale: {x: 0.99999917, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: JohnDoe_RUpperarm
+      position: {x: -0.13061796, y: 0.000000076293944, z: -0.000000076293944}
+      rotation: {x: 0.1440734, y: 0.04413871, z: -0.028698724, w: 0.98816544}
+      scale: {x: 1.0000015, y: 1.0000008, z: 1.0000001}
+      transformModified: 1
+    - name: JohnDoe_RForearm
+      position: {x: -0.34695777, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.07817929, y: 0.021496225, z: -0.058949105, w: 0.9949628}
+      scale: {x: 1.0000001, y: 0.99999833, z: 1.0000001}
+      transformModified: 1
+    - name: JohnDoe_RPalm
+      position: {x: -0.2957173, y: 0, z: 0}
+      rotation: {x: 0.26485124, y: -0.0018808914, z: 0.0030842568, w: 0.9642826}
+      scale: {x: 1.0000002, y: 0.99999726, z: 1.0000032}
+      transformModified: 1
+    - name: JohnDoe_PalmBone001
+      position: {x: -0.09143613, y: -0.029871063, z: 0.002949915}
+      rotation: {x: 0.07821296, y: 0.10742891, z: 0.34181374, w: 0.9303253}
+      scale: {x: 1.0000017, y: 0.9999951, z: 1.0000024}
+      transformModified: 1
+    - name: JohnDoe_Neck
+      position: {x: -0.0005441284, y: 0.0017932128, z: -0.000000007152557}
+      rotation: {x: 0.00000013411042, y: 0.000000029802315, z: 0.006451963, w: 0.99997926}
+      scale: {x: 1.0000002, y: 0.99999964, z: 0.9999998}
+      transformModified: 1
+    - name: JohnDoe_Head
+      position: {x: -0.0946183, y: -0.00000015258789, z: 0.0000000011920929}
+      rotation: {x: -0.000000029802326, y: 0.000000089406974, z: 0.42461306, w: 0.90537494}
+      scale: {x: 1.0000008, y: 0.99999857, z: 0.99999976}
+      transformModified: 1
+    - name: JohnDoe_LThigh
+      position: {x: -0.018568039, y: 0.015128188, z: 0.08462567}
+      rotation: {x: -0.11987223, y: 0.99230886, z: -0.009793699, w: 0.029292747}
+      scale: {x: 0.99999845, y: 1.0000012, z: 0.99999994}
+      transformModified: 1
+    - name: JohnDoe_LCalf
+      position: {x: -0.45861503, y: 0, z: 0.000000019073486}
+      rotation: {x: 0.0004907249, y: 0.004109322, z: 0.35431537, w: 0.9351169}
+      scale: {x: 0.9999856, y: 1.0000137, z: 1.000001}
+      transformModified: 1
+    - name: JohnDoe_LFoot
+      position: {x: -0.48085445, y: 0.000000009536743, z: -0.000000009536743}
+      rotation: {x: -0.018711146, y: 0.01929046, z: -0.85244316, w: 0.52212894}
+      scale: {x: 0.99997544, y: 1.000025, z: 1}
+      transformModified: 1
+    - name: JohnDoe_RLegThigh
+      position: {x: -0.018568115, y: 0.0151281925, z: -0.084625654}
+      rotation: {x: -0.11987235, y: 0.9923087, z: 0.009796231, w: -0.029294606}
+      scale: {x: 0.99999833, y: 1.0000015, z: 0.99999994}
+      transformModified: 1
+    - name: JohnDoe_RLegCalf
+      position: {x: -0.45861495, y: 0, z: 0}
+      rotation: {x: -0.00046399236, y: -0.004098445, z: 0.3543148, w: 0.9351172}
+      scale: {x: 1.0000027, y: 0.99999744, z: 1}
+      transformModified: 1
+    - name: JohnDoe_RLegFoot
+      position: {x: -0.4808544, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.018588629, y: -0.019385142, z: -0.85238373, w: 0.52222663}
+      scale: {x: 1.0000037, y: 0.9999967, z: 1.0000004}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
