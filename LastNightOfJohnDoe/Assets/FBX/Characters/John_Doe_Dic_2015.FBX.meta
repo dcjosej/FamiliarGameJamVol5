@@ -63,6 +63,7 @@ ModelImporter:
     100110: JohnDoe_Spine2
     100112: JohnDoe_Spine3
     100114: JOHN_DOE_ok
+    100116: JohnDoe_Headww
     400000: Base Human001
     400002: Base Human001Head
     400004: Base Human001LCalf
@@ -121,6 +122,7 @@ ModelImporter:
     400110: JohnDoe_Spine2
     400112: JohnDoe_Spine3
     400114: JOHN_DOE_ok
+    400116: JohnDoe_Headww
     2300000: JohnDoe_PalmBone001
     3300000: JohnDoe_PalmBone001
     4300000: JohnDoe_PalmBone001
@@ -140,16 +142,14 @@ ModelImporter:
     resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: 
-    animationImportWarnings: "\nInbetween bone default rotation found in this file
-      is different from the one found in the source avatar:\n\t'JohnDoe_Spine3' :
-      rotation error = 7.797549 deg\n\t'JohnDoe_Ribcage' : rotation error = 1.391023
-      deg\n\t'JohnDoe_RPalm' : rotation error = 16.198122 deg\n\nClip 'Take 001' has
-      import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'JohnDoe_Spine3'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'JohnDoe_Ribcage'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'JohnDoe_RPalm'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationImportErrors: '
+
+      Imported file ''John_Doe_Dic_2015'' conversion failed: Transform ''JohnDoe_Head''
+      for human bone ''Head'' not found
+
+
+'
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
