@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour {
 	private static GameManager _instance;
 	public static GameManager instance;
 
+	private const int TOTAL_NUM_PHOTOS = 6;
+
 	public float LifeTime = 60f;
 	public Slider lifeBar;
 	public float RESTART_DEATH_TIME = 4f;
@@ -16,7 +18,6 @@ public class GameManager : MonoBehaviour {
 
 	/* Referencias a elementos de la GUI */
 	public GameObject CanvasPillGUI;
-	//public Canvas grayCanvas;
 	public GameObject albumCanvas;
 	public Sprite[] photos;
 	public Image[] imagesHolder;
@@ -34,10 +35,10 @@ public class GameManager : MonoBehaviour {
 	public Room nextRoom { get; set; }
 
 	public int unlockedPhotos = 0;
-
-	/* Animators Controllers  y GUI */
-	//public Animator pillGUIAnimator;
 	
+
+
+	//TODO: Quitar el dontdestroyonload, ya lo lleva el persistente
 	void Awake()
 	{
 		DontDestroyOnLoad(this.gameObject);
@@ -126,9 +127,7 @@ public class GameManager : MonoBehaviour {
 	/* FUNCIONES PARA BOTONES */
 	public void TakePill()
 	{
-		print("Pulsando boton!");
 		CanvasPillGUI.gameObject.SetActive(false);
-		//grayCanvas.gameObject.SetActive(false);
 		interacting = false;
 		DelayDeath();
 
@@ -137,16 +136,13 @@ public class GameManager : MonoBehaviour {
 
 	public void RefusePill()
 	{
-		//grayCanvas.gameObject.SetActive(false);
 		CanvasPillGUI.SetActive(false);
 		interacting = false;
-		print("No quiero la pastilla...");
 	}
 
 	public void ShowGUIPill()
 	{
 		CanvasPillGUI.SetActive(true);
-		//grayCanvas.gameObject.SetActive(true);
 	}
 
 	public void PutImage(int photoIndex)
@@ -155,9 +151,16 @@ public class GameManager : MonoBehaviour {
 
 		imagesHolder[photoIndex].sprite = photos[photoIndex];
 
+		
 		albumCanvas.gameObject.SetActive(true);
 
 		zoomedPhoto.sprite = photos[photoIndex];
+		unlockedPhotos++;
+
+		if(unlockedPhotos >= TOTAL_NUM_PHOTOS)
+		{
+			Debug.LogWarning("OJO CUIDAO, QUE ME PASO EL JUEGO!");
+		}
 		//photoAnimator.SetTrigger("Photo" + photoIndex);
     }
 

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using RootMotion.FinalIK;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -8,19 +9,24 @@ public class PlayerMovement : MonoBehaviour {
 	private Animator playerAnimator;
 
 	public IInteractuable interactuableObject { get; set; }
+	public LookAtIK lookAtIk;
 
-	public Transform head;
 
-	// Use this for initialization
+	public Transform lookPoint;
+	public Transform normalLookPoint;
+	private Transform destLookPoint;
+	private float startTime;
+	private float journeyLength;
+
 	void OnLevelWasLoaded ()
 	{
 		InitPlayer();
-		
 	}
 
 	void Start()
 	{
 		InitPlayer();
+		destLookPoint = lookPoint;
 	}
 
 
@@ -41,12 +47,6 @@ public class PlayerMovement : MonoBehaviour {
 						transform.position = t.transform.position;
 					}
 				}
-
-				/*
-				transform.position = new Vector3(door.transform.position.x,
-					door.transform.position.y,
-					door.transform.position.z - 0.8f);
-					*/
 			}
 		}
 
@@ -54,9 +54,21 @@ public class PlayerMovement : MonoBehaviour {
 	void Update()
 	{
 		CheckKeyboard();
-		RotateNeck();
+
 	}
-	
+
+	private IEnumerator MoveLookPosition()
+	{
+		float fracTime = 0f;
+		float timeAcum = 0f;
+		while (fracTime <= 1)
+		{
+			lookPoint.transform.position = Vector3.Lerp(lookPoint.transform.position, destLookPoint.transform.position, fracTime);
+			timeAcum += Time.deltaTime;
+			fracTime = timeAcum / 6;
+			yield return null;
+		}
+	}	
 	// Update is called once per frame
 	void FixedUpdate () {
 		if (!GameManager.instance.interacting)
@@ -65,46 +77,9 @@ public class PlayerMovement : MonoBehaviour {
 			float vertical = Input.GetAxisRaw("Vertical");
 
 			Rotate(horizontal);
-			Move(vertical);
+			Move(-vertical);
+			MoveLookPosition();
 		}
-	}
-
-	private void RotateNeck()
-	{
-		//Vector3 toPlayer = (targetPlayer.position - neck.position).normalized;
-		//toPlayer.y = 0;
-
-		//Vector3 dir = neck.transform.up.normalized;
-		//dir.y = 0;
-
-
-		//float angle = Vector3.Angle(dir, toPlayer);
-		//print("Angle: " + angle);
-
-		//Vector3 crossProduct = Vector3.Cross(dir, toPlayer);
-
-
-		float nextXAngle = 1f + head.localEulerAngles.x;
-
-		/*
-		if (crossProduct.y > 0)
-		{
-			nextXAngle = neck.localEulerAngles.x - angle;
-		}
-		*/	
-
-		Quaternion destQuaternion = Quaternion.Euler(nextXAngle, head.localEulerAngles.y, head.localEulerAngles.z);
-
-
-
-
-
-		head.localRotation = Quaternion.Slerp(head.localRotation, destQuaternion, 2 * Time.deltaTime);
-
-		//head.rotation = transform.rotation * head.rotation;
-
-		//Debug.DrawRay(neck.position, toPlayer * 10, Color.red);
-		//Debug.DrawRay(neck.position, dir * 2, Color.blue);
 	}
 
 	private void Rotate(float rotation)
@@ -132,6 +107,15 @@ public class PlayerMovement : MonoBehaviour {
 		if(other.tag == "Interactuable")
 		{
 			interactuableObject = other.GetComponentInParent<IInteractuable>();
+
+			if (other.transform.parent == null || other.transform.parent.tag != "Door")
+			{
+				destLookPoint = other.transform;
+				startTime = Time.time;
+				StopCoroutine("MoveLookPosition");
+				StartCoroutine("MoveLookPosition");
+			}
+
 			print("Puedo interactuar con esto!");
 		}
 
@@ -150,8 +134,20 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		if (other.tag == "Interactuable")
 		{
+			/*TODO: METER ESTO EN UNA FUNCION*/
+
+
+			if(other.transform.parent == null || other.transform.parent.tag != "Door")
+			{
+				destLookPoint = normalLookPoint;
+				startTime = Time.time;
+				journeyLength = Vector3.Distance(destLookPoint.position, lookPoint.transform.position);
+				StopCoroutine("MoveLookPosition");
+				StartCoroutine("MoveLookPosition");
+			}
+
+
 			interactuableObject = null;
-			print("Ya no puedo interactuar");
 		}
 	}
 
