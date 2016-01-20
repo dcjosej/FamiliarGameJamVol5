@@ -111,15 +111,15 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _Shininess
-        second: .100000001
+        second: 0.1
       data:
         first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -127,7 +127,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0.5
       data:
         first:
           name: _BumpScale
@@ -155,11 +155,11 @@ Material:
       data:
         first:
           name: _RampThreshold
-        second: .340000004
+        second: 0.34
       data:
         first:
           name: _RampSmooth
-        second: .920000017
+        second: 0.92
       data:
         first:
           name: _SpecPow
@@ -175,19 +175,19 @@ Material:
       data:
         first:
           name: _SpecSmooth
-        second: .0500000007
+        second: 0.05
       data:
         first:
           name: _Outline
-        second: -2.95000005
+        second: -2.95
       data:
         first:
           name: _TexLod
-        second: 1.03999996
+        second: 1.04
       data:
         first:
           name: _ZSmooth
-        second: -2.21000004
+        second: -2.21
       data:
         first:
           name: _Offset1
@@ -196,6 +196,14 @@ Material:
         first:
           name: _Offset2
         second: 0
+      data:
+        first:
+          name: _RimMin
+        second: 0.66
+      data:
+        first:
+          name: _RimMax
+        second: 1
     m_Colors:
       data:
         first:
@@ -204,19 +212,19 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .845588207, g: .623310447, b: .503622413, a: 1}
+        second: {r: 0.8455882, g: 0.62331045, b: 0.5036224, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .385380656, g: .389327079, b: .397058845, a: .5}
+        second: {r: 0.38538066, g: 0.38932708, b: 0.39705884, a: 0.5}
       data:
         first:
           name: _HColor
-        second: {r: .527747989, g: .593675911, b: .597000003, a: 1}
+        second: {r: 0.527748, g: 0.5936759, b: 0.597, a: 1}
       data:
         first:
           name: _SColor
-        second: {r: .338235319, g: .254173905, b: .296000004, a: 1}
+        second: {r: 0.33823532, g: 0.2541739, b: 0.296, a: 1}
       data:
         first:
           name: _Color2
@@ -224,8 +232,16 @@ Material:
       data:
         first:
           name: _Color3
-        second: {r: .522058845, g: .228778183, b: .203449413, a: 0}
+        second: {r: 0.52205884, g: 0.22877818, b: 0.20344941, a: 0}
       data:
         first:
           name: _OutlineColor
-        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.09656142, g: 0.24254264, b: 0.3455882, a: 0.6}
+      data:
+        first:
+          name: _RimDir
+        second: {r: 0, g: 0, b: 1, a: 0}

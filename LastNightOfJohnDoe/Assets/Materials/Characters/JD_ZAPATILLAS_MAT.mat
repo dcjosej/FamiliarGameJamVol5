@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: JD_ZAPATILLAS_MAT
-  m_Shader: {fileID: 4800000, guid: 6782973e3ca8b2543beddb0a3dc3175e, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 17eed41140a16fb42a4268ab7a3cc1d7, type: 3}
+  m_ShaderKeywords: TCP2_RIM
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -97,11 +97,11 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -109,7 +109,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0.5
       data:
         first:
           name: _BumpScale
@@ -141,7 +141,15 @@ Material:
       data:
         first:
           name: _RampSmooth
-        second: .00999999978
+        second: 0.01
+      data:
+        first:
+          name: _RimMin
+        second: 0.13
+      data:
+        first:
+          name: _RimMax
+        second: 1
     m_Colors:
       data:
         first:
@@ -150,12 +158,20 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .113725498, g: .0588235334, b: .0431372561, a: 1}
+        second: {r: 0.1137255, g: 0.058823533, b: 0.043137256, a: 1}
       data:
         first:
           name: _HColor
-        second: {r: .600000024, g: .600000024, b: .600000024, a: 1}
+        second: {r: 0.6102941, g: 0.6102941, b: 0.6102941, a: 1}
       data:
         first:
           name: _SColor
-        second: {r: .400000006, g: .400000006, b: .400000006, a: 1}
+        second: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.2352941, g: 0.15427753, b: 0.11418684, a: 0.6}
+      data:
+        first:
+          name: _RimDir
+        second: {r: 0, g: 0, b: 1, a: 0}

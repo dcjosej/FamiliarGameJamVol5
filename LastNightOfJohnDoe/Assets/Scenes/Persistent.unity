@@ -66,7 +66,8 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000003, guid: 075f167494ff791458c9398493234986,
+    type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
 NavMeshSettings:
@@ -122,23 +123,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 478700, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22414536, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22414536, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: solver.bodyWeight
-      value: 0.2
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: solver.headWeight
-      value: 0.5
+      value: 0.807
       objectReference: {fileID: 0}
     - target: {fileID: 403634, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -257,7 +258,136 @@ Prefab:
       propertyPath: LifeTime
       value: 250
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 464810, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2.705
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446752, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446752, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446752, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446752, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9544556, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 873fa9366fb41be42ba00cdd73d0d6d6, type: 3}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.IKPosition.x
+      value: 5.660842
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.IKPosition.y
+      value: 0.57295567
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.IKPosition.z
+      value: -2.9255447
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.IKPositionWeight
+      value: 0.742
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[0].axis.x
+      value: -0.16705446
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[0].axis.z
+      value: 0.0019039434
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[1].axis.x
+      value: -0.4133584
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[1].axis.y
+      value: 0.910563
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[1].axis.z
+      value: 0.0031900834
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[2].axis.x
+      value: -0.5792938
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[2].axis.y
+      value: 0.8151035
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spine.Array.data[2].axis.z
+      value: 0.005059196
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.head.axis.x
+      value: -0.07464097
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.head.axis.z
+      value: 0.0010292259
+      objectReference: {fileID: 0}
+    - target: {fileID: 9535636, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: fixTransforms
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457032, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.IKPositionWeight
+      value: 0.639
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457032, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spineWeightCurve.m_Curve.Array.data[0].value
+      value: 0.50125
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spineWeightCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.spineWeightCurve.m_Curve.Array.data[0].time
+      value: -0.004166667
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.clampWeightHead
+      value: 0.213
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.clampSmoothing
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.clampWeight
+      value: 0.347
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460720, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: solver.eyesWeight
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11457032, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1539769859
@@ -301,7 +431,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 198544, guid: a7a7b6064d7315842a3d96414c62cd0d, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11404926, guid: a7a7b6064d7315842a3d96414c62cd0d, type: 2}
       propertyPath: fadeSpeed

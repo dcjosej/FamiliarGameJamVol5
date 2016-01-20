@@ -3,7 +3,7 @@ guid: 8e4b0c1a76b86964594e9a8f34e25de3
 timeCreated: 1445629926
 licenseType: Free
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
     100002: Salon_GEO
@@ -22,6 +22,7 @@ ModelImporter:
     100028: Object001
     100030: VENTANA_GEO001
     100032: VENTANA_GEO002
+    100034: Object002
     400000: //RootNode
     400002: Salon_GEO
     400004: SOFA_GEO
@@ -39,6 +40,7 @@ ModelImporter:
     400028: Object001
     400030: VENTANA_GEO001
     400032: VENTANA_GEO002
+    400034: Object002
     2300000: //RootNode
     2300002: Salon_GEO
     2300004: SOFA_GEO
@@ -56,6 +58,7 @@ ModelImporter:
     2300028: Object001
     2300030: VENTANA_GEO001
     2300032: VENTANA_GEO002
+    2300034: Object002
     3300000: //RootNode
     3300002: Salon_GEO
     3300004: SOFA_GEO
@@ -73,6 +76,7 @@ ModelImporter:
     3300028: Object001
     3300030: VENTANA_GEO001
     3300032: VENTANA_GEO002
+    3300034: Object002
     4300000: Salon_GEO
     4300002: SOFA_GEO
     4300004: LAMPARA_GEO
@@ -89,6 +93,7 @@ ModelImporter:
     4300026: VENTANA_GEO001
     4300028: VENTANA_GEO002
     4300030: Mesa_003
+    4300032: Object002
   materials:
     importMaterials: 1
     materialName: 1
@@ -96,6 +101,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -103,9 +109,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -129,24 +135,25 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

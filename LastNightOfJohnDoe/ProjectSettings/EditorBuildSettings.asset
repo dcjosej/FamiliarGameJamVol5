@@ -16,7 +16,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dormitorio.unity
   - enabled: 1
-    path: Assets/Scenes/Pasillo.unity
+    path: Assets/Scenes/Corridor/Corridor_Room.unity
   - enabled: 1
     path: Assets/Scenes/Salon.unity
   - enabled: 0

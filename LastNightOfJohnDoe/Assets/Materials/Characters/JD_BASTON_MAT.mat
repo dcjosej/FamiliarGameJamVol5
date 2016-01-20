@@ -97,15 +97,15 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _Shininess
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -113,7 +113,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0.5
       data:
         first:
           name: _BumpScale
@@ -141,15 +141,23 @@ Material:
       data:
         first:
           name: _RampThreshold
-        second: .99000001
+        second: 0.99
       data:
         first:
           name: _RampSmooth
-        second: .00999999978
+        second: 0.01
       data:
         first:
           name: _SpecSmooth
-        second: .699999988
+        second: 0.7
+      data:
+        first:
+          name: _RimMin
+        second: 0.5
+      data:
+        first:
+          name: _RimMax
+        second: 1
     m_Colors:
       data:
         first:
@@ -158,11 +166,11 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .0431372561, g: .0274509825, b: .0196078438, a: 1}
+        second: {r: 0.043137256, g: 0.027450982, b: 0.019607844, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
       data:
         first:
           name: _HColor
@@ -170,4 +178,12 @@ Material:
       data:
         first:
           name: _SColor
-        second: {r: .397058845, g: .397058845, b: .397058845, a: 1}
+        second: {r: 0.39705884, g: 0.39705884, b: 0.39705884, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
+      data:
+        first:
+          name: _RimDir
+        second: {r: 0, g: 0, b: 1, a: 0}
