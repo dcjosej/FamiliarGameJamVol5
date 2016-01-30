@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class MusicManager : MonoBehaviour {
-
+	/*
 	private static MusicManager _instance;
 	public static MusicManager instance;
 
@@ -91,4 +91,5 @@ public class MusicManager : MonoBehaviour {
 		currentIndexAudioClip++;
 		CrossFade(audioClips[currentIndexAudioClip]);
     }
+	*/
 }
