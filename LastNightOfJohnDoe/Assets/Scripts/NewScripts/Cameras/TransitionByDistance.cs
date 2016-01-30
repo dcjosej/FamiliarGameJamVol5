@@ -9,49 +9,61 @@ public class TransitionByDistance : MonoBehaviour {
 	public Transform destinationTransform;
 	public Transform destinationTransformForDistance;
 
+	public Transform[] points;
 
 
 	private bool transitioning = false;
-	private float distance = 0f;
+	//private float distance = 0f;
+	private float transitionTime = 5f;
 
 	void Start()
 	{
 		player = FindObjectOfType<Player>();
 
-		transform.rotation = initTransform.rotation;
-		transform.position = initTransform.position;
+		transform.rotation = points[0].rotation;
+		transform.position = points[0].position;
 	}
-
-	
-
 
 	public void InitTransition()
 	{
 		transitioning = true;
-		distance = player.transform.position.z - destinationTransformForDistance.position.z;
+		//distance = player.transform.position.z - destinationTransformForDistance.position.z;
 		StartCoroutine(TransitionCoroutine());
 	}
 
 	private IEnumerator TransitionCoroutine()
 	{
-		float step = 0;
-		while(step <= 1)
+
+		
+		for(int i = 0; i < points.Length - 1; i++)
 		{
 
-			transform.position = Vector3.Lerp(initTransform.position, destinationTransform.position, step);
-			transform.rotation = Quaternion.Lerp(initTransform.rotation, destinationTransform.rotation, step);
+			initTransform = points[i];
+			destinationTransform = points[i + 1];
 
-			//float currentDistance = Vector3.Distance(player.transform.position, destinationTransform.position);
+			float step = 0;
+			float time = 0;
 
-			float currentDistance = Mathf.Abs(player.transform.position.z - destinationTransformForDistance.position.z);
-
-			if (currentDistance <= 0.01f)
+			while (step <= 1)
 			{
-				currentDistance = 0f;
-			}
-            step = 1 - currentDistance / distance;
 
-			yield return null;
+				transform.position = Vector3.Lerp(initTransform.position, destinationTransform.position, step);
+				transform.rotation = Quaternion.Lerp(initTransform.rotation, destinationTransform.rotation, step);
+
+				//float currentDistance = Vector3.Distance(player.transform.position, destinationTransform.position);
+
+				float currentDistance = Mathf.Abs(player.transform.position.z - destinationTransformForDistance.position.z);
+
+				if (currentDistance <= 0.01f)
+				{
+					currentDistance = 0f;
+				}
+
+				time += Time.deltaTime;
+				step = time / transitionTime;
+
+				yield return null;
+			}
 		}
 	}
 

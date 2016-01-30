@@ -5,11 +5,12 @@ using System;
 
 public enum Room { SALON, ASEO, COCINA, DORMITORIO, HALL, PASILLO }
 
-public class Door : MonoBehaviour, IInteractuable{
+public class Door : Interactive {
 
 	public bool closed;
 	public Room nextDoor;
 
+	/*
 	public void Interact()
 	{
 
@@ -43,38 +44,35 @@ public class Door : MonoBehaviour, IInteractuable{
 			}
 		}
 	}
+	*/
+
+	public override void Interact()
+	{
+		throw new NotImplementedException();
+	}
 
 	private void ChangePreviousRoom()
 	{
-		switch(Application.loadedLevelName){
-			case "Pasillo":
-				GameManager.instance.previousRoom = Room.PASILLO;
-				break;
-			case "Salon":
-				GameManager.instance.previousRoom = Room.SALON;
-				break;
-			case "Aseo":
-				GameManager.instance.previousRoom = Room.ASEO;
-				break;
-			case "Hall":
-				GameManager.instance.previousRoom = Room.HALL;
-				break;
-			case "Cocina":
-				GameManager.instance.previousRoom = Room.COCINA;
-				break;
-			case "Dormitorio":
-				GameManager.instance.previousRoom = Room.DORMITORIO;
-				break;
-		}
-	}
-
-	// Use this for initialization
-	void Start () {
-	
+		//switch(Application.loadedLevelName){
+		//	case "Pasillo":
+		//		GameManager.instance.previousRoom = Room.PASILLO;
+		//		break;
+		//	case "Salon":
+		//		GameManager.instance.previousRoom = Room.SALON;
+		//		break;
+		//	case "Aseo":
+		//		GameManager.instance.previousRoom = Room.ASEO;
+		//		break;
+		//	case "Hall":
+		//		GameManager.instance.previousRoom = Room.HALL;
+		//		break;
+		//	case "Cocina":
+		//		GameManager.instance.previousRoom = Room.COCINA;
+		//		break;
+		//	case "Dormitorio":
+		//		GameManager.instance.previousRoom = Room.DORMITORIO;
+		//		break;
+		//}
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

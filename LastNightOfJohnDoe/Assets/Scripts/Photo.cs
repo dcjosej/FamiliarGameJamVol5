@@ -2,14 +2,14 @@
 using System.Collections;
 using System;
 
-public class Photo : MonoBehaviour, IInteractuable {
+public class Photo : Interactive {
 
 	public int photoIndex;
 
-	public void Interact()
+	public override void Interact()
 	{
-		SFXManager.instance.PlayPhotoSound();
-		GameManager.instance.interacting = true;
-		GameManager.instance.PutImage(photoIndex);
+		//SFXManager.instance.PlayPhotoSound();
+		//GameManager.instance.interacting = true;
+		//GameManager.instance.PutImage(photoIndex);
 	}
 }
