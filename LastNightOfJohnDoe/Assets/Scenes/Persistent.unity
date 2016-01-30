@@ -386,6 +386,10 @@ Prefab:
       propertyPath: solver.eyesWeight
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 133156, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11457032, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b8f59285f3599484d8e791ffca1d5db9, type: 2}
