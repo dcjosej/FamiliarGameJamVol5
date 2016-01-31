@@ -212,8 +212,8 @@ Light:
   m_SpotAngle: 150
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
+    m_Type: 1
+    m_Resolution: 3
     m_Strength: 1
     m_Bias: 0
     m_NormalBias: 0
@@ -370,7 +370,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 51c420b5978377e4abc7e4222335a3ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.106
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 51c420b5978377e4abc7e4222335a3ea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -944,6 +944,10 @@ Prefab:
       propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2367264, guid: cf1ef15cd97ee9942a6ca334b7c10cc1, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be4f179836f023d40a846966c28d0648, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf1ef15cd97ee9942a6ca334b7c10cc1, type: 2}
   m_IsPrefabParent: 0
