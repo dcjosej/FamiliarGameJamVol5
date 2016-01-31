@@ -2633,10 +2633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa4e44445000034ba087ac138d533ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 8300000, guid: 551903cb8a97cc640af2ed6f8c34ab63, type: 3}
-  - {fileID: 8300000, guid: 06d4220829c8df145806c18f69cc4e93, type: 3}
-  - {fileID: 8300000, guid: 7aba5a289c966ff49b7cc8ff17ea80ca, type: 3}
 --- !u!114 &11436054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3088,14 +3084,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 188228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16aba144baf32034281de547e65ff692, type: 3}
+  m_Script: {fileID: 11500000, guid: 255fa43ff4194b84d9eb57813f31f00c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rotationVelocity: 1.3
-  movementVelocity: 1
-  lookAtIk: {fileID: 11469642}
-  lookPoint: {fileID: 480724}
-  normalLookPoint: {fileID: 403026}
+  forwardVelocity: 4
+  panCameraTarget: {fileID: 0}
 --- !u!114 &11476538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3134,31 +3128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d934eb697ea49409fa208ae0724769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LifeTime: 250
-  lifeBar: {fileID: 11487168}
-  RESTART_DEATH_TIME: 4
-  CanvasPillGUI: {fileID: 148152}
-  albumCanvas: {fileID: 122544}
-  photos:
-  - {fileID: 21300000, guid: c4f48be17c1242545b61d32a9f5d517c, type: 3}
-  - {fileID: 21300000, guid: 50721f448324233479b0e34ed689212b, type: 3}
-  - {fileID: 21300000, guid: a150363ea27f7204295645c543c75122, type: 3}
-  - {fileID: 21300000, guid: a27fb68d2c76b61409266ec9351b09fb, type: 3}
-  - {fileID: 21300000, guid: f8b3e332802e60d429c682fd40d3e8c2, type: 3}
-  - {fileID: 21300000, guid: 55ec10218528acc40b34de67df20bcc9, type: 3}
-  imagesHolder:
-  - {fileID: 11402378}
-  - {fileID: 11461168}
-  - {fileID: 11499270}
-  - {fileID: 11400774}
-  - {fileID: 11476538}
-  - {fileID: 11424954}
-  zoomedPhoto: {fileID: 11457182}
-  photoAnimator: {fileID: 9534956}
-  labelText: {fileID: 11420190}
-  currentObject: {fileID: 0}
-  interacting: 0
-  unlockedPhotos: 0
+  gameState: 0
 --- !u!114 &11479754
 MonoBehaviour:
   m_ObjectHideFlags: 1
