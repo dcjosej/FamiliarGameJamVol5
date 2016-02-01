@@ -126,11 +126,24 @@ public class Player : MonoBehaviour
 			HUDController.instance.DisablePnOpen();
 		}
 	}
-	#endregion
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "CameraTrigger")
+		{
+			Camera cam = other.GetComponentInParent<Camera>();
+
+			cam.enabled = false;
+			cam.enabled = true;
+		}
+	}
+		
+
+#endregion
 
 
-	#region PLAYER MOVEMENT
-	private void Rotate(float rotation)
+#region PLAYER MOVEMENT
+private void Rotate(float rotation)
 	{
 		transform.Rotate(0, rotation * rotationVelocity, 0);
 	}

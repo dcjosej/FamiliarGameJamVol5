@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 	void Start()
 	{
 		player = FindObjectOfType<Player>();
-		detailCamera = GameObject.FindGameObjectWithTag("DetailCam").GetComponent<Camera>();
+		//detailCamera = GameObject.FindGameObjectWithTag("DetailCam").GetComponent<Camera>();
 	}
 	
 
