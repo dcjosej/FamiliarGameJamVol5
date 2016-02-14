@@ -8,6 +8,17 @@ public class InteractiveFurniture : MonoBehaviour {
 	private Drawer currentOpenedDrawer;
 	private int indexDrawer = 0;
 
+
+	[Header("Content")]
+	public GameObject pillPrefab;
+	public int numPills;
+	public GameObject cartridgePrefab;
+	public int numCartridges;
+	public GameObject[] dummyObjectsArrayPrefabs;
+	public int numDummyObjects;
+
+
+
 	void Update () {
 		CheckKeyboardInput();
 	}
@@ -38,4 +49,28 @@ public class InteractiveFurniture : MonoBehaviour {
 		}
 	}
 
+
+
+	private void PlaceRandomMainObjects()
+	{
+		int randomIndex = -1;
+
+		//Colocamos las pildoras
+		for(int i = 0; i < numPills; i++)
+		{
+			randomIndex = Random.Range(0, drawers.Length);
+            drawers[randomIndex].PlaceRandomObject(pillPrefab);
+		}
+
+
+		//Colocamos los cartuchos
+		for (int i = 0; i < numCartridges; i++)
+		{
+			randomIndex = Random.Range(0, drawers.Length);
+			Drawer selectedDrawer = drawers[randomIndex];
+
+
+
+		}
+	}
 }

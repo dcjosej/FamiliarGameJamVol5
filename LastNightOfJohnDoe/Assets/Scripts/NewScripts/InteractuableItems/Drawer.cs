@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class Drawer : MonoBehaviour {
 
@@ -8,10 +9,20 @@ public class Drawer : MonoBehaviour {
 	public Transform destinationTransform;
 	public bool isTransitioning = false;
 	public Transform drawerRenderer;
-	private CameraData cameraDataDestination;
+	public Transform drawerContent;
 
+	[SerializeField]
+	private int maximumCapacity = 4; //MAXIMUM number of objects than can be placed into the drawer
+	public int currentNumberOfObject { get; set; } //Number of objects that are currently placed into the drawer
+
+	private CameraData cameraDataDestination;
 	private DetailCameraController detailCameraController;
 
+	//TODO: ¿Quizas mejor dos transform y posicion Z y X random?
+	public Transform[] spawnPointsForContentObjects;
+
+
+	//Transition fields
 	private Vector3 initPosition;
 	private Quaternion initRotation;
 	private float openingTime = 0.2f;
@@ -22,20 +33,11 @@ public class Drawer : MonoBehaviour {
 		initRotation = drawerRenderer.rotation;
 		detailCameraController = FindObjectOfType<DetailCameraController>();
 		cameraDataDestination = GetComponentInChildren<CameraData>();
-	}
-
-	void Update()
-	{
-		/*
-		if (Input.GetKeyDown(KeyCode.F1))
+		currentNumberOfObject = 0;
+		if (drawerContent == null)
 		{
-			
+			Debug.LogError("Reference missing of Drawer Content!");
 		}
-		if(Input.GetKeyDown(KeyCode.F2))
-		{
-			 
-		}
-		*/
 	}
 
 	public void OpenDrawer()
@@ -44,12 +46,17 @@ public class Drawer : MonoBehaviour {
 		detailCameraController.Transition(cameraDataDestination);
 	}
 
+	public void PlaceRandomObject(GameObject objectToInstantiate)
+	{
+		/* TODO: Instantiate object in random position */
+		currentNumberOfObject++;
+		throw new NotImplementedException();
+	}
+
 	public void CloseDrawer()
 	{
 		StartCoroutine(Sequence(TiltDrawer(false), OpencCloseDrawer(false)));
 	}
-
-	
 
 	//TODO: TRASLADAR ESTE METODO A UNA CLASE DE UTILIDADES
 	private IEnumerator Sequence(params IEnumerator[] sequence)
@@ -75,7 +82,7 @@ public class Drawer : MonoBehaviour {
 
 			time += Time.deltaTime;
 			step = time / openingTime;
-			yield return null;
+			yield return new WaitForFixedUpdate();
 		}
 	}
 
@@ -91,7 +98,7 @@ public class Drawer : MonoBehaviour {
 
 			time += Time.deltaTime;
 			step = time / tiltingTime;
-			yield return null;
+			yield return new WaitForFixedUpdate();
 		}
 	}
 	#endregion
