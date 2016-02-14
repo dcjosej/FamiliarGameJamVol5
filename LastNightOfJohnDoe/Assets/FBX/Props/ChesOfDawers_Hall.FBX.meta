@@ -6,10 +6,92 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: ChestOfDawers_Hall_01
+    100004: ChestOfDawers_Hall_01_Pivot
+    100006: ChestOfDawers_Hall_02
+    100008: ChestOfDawers_Hall_02_Pivot
+    100010: ChestOfDawers_Hall_03
+    100012: ChestOfDawers_Hall_03_Pivot
+    100014: ChestOfDawers_Hall_04
+    100016: ChestOfDawers_Hall_04_Pivot
+    100018: ChestOfDawers_Hall_05
+    100020: ChestOfDawers_Hall_05_Pivot
+    100022: ChestOfDawers_Hall_06
+    100024: ChestOfDawers_Hall_06_Pivot
+    100026: ChestOfDawers_Hall_07
+    100028: ChestOfDawers_Hall_07_Pivot
+    100030: ChestOfDawers_Hall_Door_01
+    100032: ChestOfDawers_Hall_Door_01_Pivot
+    100034: ChestOfDawers_Hall_Door_02
+    100036: ChestOfDawers_Hall_Door_02_Pivot
+    100038: ChestOfDawers_Hall_Door_03
+    100040: ChestOfDawers_Hall_Door_03_Pivot
+    100042: ChestOfDawers_Hall_Door_04
+    100044: ChestOfDawers_Hall_Door_04_Pivot
+    100046: ChestOfDawers_Hall_Main
     400000: //RootNode
+    400002: ChestOfDawers_Hall_01
+    400004: ChestOfDawers_Hall_01_Pivot
+    400006: ChestOfDawers_Hall_02
+    400008: ChestOfDawers_Hall_02_Pivot
+    400010: ChestOfDawers_Hall_03
+    400012: ChestOfDawers_Hall_03_Pivot
+    400014: ChestOfDawers_Hall_04
+    400016: ChestOfDawers_Hall_04_Pivot
+    400018: ChestOfDawers_Hall_05
+    400020: ChestOfDawers_Hall_05_Pivot
+    400022: ChestOfDawers_Hall_06
+    400024: ChestOfDawers_Hall_06_Pivot
+    400026: ChestOfDawers_Hall_07
+    400028: ChestOfDawers_Hall_07_Pivot
+    400030: ChestOfDawers_Hall_Door_01
+    400032: ChestOfDawers_Hall_Door_01_Pivot
+    400034: ChestOfDawers_Hall_Door_02
+    400036: ChestOfDawers_Hall_Door_02_Pivot
+    400038: ChestOfDawers_Hall_Door_03
+    400040: ChestOfDawers_Hall_Door_03_Pivot
+    400042: ChestOfDawers_Hall_Door_04
+    400044: ChestOfDawers_Hall_Door_04_Pivot
+    400046: ChestOfDawers_Hall_Main
     2300000: //RootNode
+    2300002: ChestOfDawers_Hall_01
+    2300004: ChestOfDawers_Hall_02
+    2300006: ChestOfDawers_Hall_03
+    2300008: ChestOfDawers_Hall_04
+    2300010: ChestOfDawers_Hall_05
+    2300012: ChestOfDawers_Hall_06
+    2300014: ChestOfDawers_Hall_07
+    2300016: ChestOfDawers_Hall_Door_01
+    2300018: ChestOfDawers_Hall_Door_02
+    2300020: ChestOfDawers_Hall_Door_03
+    2300022: ChestOfDawers_Hall_Door_04
+    2300024: ChestOfDawers_Hall_Main
     3300000: //RootNode
+    3300002: ChestOfDawers_Hall_01
+    3300004: ChestOfDawers_Hall_02
+    3300006: ChestOfDawers_Hall_03
+    3300008: ChestOfDawers_Hall_04
+    3300010: ChestOfDawers_Hall_05
+    3300012: ChestOfDawers_Hall_06
+    3300014: ChestOfDawers_Hall_07
+    3300016: ChestOfDawers_Hall_Door_01
+    3300018: ChestOfDawers_Hall_Door_02
+    3300020: ChestOfDawers_Hall_Door_03
+    3300022: ChestOfDawers_Hall_Door_04
+    3300024: ChestOfDawers_Hall_Main
     4300000: Cajonera_Hall
+    4300002: ChestOfDawers_Hall_Main
+    4300004: ChestOfDawers_Hall_07
+    4300006: ChestOfDawers_Hall_Door_01
+    4300008: ChestOfDawers_Hall_Door_02
+    4300010: ChestOfDawers_Hall_Door_04
+    4300012: ChestOfDawers_Hall_Door_03
+    4300014: ChestOfDawers_Hall_03
+    4300016: ChestOfDawers_Hall_02
+    4300018: ChestOfDawers_Hall_04
+    4300020: ChestOfDawers_Hall_05
+    4300022: ChestOfDawers_Hall_06
+    4300024: ChestOfDawers_Hall_01
     9500000: //RootNode
   materials:
     importMaterials: 1
