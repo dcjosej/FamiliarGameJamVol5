@@ -532,15 +532,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10841422, guid: c074d52dc90019240830dcdf131331e7, type: 2}
       propertyPath: m_Color.r
-      value: 0.9117647
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 10841422, guid: c074d52dc90019240830dcdf131331e7, type: 2}
       propertyPath: m_Color.g
-      value: 0.6787376
+      value: 0.70564705
       objectReference: {fileID: 0}
     - target: {fileID: 10841422, guid: c074d52dc90019240830dcdf131331e7, type: 2}
       propertyPath: m_Color.b
-      value: 0.4290657
+      value: 0.4705882
       objectReference: {fileID: 0}
     - target: {fileID: 10841422, guid: c074d52dc90019240830dcdf131331e7, type: 2}
       propertyPath: m_Enabled
