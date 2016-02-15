@@ -48,12 +48,14 @@ public class CameraHelperEditor : EditorWindow {
 		else
 		{
 			GameObject go = new GameObject();
-			go.name = "Transform Camera Data " + numInstances;
+
+			//go.name = "Transform Camera Data " + numInstances;
+			go.name = "Camera Data";
 
 			CameraData cameraData = go.AddComponent<CameraData>();
 			cameraData.fov = currentCamera.fieldOfView;
-			cameraData.positionCamera = currentCamera.transform.position;
-			cameraData.rotationCamera = currentCamera.transform.rotation;
+			cameraData.transform.position = currentCamera.transform.position;
+			cameraData.transform.rotation = currentCamera.transform.rotation;
 
 			currentCameraData = cameraData;
 
@@ -71,8 +73,8 @@ public class CameraHelperEditor : EditorWindow {
 		}
 		else
 		{
-			currentCameraData.positionCamera = currentCamera.transform.position;
-			currentCameraData.rotationCamera = currentCamera.transform.rotation;
+			currentCameraData.transform.position = currentCamera.transform.position;
+			currentCameraData.transform.rotation = currentCamera.transform.rotation;
 			currentCameraData.fov = currentCamera.fieldOfView;
 
 			Selection.activeGameObject = currentCameraData.gameObject;
@@ -96,8 +98,8 @@ public class CameraHelperEditor : EditorWindow {
 		}
 		else
 		{
-			currentCamera.transform.position = currentCameraData.positionCamera;
-			currentCamera.transform.rotation = currentCameraData.rotationCamera;
+			currentCamera.transform.position = currentCameraData.transform.position;
+			currentCamera.transform.rotation = currentCameraData.transform.rotation;
 			currentCamera.fieldOfView = currentCameraData.fov;
 
 			Selection.activeGameObject = currentCamera.gameObject;

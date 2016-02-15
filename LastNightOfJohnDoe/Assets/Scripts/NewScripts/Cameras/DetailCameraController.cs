@@ -27,8 +27,8 @@ public class DetailCameraController : MonoBehaviour {
 
 		while(step <= 1)
 		{
-			transform.position = Vector3.Lerp(initialPosition, cameraDataDestination.positionCamera, step);
-			transform.rotation = Quaternion.Lerp(initialRotation, cameraDataDestination.rotationCamera, step);
+			transform.position = Vector3.Lerp(initialPosition, cameraDataDestination.transform.position, step);
+			transform.rotation = Quaternion.Lerp(initialRotation, cameraDataDestination.transform.rotation, step);
 			camera.fieldOfView = Mathf.Lerp(initialFOV, cameraDataDestination.fov, step);
 
 			time += Time.deltaTime;

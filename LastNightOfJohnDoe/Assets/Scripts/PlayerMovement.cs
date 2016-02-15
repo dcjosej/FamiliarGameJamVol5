@@ -127,14 +127,14 @@ public class Player_ : MonoBehaviour {
 	//		}
 	//	}
 
-	//	if (other.tag == "CameraTrigger")
-	//	{
-	//		Camera cam = other.GetComponentInParent<Camera>();
+		//if (other.tag == "CameraTrigger")
+		//{
+		//	Camera cam = other.GetComponentInParent<Camera>();
 
-	//		cam.enabled = false;
-	//		cam.enabled = true;
-	//	}
-	//}
+		//	cam.enabled = false;
+		//	cam.enabled = true;
+		//}
+		//}
 
 	//private void OnTriggerExit(Collider other)
 	//{

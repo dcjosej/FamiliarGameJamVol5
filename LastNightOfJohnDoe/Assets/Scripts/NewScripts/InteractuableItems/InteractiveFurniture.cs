@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class InteractiveFurniture : MonoBehaviour {
 
-	public Drawer[] drawers;
+	private Drawer[] drawers;
 
 	private Drawer currentOpenedDrawer;
 	private int indexDrawer = 0;
@@ -17,7 +16,13 @@ public class InteractiveFurniture : MonoBehaviour {
 	public GameObject[] dummyObjectsArrayPrefabs;
 	public int numDummyObjects;
 
+	void Start()
+	{
+		drawers = GetComponentsInChildren<Drawer>();
 
+		PlaceRandomMainObjects();
+
+	}
 
 	void Update () {
 		CheckKeyboardInput();
@@ -59,6 +64,11 @@ public class InteractiveFurniture : MonoBehaviour {
 		for(int i = 0; i < numPills; i++)
 		{
 			randomIndex = Random.Range(0, drawers.Length);
+
+			/*FOR TEXT*/
+			//randomIndex = 0;
+			/**/
+
             drawers[randomIndex].PlaceRandomObject(pillPrefab);
 		}
 
@@ -67,10 +77,22 @@ public class InteractiveFurniture : MonoBehaviour {
 		for (int i = 0; i < numCartridges; i++)
 		{
 			randomIndex = Random.Range(0, drawers.Length);
+
+
+			
 			Drawer selectedDrawer = drawers[randomIndex];
+			selectedDrawer.PlaceRandomObject(cartridgePrefab);
+		}
+
+		//Colocamos los objetos dummies
+		for (int i = 0; i < numDummyObjects; i++)
+		{
+			randomIndex = Random.Range(0, drawers.Length);
 
 
 
+			Drawer selectedDrawer = drawers[randomIndex];
+			selectedDrawer.PlaceRandomObject(dummyObjectsArrayPrefabs[Random.Range(0, dummyObjectsArrayPrefabs.Length)]);
 		}
 	}
 }

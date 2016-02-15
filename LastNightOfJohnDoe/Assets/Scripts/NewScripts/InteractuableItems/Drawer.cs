@@ -1,19 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System;
+//using System;
 
 public class Drawer : MonoBehaviour {
 
-
+	//TODO: Si no tenemos content, lo creamos
 	//TODO: Utilizar find child
-	public Transform destinationTransform;
+	//public Transform destinationTransform;
 	public bool isTransitioning = false;
-	public Transform drawerRenderer;
-	public Transform drawerContent;
+	public bool onlyRotate = false;
+	private Transform drawerRenderer;
+
+	[SerializeField]
+	private Transform drawerContent;
 
 	[SerializeField]
 	private int maximumCapacity = 4; //MAXIMUM number of objects than can be placed into the drawer
 	public int currentNumberOfObject { get; set; } //Number of objects that are currently placed into the drawer
+	[SerializeField]
+	private Transform upperLeft;
+	[SerializeField]
+	private Transform bottomRight;
 
 	private CameraData cameraDataDestination;
 	private DetailCameraController detailCameraController;
@@ -25,37 +32,71 @@ public class Drawer : MonoBehaviour {
 	//Transition fields
 	private Vector3 initPosition;
 	private Quaternion initRotation;
-	private float openingTime = 0.2f;
-	private float tiltingTime = 0.2f;
+	private float openingTime = 0.3f;
+	private float tiltingTime = 0.4f;
+
 
 	void Start () {
-		initPosition = drawerRenderer.position;
-		initRotation = drawerRenderer.rotation;
+
+
+		drawerRenderer = GetComponentInChildren<MeshFilter>().transform;
+
+
+		initPosition = drawerRenderer.localPosition;
+		initRotation = drawerRenderer.localRotation;
 		detailCameraController = FindObjectOfType<DetailCameraController>();
 		cameraDataDestination = GetComponentInChildren<CameraData>();
+		
+
 		currentNumberOfObject = 0;
 		if (drawerContent == null)
 		{
+
 			Debug.LogError("Reference missing of Drawer Content!");
 		}
 	}
 
 	public void OpenDrawer()
 	{
-		StartCoroutine(Sequence(OpencCloseDrawer(true), TiltDrawer(true)));
+		if (onlyRotate)
+		{
+			StartCoroutine(Sequence(TiltDrawer(true)));
+		}
+		else
+		{
+			StartCoroutine(Sequence(OpencCloseDrawer(true), TiltDrawer(true)));
+		}
 		detailCameraController.Transition(cameraDataDestination);
 	}
 
 	public void PlaceRandomObject(GameObject objectToInstantiate)
 	{
-		/* TODO: Instantiate object in random position */
+
+
+		Vector3 randomPositionIntoDrawer = new Vector3(Random.Range(bottomRight.localPosition.x, upperLeft.localPosition.x), Random.Range(bottomRight.localPosition.y, upperLeft.localPosition.y), bottomRight.localPosition.z);
+		GameObject go = (GameObject)Instantiate(objectToInstantiate, Vector3.zero, Quaternion.identity);
+
+		go.transform.parent = drawerContent.parent;
+		go.transform.localPosition = randomPositionIntoDrawer;
+		go.transform.parent = drawerContent;
+		
 		currentNumberOfObject++;
-		throw new NotImplementedException();
+
 	}
 
 	public void CloseDrawer()
 	{
-		StartCoroutine(Sequence(TiltDrawer(false), OpencCloseDrawer(false)));
+
+		//TODO: Dar una vuelta a esto
+		if (onlyRotate)
+		{
+			StartCoroutine(Sequence(TiltDrawer(false)));
+		}
+		else
+		{
+			StartCoroutine(Sequence(TiltDrawer(false), OpencCloseDrawer(false)));
+		}
+		
 	}
 
 	//TODO: TRASLADAR ESTE METODO A UNA CLASE DE UTILIDADES
@@ -78,7 +119,7 @@ public class Drawer : MonoBehaviour {
 		float step = 0f;
 		while(step <= 1f)
 		{
-			drawerRenderer.position = open ? Vector3.Lerp(initPosition, destinationTransform.position, step) : Vector3.Lerp(destinationTransform.position, initPosition, step);
+			drawerRenderer.localPosition = open ? Vector3.Lerp(initPosition, Vector3.zero, step) : Vector3.Lerp(Vector3.zero, initPosition, step);
 
 			time += Time.deltaTime;
 			step = time / openingTime;
@@ -94,7 +135,7 @@ public class Drawer : MonoBehaviour {
 		
 		while (step <= 1f)
 		{
-			drawerRenderer.rotation = open ? Quaternion.Lerp(initRotation, destinationTransform.rotation, step) : Quaternion.Lerp(destinationTransform.rotation, initRotation, step);
+			drawerRenderer.localRotation = open ? Quaternion.Lerp(initRotation, Quaternion.Euler(0, 0, 0), step) : Quaternion.Lerp(Quaternion.Euler(0, 0, 0), initRotation, step);
 
 			time += Time.deltaTime;
 			step = time / tiltingTime;
