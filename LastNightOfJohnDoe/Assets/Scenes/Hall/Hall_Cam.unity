@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _subject: {fileID: 27112269}
   _distance: 10
-  _fNumber: 0.31
+  _fNumber: 8.7
   _useCameraFov: 0
   _focalLength: 0.01
   _maxBlur: 0.01
