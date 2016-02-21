@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
 
 	public List<Interactive> currentInteractiveObjects { get; set; }
 	private int selectedInteractiveIndex = -1;
-	private Interactive selectedInteractiveObject;
 
 	[Header("Player Movement")]
 	[SerializeField]
@@ -19,10 +18,22 @@ public class Player : MonoBehaviour
 	[Header("Cameras Stuff")]
 	public Transform panCameraTarget;
 
-
 	private int numPills;
 	private int numAmmo;
 
+	/// <summary>
+	/// Array with interactive objects in this scene. This will use for to determinate what object John Doe will look at.
+	/// </summary>
+	private Interactive[] interactiveObjectsInScene;
+	/// <summary>
+	/// Object selected that John Doe is looking at.
+	/// </summary>
+	private Interactive selectedInteractiveObject;
+
+	void OnLevelWasLoaded()
+	{
+		interactiveObjectsInScene = FindObjectsOfType<Interactive>();
+	}
 	
 	void Start()
 	{
@@ -131,7 +142,7 @@ public class Player : MonoBehaviour
 	{
 		if (other.tag == "CameraTrigger")
 		{
-			Camera cam = other.GetComponentInParent<Camera>();
+			Camera cam = other.GetComponentInChildren<Camera>();
 
 			cam.enabled = false;
 			cam.enabled = true;

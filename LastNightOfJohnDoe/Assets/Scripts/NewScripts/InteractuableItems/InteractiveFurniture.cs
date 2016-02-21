@@ -16,6 +16,11 @@ public class InteractiveFurniture : MonoBehaviour {
 	public GameObject[] dummyObjectsArrayPrefabs;
 	public int numDummyObjects;
 
+	void OnWillRenderObject()
+	{
+		Debug.Log("Renderizando mueble! :)");
+	}
+
 	void Start()
 	{
 		drawers = GetComponentsInChildren<Drawer>();
