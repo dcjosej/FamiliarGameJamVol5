@@ -562,6 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f28be23482d1c4cab23be56c68faac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactKey: 107
   pillPrefab: {fileID: 122936, guid: 6262266457c247e4ba33ba85149afc42, type: 2}
   numPills: 4
   cartridgePrefab: {fileID: 146698, guid: 994769ad6bc8f88489e9cbb1f6acd2c5, type: 2}

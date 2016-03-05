@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 
-public class InteractiveFurniture : MonoBehaviour {
+public class InteractiveFurniture : Interactive {
 
 	private Drawer[] drawers;
 
 	private Drawer currentOpenedDrawer;
 	private int indexDrawer = 0;
 
+	[SerializeField]
+	private Transform detailCameraTransform;
 
 	[Header("Content")]
 	public GameObject pillPrefab;
@@ -16,10 +18,6 @@ public class InteractiveFurniture : MonoBehaviour {
 	public GameObject[] dummyObjectsArrayPrefabs;
 	public int numDummyObjects;
 
-	void OnWillRenderObject()
-	{
-		Debug.Log("Renderizando mueble! :)");
-	}
 
 	void Start()
 	{
@@ -99,5 +97,11 @@ public class InteractiveFurniture : MonoBehaviour {
 			Drawer selectedDrawer = drawers[randomIndex];
 			selectedDrawer.PlaceRandomObject(dummyObjectsArrayPrefabs[Random.Range(0, dummyObjectsArrayPrefabs.Length)]);
 		}
+	}
+
+	public override void Interact()
+	{
+		//throw new NotImplementedException();
+		GameManager.instance.EnableDetailCamera(detailCameraTransform);
 	}
 }

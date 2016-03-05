@@ -36,8 +36,8 @@ public class Drawer : MonoBehaviour {
 	private float tiltingTime = 0.4f;
 
 
-	void Start () {
-
+	void Start ()
+	{
 
 		drawerRenderer = GetComponentInChildren<MeshFilter>().transform;
 
