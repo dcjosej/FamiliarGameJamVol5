@@ -32,14 +32,14 @@ public class GameManager : MonoBehaviour
 	void Start()
 	{
 		player = FindObjectOfType<Player>();
-		//detailCamera = GameObject.FindGameObjectWithTag("DetailCam").GetComponent<Camera>();
+		detailCamera = GameObject.FindGameObjectWithTag("DetailCam").GetComponent<Camera>();
 	}
 	
 
 	public void EnableDetailCamera(Transform camDetailTransform)
 	{ 
-		detailCamera.transform.position = camDetailTransform.position;
-		detailCamera.transform.rotation = camDetailTransform.rotation;
+		detailCamera.transform.position = camDetailTransform.localPosition;
+		detailCamera.transform.rotation = camDetailTransform.localRotation;
 		detailCamera.enabled = true;
 
 		ChangeState(GameState.Detail);
@@ -54,7 +54,6 @@ public class GameManager : MonoBehaviour
 
 	private void ChangeState(GameState gameState)
 	{
-
 		this.gameState = gameState;
 
 		switch (gameState)

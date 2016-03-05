@@ -6,7 +6,7 @@ using System;
 public class Player : MonoBehaviour
 {
 
-	public List<Interactive> currentInteractiveObjects { get; set; }
+	//public List<Interactive> currentInteractiveObjects { get; set; }
 	private int selectedInteractiveIndex = -1;
 
 	[Header("Player Movement")]
@@ -15,12 +15,25 @@ public class Player : MonoBehaviour
 	[SerializeField]
 	private float forwardVelocity = 4f;
 
+	[Header("Look Fields")]
+	public Transform lookPoint;
+	public Transform originLookPoint;
+	public Transform focusPoint;
+	private float timeLookingTransition = 0.8f;
+	private bool isTransitionLookingActive = false;
+	private bool lookingVisibleObject = false;
+
 	[Header("Cameras Stuff")]
 	public Transform panCameraTarget;
 
 	private int numPills;
 	private int numAmmo;
 
+
+	/// <summary>
+	/// Array with interactive objects in this CAMERA. This will use for to determinate what object camera will focus on.
+	/// </summary>
+	private Interactive[] currentInteractiveObjetcs;
 	/// <summary>
 	/// Array with interactive objects in this scene. This will use for to determinate what object John Doe will look at.
 	/// </summary>
@@ -29,16 +42,21 @@ public class Player : MonoBehaviour
 	/// Object selected that John Doe is looking at.
 	/// </summary>
 	private Interactive selectedInteractiveObject;
+	/// <summary>
+	/// Flag that indicate if John Doe is able to interact with the object that is looking at.
+	/// </summary>
+	private bool canInteractWithSelectedObject = false;
+	/// <summary>
+	/// Interactive object that John Doe is colliding. This object might be the same object that he's looking or not.
+	/// </summary>
+	private Interactive collidingInteractiveObject = null;
 
-	void OnLevelWasLoaded()
-	{
-		interactiveObjectsInScene = FindObjectsOfType<Interactive>();
-	}
-	
 	void Start()
 	{
-		currentInteractiveObjects = new List<Interactive>();
 		selectedInteractiveIndex = -1;
+		
+		interactiveObjectsInScene = FindObjectsOfType<Interactive>();
+		Array.Sort(interactiveObjectsInScene);
 
 		numPills = 0;
 		numAmmo = 0;
@@ -47,7 +65,6 @@ public class Player : MonoBehaviour
 
 	void FixedUpdate()
 	{
-
 
 		/* TODO: State pattern?? */
 		switch (GameManager.instance.gameState)
@@ -74,13 +91,36 @@ public class Player : MonoBehaviour
 
 
 		/* Comprobamos si se ha pulsado algunas de las teclas de los objetos disponibles para interactuar */
-		if(selectedInteractiveObject != null)
+		if (selectedInteractiveObject != null && canInteractWithSelectedObject)
 		{
 			if (Input.GetKeyDown(selectedInteractiveObject.interactKey))
 			{
 				selectedInteractiveObject.Interact();
 			}
 		}
+
+		if (Input.GetKeyDown(KeyCode.C))
+		{
+			if (!isTransitionLookingActive)
+			{
+				LookNextObject();
+			}
+		}
+
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			if (!isTransitionLookingActive)
+			{
+				StartCoroutine(LookTransition(lookPoint, originLookPoint, true));
+				if (lookingVisibleObject)
+				{
+					StartCoroutine(LookTransition(focusPoint, originLookPoint, true));
+				}
+				selectedInteractiveObject = null;
+				CheckCanInteractWithSelectedObject();
+			}
+		}
+
 	}
 
 	private void ProcessInputForDetailMode()
@@ -96,14 +136,93 @@ public class Player : MonoBehaviour
 
 
 	#region INTERACTION WITH ENVIRONMENT
-	public void AddInteractiveObject(Interactive interactiveObject)
-	{
-		currentInteractiveObjects.Add(interactiveObject);
-		selectedInteractiveIndex = currentInteractiveObjects.Count - 1;
-		selectedInteractiveObject = interactiveObject;
 
-		EnableCorrectActionPanel(interactiveObject);
+
+	private void LookNextObject()
+	{
+
+		selectedInteractiveIndex++;
+		if(selectedInteractiveIndex >= interactiveObjectsInScene.Length)
+		{
+			selectedInteractiveIndex = 0;
+		}
+
+		selectedInteractiveObject = interactiveObjectsInScene[selectedInteractiveIndex];
+
+		Debug.Log("INDICE ENCONTRADO: " + Array.IndexOf(currentInteractiveObjetcs, selectedInteractiveObject));
+		
+		if (Array.IndexOf(currentInteractiveObjetcs, selectedInteractiveObject) >= 0)
+		{
+			lookingVisibleObject = true;
+			StartCoroutine(LookTransition(focusPoint, selectedInteractiveObject.transform));
+		}
+		else
+		{
+			if (lookingVisibleObject)
+			{
+				StartCoroutine(LookTransition(focusPoint, originLookPoint));
+			}
+			lookingVisibleObject = false;
+		}
+
+		StartCoroutine(LookTransition(lookPoint, selectedInteractiveObject.transform));
+
+		CheckCanInteractWithSelectedObject();
+		
 	}
+
+	private void CheckCanInteractWithSelectedObject()
+	{
+		canInteractWithSelectedObject = (selectedInteractiveObject == null || collidingInteractiveObject == null) ? false : selectedInteractiveObject.Equals(collidingInteractiveObject);	
+		EnableCorrectActionPanel(selectedInteractiveObject);
+	}
+
+	private IEnumerator LookTransition(Transform transformToMove, Transform target, bool playerParent = false)
+	{
+		float step = 0f;
+		float time = 0f;
+		Vector3 origin = transformToMove.position;
+		Vector3 destination = target.position;
+		isTransitionLookingActive = true;
+
+		transformToMove.parent = playerParent ? this.transform : null;
+
+		while(step <= 1.0f)
+		{
+			transformToMove.position = Vector3.Lerp(origin, destination, step);
+
+			time += Time.deltaTime;
+			step = time / timeLookingTransition;
+			yield return null;
+		}
+		isTransitionLookingActive = false;
+	}
+
+	/*
+	private IEnumerator FocusTransition(Transform target)
+	{
+		float step = 0f;
+		float time = 0f;
+		Vector3 origin = lookPoint.position;
+		Vector3 destination = target.position;
+		isTransitionLookingActive = true;
+
+		while (step <= 1.0f)
+		{
+			focusPoint.position = Vector3.Lerp(origin, destination, step);
+			
+			time += Time.deltaTime;
+			step = time / timeLookingTransition;
+
+			yield return null;
+		}
+		isTransitionLookingActive = false;
+	}
+	*/
+
+
+
+
 
 	/// <summary>
 	/// Metodo para activar el panel correcto de la accion disponible en el HUD.
@@ -115,40 +234,93 @@ public class Player : MonoBehaviour
 		HUDController.instance.DisablePnLook();
 		HUDController.instance.DisablePnOpen();
 
+		/*
 		if(currentInteractiveObject is LookableItem)
 		{
 			HUDController.instance.EnablePnLook(currentInteractiveObject.interactKey);
 		}else if(currentInteractiveObject is UsableItem)
+
+		{
+			HUDController.instance.EnablePnOpen(currentInteractiveObject.interactKey);
+		}
+		*/
+		if(currentInteractiveObject != null && canInteractWithSelectedObject)
 		{
 			HUDController.instance.EnablePnOpen(currentInteractiveObject.interactKey);
 		}
 	}
 
-	public void RemoveInteractiveObject(Interactive interactiveItem)
-	{
-		currentInteractiveObjects.Remove(interactiveItem);
+	/// <summary>
+	/// POSIBLE BORRAR
+	/// </summary>
+	/// <param name="interactiveItem"></param>
 
-		if(currentInteractiveObjects.Count == 0)
+	/*
+	private void RemoveInteractiveObject(Interactive interactiveItem)
+	{
+		interactiveObjectsInContact.Remove(interactiveItem);
+
+		if (interactiveObjectsInContact.Count == 0)
 		{
-			selectedInteractiveIndex = -1;
-			selectedInteractiveObject = null;
+			currentIndexInteractiveObjectInContact = -1;
+			 = null;
 
 			HUDController.instance.DisablePnLook();
 			HUDController.instance.DisablePnOpen();
 		}
 	}
+	*/
+
+	/// <summary>
+	/// POSIBLE BORRAR
+	/// </summary>
+	/// <param name="interactiveObject"></param>
+	/// 
+	/*
+	private void AddInteractiveObject(Interactive interactiveObject)
+	{
+		interactiveObjectsInContact.Add(interactiveObject);
+		currentIndexInteractiveObjectInContact = interactiveObjectsInContact.Count - 1;
+		 = interactiveObject;
+
+		EnableCorrectActionPanel(interactiveObject);
+	}
+	*/
 
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "CameraTrigger")
 		{
-			Camera cam = other.GetComponentInChildren<Camera>();
+			Camera cam = other.GetComponentInParent<Camera>();
+
+			currentInteractiveObjetcs = cam.GetComponent<SceneCamera>().interactiveObjectsInThisCamera;
 
 			cam.enabled = false;
 			cam.enabled = true;
+
+			//Reorder by distance the room's interactive elements
+			Array.Sort(interactiveObjectsInScene);
+		}
+
+		if(other.tag == "Interactuable")
+		{
+			Interactive interactive = other.GetComponent<Interactive>();
+			collidingInteractiveObject = interactive;
+
+			CheckCanInteractWithSelectedObject();
 		}
 	}
-		
+	
+	void OnTriggerExit(Collider other)
+	{
+		if(other.tag == "Interactuable")
+		{
+			//Debug.Log("El objecto " + other.name + " ya no está disponible");
+			//RemoveInteractiveObject(other.GetComponent<Interactive>());
+			collidingInteractiveObject = null;
+			CheckCanInteractWithSelectedObject();
+		}
+	}	
 
 #endregion
 
