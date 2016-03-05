@@ -101,12 +101,12 @@ GameObject:
   - 20: {fileID: 51634069}
   - 92: {fileID: 51634068}
   - 114: {fileID: 51634067}
-  - 114: {fileID: 51634066}
   - 114: {fileID: 51634065}
   - 114: {fileID: 51634064}
   - 114: {fileID: 51634063}
   - 114: {fileID: 51634062}
   - 114: {fileID: 51634071}
+  - 114: {fileID: 51634066}
   m_Layer: 0
   m_Name: DetailCamera
   m_TagString: DetailCam
@@ -217,24 +217,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 51634061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646b5bc27a658f447b1d929fd5ffbd70, type: 3}
+  m_Script: {fileID: 11500000, guid: 38d339c2fa3e211408ebd9198c0f9961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mode: 0
-  showGeneratedNormals: 0
-  offsetScale: 0.2
-  blurRadius: 18
-  edgeThresholdMin: 0.05
-  edgeThreshold: 0.2
-  edgeSharpness: 4
-  dlaaSharp: 0
-  ssaaShader: {fileID: 4800000, guid: b3728d1488b02490cbd196c7941bf1f8, type: 3}
-  dlaaShader: {fileID: 4800000, guid: 017ca72b9e8a749058d13ebd527e98fa, type: 3}
-  nfaaShader: {fileID: 4800000, guid: ce0cb2621f6d84e21a87414e471a3cce, type: 3}
-  shaderFXAAPreset2: {fileID: 4800000, guid: 6f1418cffd12146f2a83be795f6fa5a7, type: 3}
-  shaderFXAAPreset3: {fileID: 4800000, guid: c182fa94a5a0a4c02870641efcd38cd5, type: 3}
-  shaderFXAAII: {fileID: 4800000, guid: cd5b323dcc592457790ff18b528f5e67, type: 3}
-  shaderFXAAIII: {fileID: 4800000, guid: c547503fff0e8482ea5793727057041c, type: 3}
+  Scale: 2
+  unlocked: 0
+  Filter: 0
+  UseDynamicOutputResolution: 0
 --- !u!114 &51634067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,13 +1513,13 @@ GameObject:
   - 4: {fileID: 1241998079}
   - 92: {fileID: 1241998070}
   - 20: {fileID: 1241998072}
-  - 114: {fileID: 1241998071}
   - 114: {fileID: 1241998073}
   - 114: {fileID: 1241998074}
   - 114: {fileID: 1241998075}
   - 114: {fileID: 1241998076}
   - 114: {fileID: 1241998077}
   - 114: {fileID: 1241998078}
+  - 114: {fileID: 1241998071}
   m_Layer: 0
   m_Name: Cam_Static_02
   m_TagString: MainCamera
@@ -1553,24 +1542,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1241998069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646b5bc27a658f447b1d929fd5ffbd70, type: 3}
+  m_Script: {fileID: 11500000, guid: 38d339c2fa3e211408ebd9198c0f9961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mode: 0
-  showGeneratedNormals: 0
-  offsetScale: 0.2
-  blurRadius: 18
-  edgeThresholdMin: 0.05
-  edgeThreshold: 0.2
-  edgeSharpness: 4
-  dlaaSharp: 0
-  ssaaShader: {fileID: 4800000, guid: b3728d1488b02490cbd196c7941bf1f8, type: 3}
-  dlaaShader: {fileID: 4800000, guid: 017ca72b9e8a749058d13ebd527e98fa, type: 3}
-  nfaaShader: {fileID: 4800000, guid: ce0cb2621f6d84e21a87414e471a3cce, type: 3}
-  shaderFXAAPreset2: {fileID: 4800000, guid: 6f1418cffd12146f2a83be795f6fa5a7, type: 3}
-  shaderFXAAPreset3: {fileID: 4800000, guid: c182fa94a5a0a4c02870641efcd38cd5, type: 3}
-  shaderFXAAII: {fileID: 4800000, guid: cd5b323dcc592457790ff18b528f5e67, type: 3}
-  shaderFXAAIII: {fileID: 4800000, guid: c547503fff0e8482ea5793727057041c, type: 3}
+  Scale: 2
+  unlocked: 0
+  Filter: 0
+  UseDynamicOutputResolution: 1
 --- !u!20 &1241998072
 Camera:
   m_ObjectHideFlags: 0
@@ -1589,7 +1567,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 61
+  field of view: 63
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
